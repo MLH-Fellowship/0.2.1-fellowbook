@@ -1,3 +1,9 @@
-.App-header {
+.App {
+  /* border: 2px solid; */
+}
+
+.Search {
   display: flex;
+  flex-direction: row-reverse;
+  padding: 20px;
 }

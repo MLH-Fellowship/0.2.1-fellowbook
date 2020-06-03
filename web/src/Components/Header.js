@@ -7,7 +7,7 @@ const Header = () => {
       style={{
         display: "flex",
         backgroundColor: "grey",
-        width: "100%",
+        maxWidth: "100%",
         color: "white",
         justifyContent: "space-between",
         padding: "0 20px",
