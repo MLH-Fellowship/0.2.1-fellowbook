@@ -1,7 +1,7 @@
 {
   "httpMethod": "GET",
   "body": "{}",
-  "path": "/fellows",
+  "path": "/fellows/shu8",
   "resource": "/{proxy+}",
   "queryStringParameters": {}
 }
