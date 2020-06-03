@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/fellows/{username}",
+            "lambdaFunction": "mlhfellowbookfellows",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "mlhfellowbookapi",
+    "apiName": "mlhfellowbookapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "mlhfellowbookfellows"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-mlhfellowbook-dev-93944-authRole",
+        "unAuthRoleName": "amplify-mlhfellowbook-dev-93944-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "mlhfellowbookfellows",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
