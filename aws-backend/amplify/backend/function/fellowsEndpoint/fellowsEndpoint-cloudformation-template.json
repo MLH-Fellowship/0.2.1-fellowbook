@@ -10,13 +10,13 @@
 		"env": {
 			"Type": "String"
 		},
-		"storagemlhfellowbookdbName": {
+		"storagefellowbookdbName": {
 			"Type": "String",
-			"Default": "storagemlhfellowbookdbName"
+			"Default": "storagefellowbookdbName"
 		},
-		"storagemlhfellowbookdbArn": {
+		"storagefellowbookdbArn": {
 			"Type": "String",
-			"Default": "storagemlhfellowbookdbArn"
+			"Default": "storagefellowbookdbArn"
 		}
 	},
 	"Conditions": {
@@ -41,12 +41,12 @@
 				"FunctionName": {
 					"Fn::If": [
 						"ShouldNotCreateEnvResources",
-						"mlhfellowbookfellows",
+						"fellowsEndpoint",
 						{
 							"Fn::Join": [
 								"",
 								[
-									"mlhfellowbookfellows",
+									"fellowsEndpoint",
 									"-",
 									{
 										"Ref": "env"
@@ -75,8 +75,8 @@
 				"Runtime": "nodejs12.x",
 				"Timeout": "25",
 				"Code": {
-					"S3Bucket": "amplify-mlhfellowbook-dev-93944-deployment",
-					"S3Key": "amplify-builds/mlhfellowbookfellows-4b43502f425167436f4f-build.zip"
+					"S3Bucket": "amplify-mlhfellowbook-devv-132454-deployment",
+					"S3Key": "amplify-builds/fellowsEndpoint-46686e42796e7a742f36-build.zip"
 				}
 			}
 		},
@@ -86,12 +86,12 @@
 				"RoleName": {
 					"Fn::If": [
 						"ShouldNotCreateEnvResources",
-						"mlhfellowbookLambdaRolea29916bd",
+						"mlhfellowbookLambdaRoleac4c243c",
 						{
 							"Fn::Join": [
 								"",
 								[
-									"mlhfellowbookLambdaRolea29916bd",
+									"mlhfellowbookLambdaRoleac4c243c",
 									"-",
 									{
 										"Ref": "env"
@@ -171,14 +171,14 @@
 							],
 							"Resource": [
 								{
-									"Ref": "storagemlhfellowbookdbArn"
+									"Ref": "storagefellowbookdbArn"
 								},
 								{
 									"Fn::Join": [
 										"/",
 										[
 											{
-												"Ref": "storagemlhfellowbookdbArn"
+												"Ref": "storagefellowbookdbArn"
 											},
 											"index/*"
 										]

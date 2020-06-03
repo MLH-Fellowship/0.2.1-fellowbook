@@ -14,15 +14,15 @@
         },
     
     
-          "functionmlhfellowbookfellowsName": {
+          "functionfellowsEndpointName": {
             "Type": "String",
-            "Default": "functionmlhfellowbookfellowsName"
+            "Default": "functionfellowsEndpointName"
           },
         
           
-          "functionmlhfellowbookfellowsArn": {
+          "functionfellowsEndpointArn": {
             "Type": "String",
-            "Default": "functionmlhfellowbookfellowsArn"
+            "Default": "functionfellowsEndpointArn"
           }
         
           
@@ -45,16 +45,16 @@
         
         
         
-      "mlhfellowbookapi": {
+      "fellowbookapi": {
         "Type": "AWS::ApiGateway::RestApi",
         "Properties": {
           "Description": "",
-          "Name": "mlhfellowbookapi",
+          "Name": "fellowbookapi",
           "Body": {
             "swagger": "2.0",
             "info": {
               "version": "2018-05-24T17:52:00Z",
-              "title": "mlhfellowbookapi"
+              "title": "fellowbookapi"
             },
             "host": {
                 "Fn::Join": [
@@ -176,7 +176,7 @@
                             
                             {
                                 
-                                "Ref": "functionmlhfellowbookfellowsArn"
+                                "Ref": "functionfellowsEndpointArn"
                             },
                             
                             "/invocations"
@@ -275,7 +275,7 @@
                           
                           {
                             
-                            "Ref": "functionmlhfellowbookfellowsArn"
+                            "Ref": "functionfellowsEndpointArn"
                           },
                           
                           "/invocations"
@@ -332,12 +332,12 @@
                   
         
         
-        "functionmlhfellowbookfellowsPermissionmlhfellowbookapi": {
+        "functionfellowsEndpointPermissionfellowbookapi": {
             "Type": "AWS::Lambda::Permission",
             "Properties": {
                 "FunctionName": 
                     {
-                        "Ref":  "functionmlhfellowbookfellowsName"
+                        "Ref":  "functionfellowsEndpointName"
                     },
                     
                     "Action": "lambda:InvokeFunction",
@@ -356,7 +356,7 @@
                             },
                             ":",
                             {
-                                "Ref": "mlhfellowbookapi"
+                                "Ref": "fellowbookapi"
                             },
                             "/*/*/*"
                         ]
@@ -367,7 +367,7 @@
         
         
         
-      "DeploymentAPIGWmlhfellowbookapi": {
+      "DeploymentAPIGWfellowbookapi": {
         "Type": "AWS::ApiGateway::Deployment",
         "Properties": {
           "Description": "The Development stage deployment of your API.",
@@ -381,7 +381,7 @@
             ]
           },
           "RestApiId": {
-            "Ref": "mlhfellowbookapi"
+            "Ref": "fellowbookapi"
           }
         }
       }
@@ -389,15 +389,15 @@
     "Outputs": {
         "RootUrl": {
             "Description": "Root URL of the API gateway",
-            "Value": {"Fn::Join": ["", ["https://", {"Ref": "mlhfellowbookapi"}, ".execute-api.", {"Ref": "AWS::Region"}, ".amazonaws.com/", {"Fn::If": ["ShouldNotCreateEnvResources","Prod", {"Ref": "env"} ]}]]}
+            "Value": {"Fn::Join": ["", ["https://", {"Ref": "fellowbookapi"}, ".execute-api.", {"Ref": "AWS::Region"}, ".amazonaws.com/", {"Fn::If": ["ShouldNotCreateEnvResources","Prod", {"Ref": "env"} ]}]]}
         },
         "ApiName": {
           "Description": "API Friendly name",
-          "Value": "mlhfellowbookapi"
+          "Value": "fellowbookapi"
         },
         "ApiId": {
           "Description": "API ID (prefix of API URL)",
-          "Value": {"Ref": "mlhfellowbookapi"}
+          "Value": {"Ref": "fellowbookapi"}
         }
     }
   }

@@ -33,7 +33,7 @@
                 "AttributeDefinitions": [
                   
                   {
-                      "AttributeName": "gh-username",
+                      "AttributeName": "username",
                       "AttributeType": "S"
                   } 
                   
@@ -41,7 +41,7 @@
                 "KeySchema": [
                   
                   {
-                    "AttributeName": "gh-username",
+                    "AttributeName": "username",
                     "KeyType": "HASH"
                   } 
                   

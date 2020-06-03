@@ -1,19 +1,19 @@
 {
 	"storage": {
-		"mlhfellowbookdb": {
+		"fellowbookdb": {
 			"service": "DynamoDB",
 			"providerPlugin": "awscloudformation"
 		}
 	},
 	"function": {
-		"mlhfellowbookfellows": {
+		"fellowsEndpoint": {
 			"build": true,
 			"providerPlugin": "awscloudformation",
 			"service": "Lambda",
 			"dependsOn": [
 				{
 					"category": "storage",
-					"resourceName": "mlhfellowbookdb",
+					"resourceName": "fellowbookdb",
 					"attributes": [
 						"Name",
 						"Arn"
@@ -27,13 +27,13 @@
 		}
 	},
 	"api": {
-		"mlhfellowbookapi": {
+		"fellowbookapi": {
 			"service": "API Gateway",
 			"providerPlugin": "awscloudformation",
 			"dependsOn": [
 				{
 					"category": "function",
-					"resourceName": "mlhfellowbookfellows",
+					"resourceName": "fellowsEndpoint",
 					"attributes": [
 						"Name",
 						"Arn"

@@ -2,17 +2,17 @@
     "paths": [
         {
             "name": "/fellows/{username}",
-            "lambdaFunction": "mlhfellowbookfellows",
+            "lambdaFunction": "fellowsEndpoint",
             "privacy": {
                 "open": true
             }
         }
     ],
-    "resourceName": "mlhfellowbookapi",
-    "apiName": "mlhfellowbookapi",
+    "resourceName": "fellowbookapi",
+    "apiName": "fellowbookapi",
     "functionArns": [
         {
-            "lambdaFunction": "mlhfellowbookfellows"
+            "lambdaFunction": "fellowsEndpoint"
         }
     ],
     "privacy": {
@@ -24,7 +24,7 @@
     "dependsOn": [
         {
             "category": "function",
-            "resourceName": "mlhfellowbookfellows",
+            "resourceName": "fellowsEndpoint",
             "attributes": [
                 "Name",
                 "Arn"
