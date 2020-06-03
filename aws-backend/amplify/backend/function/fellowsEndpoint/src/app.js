@@ -9,9 +9,9 @@ See the License for the specific language governing permissions and limitations 
 
 
 const AWS = require('aws-sdk')
-var awsServerlessExpressMiddleware = require('aws-serverless-express/middleware')
-var bodyParser = require('body-parser')
-var express = require('express')
+const awsServerlessExpressMiddleware = require('aws-serverless-express/middleware')
+const bodyParser = require('body-parser')
+const express = require('express')
 
 AWS.config.update({ region: process.env.TABLE_REGION });
 
@@ -32,8 +32,7 @@ const path = "/fellows/:username";
 const UNAUTH = 'UNAUTH';
 const hashKeyPath = '/:' + partitionKeyName;
 const sortKeyPath = hasSortKey ? '/:' + sortKeyName : '';
-// declare a new express app
-var app = express()
+const app = express()
 app.use(bodyParser.json())
 app.use(awsServerlessExpressMiddleware.eventContext())
 
@@ -122,7 +121,7 @@ app.put(path, function (req, res) {
     req.body['userId'] = req.apiGateway.event.requestContext.identity.cognitoIdentityId || UNAUTH;
   }
 
-  let putItemParams = {
+  const putItemParams = {
     TableName: tableName,
     Item: req.body
   }
@@ -146,7 +145,7 @@ app.post(path, function (req, res) {
     req.body['userId'] = req.apiGateway.event.requestContext.identity.cognitoIdentityId || UNAUTH;
   }
 
-  let putItemParams = {
+  const putItemParams = {
     TableName: tableName,
     Item: req.body
   }
@@ -165,7 +164,7 @@ app.post(path, function (req, res) {
 ***************************************/
 
 app.delete(path + '/object' + hashKeyPath + sortKeyPath, function (req, res) {
-  var params = {};
+  const params = {};
   if (userIdPresent && req.apiGateway) {
     params[partitionKeyName] = req.apiGateway.event.requestContext.identity.cognitoIdentityId || UNAUTH;
   } else {
@@ -186,7 +185,7 @@ app.delete(path + '/object' + hashKeyPath + sortKeyPath, function (req, res) {
     }
   }
 
-  let removeItemParams = {
+  const removeItemParams = {
     TableName: tableName,
     Key: params
   }
