@@ -5,9 +5,19 @@ const prettyStringify = require("json-stringify-pretty-compact");
 
 dotenv.config();
 
-const getJsonResponse = async ({ page }) => {
+const getTeams = async () => {
+	// <100 teams so first page will do!
 	const response = await fetch(
-		`https://api.github.com/orgs/MLH-Fellowship/members?page=${page}&per_page=100`,
+		`https://api.github.com/orgs/MLH-Fellowship/teams`,
+		{ headers: { authorization: "token " + process.env.GITHUB_TOKEN } }
+	);
+	return response.json();
+};
+
+const getMembersForTeam = async ({ teamSlug }) => {
+	// <100 members per team so first page will do!
+	const response = await fetch(
+		`https://api.github.com/orgs/MLH-Fellowship/teams/${teamSlug}/members`,
 		{ headers: { authorization: "token " + process.env.GITHUB_TOKEN } }
 	);
 	return response.json();
@@ -16,20 +26,23 @@ const getJsonResponse = async ({ page }) => {
 const fetchUsers = async () => {
 	console.log("Retrieving MLH Fellowship users from GitGub API");
 
-	let users = [];
-	let currentPage = 1;
+	const teams = await getTeams();
+	const teamsCount = teams.length;
+	console.log(`Fetched ${teamsCount} teams`);
 
-	console.log("here");
+	const users = [];
+	for (let i = 0; i < teamsCount; i++) {
+		const team = teams[i];
 
-	// fetch 200 users, should be more than enough
-	while (currentPage <= 2) {
-		const jsonResponse = await getJsonResponse({ page: currentPage++ });
-		users.push(...jsonResponse);
+		// Skip the parent Summer 2020 team
+		if (team.name === 'Summer 2020') continue;
+
+		const membersForTeam = await getMembersForTeam({ teamSlug: team.slug });
+		membersForTeam.forEach(member => member.pod = team.name);
+		users.push(...membersForTeam);
 	}
 
-	return new Promise((resolve, reject) => {
-		resolve(users);
-	});
+	return new Promise((resolve, reject) => resolve(users));
 };
 
 const saveUsers = users => {
