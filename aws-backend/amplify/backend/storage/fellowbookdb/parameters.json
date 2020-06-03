@@ -1,0 +1,5 @@
+{
+    "tableName": "fellows",
+    "partitionKeyName": "username",
+    "partitionKeyType": "S"
+}

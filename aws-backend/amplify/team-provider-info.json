@@ -1,0 +1,34 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-mlhfellowbook-dev-93944-authRole",
+            "UnauthRoleArn": "arn:aws:iam::592811885771:role/amplify-mlhfellowbook-dev-93944-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::592811885771:role/amplify-mlhfellowbook-dev-93944-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-mlhfellowbook-dev-93944-deployment",
+            "UnauthRoleName": "amplify-mlhfellowbook-dev-93944-unauthRole",
+            "StackName": "amplify-mlhfellowbook-dev-93944",
+            "StackId": "arn:aws:cloudformation:eu-central-1:592811885771:stack/amplify-mlhfellowbook-dev-93944/c783c600-a575-11ea-a5da-0ac41be8cd2e",
+            "AmplifyAppId": "dmq16r91mmnzw"
+        }
+    },
+    "devv": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-mlhfellowbook-devv-132454-authRole",
+            "UnauthRoleArn": "arn:aws:iam::592811885771:role/amplify-mlhfellowbook-devv-132454-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::592811885771:role/amplify-mlhfellowbook-devv-132454-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-mlhfellowbook-devv-132454-deployment",
+            "UnauthRoleName": "amplify-mlhfellowbook-devv-132454-unauthRole",
+            "StackName": "amplify-mlhfellowbook-devv-132454",
+            "StackId": "arn:aws:cloudformation:eu-central-1:592811885771:stack/amplify-mlhfellowbook-devv-132454/3c38ffa0-a595-11ea-b1fc-06bc90058f1a",
+            "AmplifyAppId": "dmq16r91mmnzw"
+        },
+        "categories": {
+            "function": {
+                "fellowsEndpoint": {},
+                "fellowbookdb": {}
+            }
+        }
+    }
+}
