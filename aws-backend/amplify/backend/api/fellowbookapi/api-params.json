@@ -6,6 +6,13 @@
             "privacy": {
                 "open": true
             }
+        },
+        {
+            "name": "/fellows",
+            "lambdaFunction": "fellowsEndpoint",
+            "privacy": {
+                "open": true
+            }
         }
     ],
     "resourceName": "fellowbookapi",
