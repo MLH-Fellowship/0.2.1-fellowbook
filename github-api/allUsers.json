@@ -26,7 +26,8 @@
     "twitterUsername": null,
     "websiteUrl": null,
     "followers": 15,
-    "following": 0,
+    "following": {"totalCount": 0},
+    "repositories": 12,
     "username": "juped"
   },
   {
@@ -57,6 +58,7 @@
     "websiteUrl": "http://www.johndbritton.com",
     "followers": 998,
     "following": 149,
+    "repositories": 41,
     "username": "johndbritton"
   },
   {
@@ -87,6 +89,7 @@
     "websiteUrl": "http://rohan.almeida.in",
     "followers": 10,
     "following": 4,
+    "repositories": 21,
     "username": "arcofdescent"
   },
   {
@@ -117,6 +120,7 @@
     "websiteUrl": null,
     "followers": 27,
     "following": 4,
+    "repositories": 60,
     "username": "mkcode"
   },
   {
@@ -147,6 +151,7 @@
     "websiteUrl": "http://jnnngs.com",
     "followers": 82,
     "following": 52,
+    "repositories": 163,
     "username": "ianjennings"
   },
   {
@@ -177,6 +182,7 @@
     "websiteUrl": "http://www.twitter.com/swiftalphaone",
     "followers": 341,
     "following": 8,
+    "repositories": 66,
     "username": "theycallmeswift"
   },
   {
@@ -205,8 +211,9 @@
     "location": "London",
     "twitterUsername": "jevakallio",
     "websiteUrl": "https://jevakallio.dev",
-    "followers": 701,
-    "following": 0,
+    "followers": 702,
+    "following": {"totalCount": 0},
+    "repositories": 98,
     "username": "jevakallio"
   },
   {
@@ -235,8 +242,9 @@
     "location": "New York, NY",
     "twitterUsername": null,
     "websiteUrl": "http://zencephalon.com/",
-    "followers": 197,
+    "followers": 198,
     "following": 121,
+    "repositories": 141,
     "username": "zencephalon"
   },
   {
@@ -267,6 +275,7 @@
     "websiteUrl": null,
     "followers": 9,
     "following": 3,
+    "repositories": 11,
     "username": "flosincapite"
   },
   {
@@ -297,6 +306,7 @@
     "websiteUrl": "https://prabhanshu.com",
     "followers": 58,
     "following": 62,
+    "repositories": 105,
     "username": "PrabhanshuAttri"
   },
   {
@@ -326,7 +336,8 @@
     "twitterUsername": null,
     "websiteUrl": null,
     "followers": 4,
-    "following": 0,
+    "following": {"totalCount": 0},
+    "repositories": 11,
     "username": "daschachter"
   },
   {
@@ -357,6 +368,7 @@
     "websiteUrl": "lincolnroth.com",
     "followers": 12,
     "following": 17,
+    "repositories": 24,
     "username": "lincolnmroth"
   },
   {
@@ -387,6 +399,7 @@
     "websiteUrl": "https://kiteretsu.tech/",
     "followers": 75,
     "following": 56,
+    "repositories": 50,
     "username": "Korusuke"
   },
   {
@@ -417,6 +430,7 @@
     "websiteUrl": null,
     "followers": 5,
     "following": 1,
+    "repositories": 6,
     "username": "Edalinee"
   },
   {
@@ -446,7 +460,8 @@
     "twitterUsername": null,
     "websiteUrl": null,
     "followers": 4,
-    "following": 0,
+    "following": {"totalCount": 0},
+    "repositories": 6,
     "username": "kpolnitz"
   },
   {
@@ -477,6 +492,7 @@
     "websiteUrl": "https://www.linkedin.com/in/parthiv-chigurupati/",
     "followers": 4,
     "following": 4,
+    "repositories": 12,
     "username": "parthivc"
   },
   {
@@ -507,6 +523,7 @@
     "websiteUrl": "https://yalamov.com/",
     "followers": 29,
     "following": 38,
+    "repositories": 21,
     "username": "AmirYalamov"
   },
   {
@@ -537,6 +554,7 @@
     "websiteUrl": "rubywerman.me",
     "followers": 6,
     "following": 7,
+    "repositories": 17,
     "username": "rubywerman"
   },
   {
@@ -567,6 +585,7 @@
     "websiteUrl": "stellawang.com",
     "followers": 20,
     "following": 40,
+    "repositories": 24,
     "username": "stellaw1"
   },
   {
@@ -597,6 +616,7 @@
     "websiteUrl": "rithvikrao.com",
     "followers": 2,
     "following": 2,
+    "repositories": 12,
     "username": "rithvikrao"
   },
   {
@@ -627,6 +647,7 @@
     "websiteUrl": "www.lucylow.com",
     "followers": 25,
     "following": 24,
+    "repositories": 145,
     "username": "lucylow"
   },
   {
@@ -657,6 +678,7 @@
     "websiteUrl": null,
     "followers": 6,
     "following": 3,
+    "repositories": 23,
     "username": "honsontran"
   },
   {
@@ -687,6 +709,7 @@
     "websiteUrl": "https://www.linkedin.com/in/joshuacwnewton/",
     "followers": 4,
     "following": 7,
+    "repositories": 17,
     "username": "joshuacwnewton"
   },
   {
@@ -717,6 +740,7 @@
     "websiteUrl": "https://akainth.me",
     "followers": 10,
     "following": 6,
+    "repositories": 38,
     "username": "akainth015"
   },
   {
@@ -747,6 +771,7 @@
     "websiteUrl": "jzhao.xyz",
     "followers": 86,
     "following": 69,
+    "repositories": 38,
     "username": "jackyzha0"
   },
   {
@@ -776,7 +801,8 @@
     "twitterUsername": null,
     "websiteUrl": "http://kristi.codes",
     "followers": 1,
-    "following": 0,
+    "following": {"totalCount": 0},
+    "repositories": 19,
     "username": "ktakattack"
   },
   {
@@ -800,13 +826,14 @@
     "pod": "Pod 0.1.2",
     "name": "Yashika Sharma ",
     "bio": "B.Tech computer science student with curiosity in Deep Learning.  \r\n\r\nhttps://twitter.com/yashika51\r\n\r\n",
-    "company": "@Omdena",
+    "company": "@MLH ",
     "email": "",
     "location": "New Delhi",
     "twitterUsername": null,
     "websiteUrl": "http://yashika51.tech/",
     "followers": 13,
     "following": 16,
+    "repositories": 26,
     "username": "yashika51"
   },
   {
@@ -837,12 +864,13 @@
     "websiteUrl": "https://jasonngo.net",
     "followers": 5,
     "following": 2,
+    "repositories": 12,
     "username": "ngojason9"
   },
   {
     "id": 40009989,
     "node_id": "MDQ6VXNlcjQwMDA5OTg5",
-    "avatar_url": "https://avatars3.githubusercontent.com/u/40009989?v=4",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/40009989?u=2fe2db8fd39e3a674e5f88421c1cb0dd7f31921c&v=4",
     "gravatar_id": "",
     "url": "https://api.github.com/users/xiwang129",
     "html_url": "https://github.com/xiwang129",
@@ -866,7 +894,8 @@
     "twitterUsername": null,
     "websiteUrl": null,
     "followers": 1,
-    "following": 0,
+    "following": {"totalCount": 0},
+    "repositories": 17,
     "username": "xiwang129"
   },
   {
@@ -895,8 +924,9 @@
     "location": "New York, NY",
     "twitterUsername": null,
     "websiteUrl": "http://zencephalon.com/",
-    "followers": 197,
+    "followers": 198,
     "following": 121,
+    "repositories": 141,
     "username": "zencephalon"
   },
   {
@@ -926,7 +956,8 @@
     "twitterUsername": null,
     "websiteUrl": null,
     "followers": 3,
-    "following": 7,
+    "following": 8,
+    "repositories": 11,
     "username": "whoiswillma"
   },
   {
@@ -957,6 +988,7 @@
     "websiteUrl": null,
     "followers": 31,
     "following": 1,
+    "repositories": 151,
     "username": "awasum"
   },
   {
@@ -987,6 +1019,7 @@
     "websiteUrl": null,
     "followers": 9,
     "following": 1,
+    "repositories": 33,
     "username": "emctackett"
   },
   {
@@ -1015,8 +1048,9 @@
     "location": "Arkansas, USA",
     "twitterUsername": "larsonc_",
     "websiteUrl": "https://www.linkedin.com/in/larson-carter/",
-    "followers": 66,
+    "followers": 68,
     "following": 58,
+    "repositories": 36,
     "username": "larson-carter"
   },
   {
@@ -1047,6 +1081,7 @@
     "websiteUrl": "https://baffouraduboampong.me/",
     "followers": 13,
     "following": 7,
+    "repositories": 69,
     "username": "BaffourAdu"
   },
   {
@@ -1077,6 +1112,7 @@
     "websiteUrl": null,
     "followers": 7,
     "following": 2,
+    "repositories": 13,
     "username": "AlbertoPdRF"
   },
   {
@@ -1107,6 +1143,7 @@
     "websiteUrl": "twitter.com/lionellloh",
     "followers": 43,
     "following": 66,
+    "repositories": 85,
     "username": "lionellloh"
   },
   {
@@ -1137,6 +1174,7 @@
     "websiteUrl": "https://kodekage.netlify.app",
     "followers": 61,
     "following": 109,
+    "repositories": 107,
     "username": "OPARA-PROSPER"
   },
   {
@@ -1167,6 +1205,7 @@
     "websiteUrl": "www.ontherecord.us",
     "followers": 6,
     "following": 10,
+    "repositories": 178,
     "username": "adfaris"
   },
   {
@@ -1197,6 +1236,7 @@
     "websiteUrl": "http://raphaelnoriode.me",
     "followers": 23,
     "following": 25,
+    "repositories": 64,
     "username": "Oghenebrume50"
   },
   {
@@ -1227,6 +1267,7 @@
     "websiteUrl": "pacia.tech",
     "followers": 73,
     "following": 103,
+    "repositories": 51,
     "username": "bartekpacia"
   },
   {
@@ -1255,8 +1296,9 @@
     "location": "Seattle, WA",
     "twitterUsername": null,
     "websiteUrl": "http://nicholasquinlan.com",
-    "followers": 175,
+    "followers": 176,
     "following": 50,
+    "repositories": 94,
     "username": "nquinlan"
   },
   {
@@ -1287,6 +1329,7 @@
     "websiteUrl": "https://ca.linkedin.com/in/ralphmaamari",
     "followers": 39,
     "following": 3,
+    "repositories": 62,
     "username": "ralph-dev"
   },
   {
@@ -1317,6 +1360,7 @@
     "websiteUrl": "www.sjain.dev",
     "followers": 20,
     "following": 20,
+    "repositories": 28,
     "username": "shu8"
   },
   {
@@ -1347,6 +1391,7 @@
     "websiteUrl": null,
     "followers": 9,
     "following": 9,
+    "repositories": 25,
     "username": "erin2722"
   },
   {
@@ -1377,6 +1422,7 @@
     "websiteUrl": "https://www.linkedin.com/in/sebastiancrossa/",
     "followers": 33,
     "following": 57,
+    "repositories": 56,
     "username": "sebastiancrossa"
   },
   {
@@ -1407,6 +1453,7 @@
     "websiteUrl": null,
     "followers": 5,
     "following": 5,
+    "repositories": 67,
     "username": "kendevops"
   },
   {
@@ -1437,6 +1484,7 @@
     "websiteUrl": "nchaloult.com",
     "followers": 1,
     "following": 1,
+    "repositories": 20,
     "username": "nchaloult"
   },
   {
@@ -1467,6 +1515,7 @@
     "websiteUrl": "linkedin.com/in/mohammed-sahl/",
     "followers": 2,
     "following": 7,
+    "repositories": 17,
     "username": "mohammedsahl"
   },
   {
@@ -1497,6 +1546,7 @@
     "websiteUrl": "https://cedricgrothues.com",
     "followers": 1,
     "following": 1,
+    "repositories": 5,
     "username": "cedricgrothues"
   },
   {
@@ -1527,6 +1577,7 @@
     "websiteUrl": null,
     "followers": 9,
     "following": 10,
+    "repositories": 42,
     "username": "barronwei"
   },
   {
@@ -1557,6 +1608,7 @@
     "websiteUrl": "ivov.dev",
     "followers": 8,
     "following": 14,
+    "repositories": 12,
     "username": "ivov"
   },
   {
@@ -1587,6 +1639,7 @@
     "websiteUrl": "garrettluu.com",
     "followers": 21,
     "following": 25,
+    "repositories": 52,
     "username": "garrettluu"
   },
   {
@@ -1617,6 +1670,7 @@
     "websiteUrl": "penguingovernor.github.io",
     "followers": 8,
     "following": 3,
+    "repositories": 25,
     "username": "penguingovernor"
   },
   {
@@ -1647,6 +1701,7 @@
     "websiteUrl": "www.danuwidjaja.com",
     "followers": 13,
     "following": 11,
+    "repositories": 23,
     "username": "nicoledanuwidjaja"
   },
   {
@@ -1677,6 +1732,7 @@
     "websiteUrl": null,
     "followers": 69,
     "following": 7,
+    "repositories": 69,
     "username": "kirbygit"
   },
   {
@@ -1707,6 +1763,7 @@
     "websiteUrl": "https://shraddha2104.github.io/",
     "followers": 28,
     "following": 58,
+    "repositories": 51,
     "username": "Shraddha2104"
   },
   {
@@ -1737,6 +1794,7 @@
     "websiteUrl": "https://wlawt.com/",
     "followers": 17,
     "following": 16,
+    "repositories": 56,
     "username": "wlawt"
   },
   {
@@ -1767,6 +1825,7 @@
     "websiteUrl": "https://yaheng.io",
     "followers": 31,
     "following": 36,
+    "repositories": 21,
     "username": "yahengsu"
   },
   {
@@ -1797,6 +1856,7 @@
     "websiteUrl": "anirudhemmadi.com",
     "followers": 32,
     "following": 43,
+    "repositories": 40,
     "username": "aemmadi"
   },
   {
@@ -1826,7 +1886,8 @@
     "twitterUsername": null,
     "websiteUrl": null,
     "followers": 1,
-    "following": 0,
+    "following": {"totalCount": 0},
+    "repositories": 9,
     "username": "srijonsaha"
   },
   {
@@ -1855,8 +1916,9 @@
     "location": null,
     "twitterUsername": null,
     "websiteUrl": null,
-    "followers": 0,
-    "following": 0,
+    "followers": {"totalCount": 0},
+    "following": {"totalCount": 0},
+    "repositories": 11,
     "username": "janiewang26"
   },
   {
@@ -1887,6 +1949,7 @@
     "websiteUrl": null,
     "followers": 7,
     "following": 31,
+    "repositories": 69,
     "username": "zzj0402"
   },
   {
@@ -1917,6 +1980,7 @@
     "websiteUrl": null,
     "followers": 14,
     "following": 11,
+    "repositories": 116,
     "username": "michiboo"
   },
   {
@@ -1946,7 +2010,8 @@
     "twitterUsername": "lakshyakhatri_",
     "websiteUrl": "https://www.linkedin.com/in/lakshya-khatri-39ba06137",
     "followers": 14,
-    "following": 17,
+    "following": 18,
+    "repositories": 20,
     "username": "LakshyaKhatri"
   },
   {
@@ -1977,6 +2042,7 @@
     "websiteUrl": "mgautam.me",
     "followers": 24,
     "following": 36,
+    "repositories": 70,
     "username": "mgautam98"
   },
   {
@@ -2005,8 +2071,9 @@
     "location": "Toronto, ON | Kanpur, India",
     "twitterUsername": null,
     "websiteUrl": "https://avik-pal.github.io",
-    "followers": 158,
+    "followers": 159,
     "following": 31,
+    "repositories": 46,
     "username": "avik-pal"
   },
   {
@@ -2037,6 +2104,7 @@
     "websiteUrl": null,
     "followers": 63,
     "following": 231,
+    "repositories": 90,
     "username": "dnabanita7"
   },
   {
@@ -2067,6 +2135,7 @@
     "websiteUrl": null,
     "followers": 63,
     "following": 57,
+    "repositories": 31,
     "username": "kanav99"
   },
   {
@@ -2097,6 +2166,7 @@
     "websiteUrl": null,
     "followers": 23,
     "following": 51,
+    "repositories": 67,
     "username": "Biswajitghosh98"
   },
   {
@@ -2127,6 +2197,7 @@
     "websiteUrl": "https://www.linkedin.com/in/maaz-bin-tahir-saeed-752950197/",
     "followers": 12,
     "following": 7,
+    "repositories": 25,
     "username": "Diaga"
   },
   {
@@ -2157,6 +2228,7 @@
     "websiteUrl": null,
     "followers": 18,
     "following": 21,
+    "repositories": 29,
     "username": "RashikaKarki"
   },
   {
@@ -2187,6 +2259,7 @@
     "websiteUrl": "web.iiit.ac.in/~jivitesh.jain",
     "followers": 50,
     "following": 72,
+    "repositories": 32,
     "username": "jiviteshjain"
   },
   {
@@ -2216,7 +2289,8 @@
     "twitterUsername": null,
     "websiteUrl": null,
     "followers": 33,
-    "following": 0,
+    "following": {"totalCount": 0},
+    "repositories": 38,
     "username": "darshkpatel"
   },
   {
@@ -2247,6 +2321,7 @@
     "websiteUrl": null,
     "followers": 29,
     "following": 3,
+    "repositories": 31,
     "username": "chuabingquan"
   },
   {
@@ -2277,6 +2352,7 @@
     "websiteUrl": "http://ryan-s.me",
     "followers": 11,
     "following": 5,
+    "repositories": 36,
     "username": "SimplyBallistic"
   },
   {
@@ -2307,6 +2383,7 @@
     "websiteUrl": null,
     "followers": 60,
     "following": 124,
+    "repositories": 17,
     "username": "FocalChord"
   },
   {
@@ -2337,6 +2414,7 @@
     "websiteUrl": "https://laveesh.js.org/",
     "followers": 10,
     "following": 8,
+    "repositories": 43,
     "username": "laveesh"
   },
   {
@@ -2366,7 +2444,8 @@
     "twitterUsername": null,
     "websiteUrl": null,
     "followers": 25,
-    "following": 0,
+    "following": {"totalCount": 0},
+    "repositories": 57,
     "username": "anshulrgoyal"
   },
   {
@@ -2396,7 +2475,8 @@
     "twitterUsername": null,
     "websiteUrl": null,
     "followers": 24,
-    "following": 0,
+    "following": {"totalCount": 0},
+    "repositories": 29,
     "username": "eKhattak"
   },
   {
@@ -2427,6 +2507,7 @@
     "websiteUrl": null,
     "followers": 18,
     "following": 37,
+    "repositories": 22,
     "username": "Drewbi"
   },
   {
@@ -2457,6 +2538,7 @@
     "websiteUrl": null,
     "followers": 1,
     "following": 1,
+    "repositories": 53,
     "username": "teikjun"
   },
   {
@@ -2487,6 +2569,7 @@
     "websiteUrl": "https://www.eliangtan.com",
     "followers": 69,
     "following": 19,
+    "repositories": 48,
     "username": "taneliang"
   },
   {
@@ -2517,6 +2600,7 @@
     "websiteUrl": "gitstats.me/YashKumarVerma",
     "followers": 84,
     "following": 101,
+    "repositories": 82,
     "username": "YashKumarVerma"
   },
   {
@@ -2546,7 +2630,8 @@
     "twitterUsername": "__anku__",
     "websiteUrl": "https://anku.netlify.com",
     "followers": 20,
-    "following": 0,
+    "following": {"totalCount": 0},
+    "repositories": 74,
     "username": "anku255"
   },
   {
@@ -2575,8 +2660,9 @@
     "location": null,
     "twitterUsername": "anix_underscore",
     "websiteUrl": null,
-    "followers": 84,
+    "followers": 87,
     "following": 116,
+    "repositories": 106,
     "username": "anikethsaha"
   },
   {
@@ -2607,6 +2693,7 @@
     "websiteUrl": "sauravmh.me",
     "followers": 12,
     "following": 11,
+    "repositories": 43,
     "username": "sauravhiremath"
   },
   {
@@ -2637,6 +2724,7 @@
     "websiteUrl": null,
     "followers": 17,
     "following": 61,
+    "repositories": 23,
     "username": "saphal1998"
   },
   {
@@ -2667,6 +2755,7 @@
     "websiteUrl": null,
     "followers": 25,
     "following": 20,
+    "repositories": 36,
     "username": "chirag-singhal"
   },
   {
@@ -2697,6 +2786,7 @@
     "websiteUrl": "https://www.linkedin.com/in/kunal-kushwaha/",
     "followers": 151,
     "following": 86,
+    "repositories": 83,
     "username": "kunal-kushwaha"
   },
   {
@@ -2726,7 +2816,8 @@
     "twitterUsername": null,
     "websiteUrl": null,
     "followers": 8,
-    "following": 0,
+    "following": {"totalCount": 0},
+    "repositories": 16,
     "username": "manyaagarwal"
   },
   {
@@ -2756,7 +2847,8 @@
     "twitterUsername": null,
     "websiteUrl": "https://www.linkedin.com/in/jessieanh/",
     "followers": 6,
-    "following": 2,
+    "following": 3,
+    "repositories": 19,
     "username": "jessieAnhNguyen"
   },
   {
@@ -2787,6 +2879,7 @@
     "websiteUrl": "https://siddharthsham.github.io",
     "followers": 48,
     "following": 20,
+    "repositories": 32,
     "username": "SiddharthSham"
   },
   {
@@ -2816,7 +2909,8 @@
     "twitterUsername": null,
     "websiteUrl": "https://alphaman.me/",
     "followers": 26,
-    "following": 0,
+    "following": {"totalCount": 0},
+    "repositories": 43,
     "username": "smartclash"
   },
   {
@@ -2847,6 +2941,7 @@
     "websiteUrl": "harshil.dev",
     "followers": 66,
     "following": 7,
+    "repositories": 90,
     "username": "harshil1712"
   },
   {
@@ -2877,6 +2972,7 @@
     "websiteUrl": null,
     "followers": 7,
     "following": 5,
+    "repositories": 13,
     "username": "AnshG714"
   },
   {
@@ -2900,13 +2996,14 @@
     "pod": "Pod 0.4.2",
     "name": "Sanskar Jethi",
     "bio": "MLH Fellow @MLH| Code Monkey. Sport Flunky. Music Junkie.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-    "company": "majorleaguehacking",
+    "company": "@MLH",
     "email": "sansyrox@gmail.com",
     "location": "Earth",
     "twitterUsername": null,
     "websiteUrl": "https://sanskar.me",
-    "followers": 135,
+    "followers": 136,
     "following": 74,
+    "repositories": 229,
     "username": "stealthanthrax"
   },
   {
@@ -2936,7 +3033,8 @@
     "twitterUsername": "ani4aniket",
     "websiteUrl": "https://ianiket.live",
     "followers": 37,
-    "following": 21,
+    "following": 22,
+    "repositories": 129,
     "username": "ani4aniket"
   },
   {
@@ -2967,6 +3065,7 @@
     "websiteUrl": "https://saurabhagarwala.github.io",
     "followers": 33,
     "following": 56,
+    "repositories": 81,
     "username": "SaurabhAgarwala"
   },
   {
@@ -2997,6 +3096,7 @@
     "websiteUrl": "https://ayushj.me",
     "followers": 24,
     "following": 38,
+    "repositories": 49,
     "username": "ayushjainrksh"
   },
   {
@@ -3027,6 +3127,7 @@
     "websiteUrl": "https://xtremilicious.github.io",
     "followers": 699,
     "following": 9,
+    "repositories": 34,
     "username": "Xtremilicious"
   },
   {
@@ -3056,7 +3157,8 @@
     "twitterUsername": null,
     "websiteUrl": "https://kartik918.github.io/",
     "followers": 25,
-    "following": 7,
+    "following": 8,
+    "repositories": 30,
     "username": "kartik918"
   },
   {
@@ -3087,6 +3189,7 @@
     "websiteUrl": "https://iamcathal.github.io/",
     "followers": 21,
     "following": 30,
+    "repositories": 19,
     "username": "IamCathal"
   },
   {
@@ -3117,6 +3220,7 @@
     "websiteUrl": "https://gmcruz.me",
     "followers": 35,
     "following": 26,
+    "repositories": 77,
     "username": "gmelodie"
   },
   {
@@ -3147,6 +3251,7 @@
     "websiteUrl": "www.agripredict.com",
     "followers": 42,
     "following": 82,
+    "repositories": 106,
     "username": "mwizasimbeye11"
   },
   {
@@ -3177,6 +3282,7 @@
     "websiteUrl": "https://cesare.io",
     "followers": 286,
     "following": 884,
+    "repositories": 108,
     "username": "csr"
   },
   {
@@ -3207,6 +3313,7 @@
     "websiteUrl": null,
     "followers": 9,
     "following": 8,
+    "repositories": 19,
     "username": "rkbeatss"
   },
   {
@@ -3237,6 +3344,7 @@
     "websiteUrl": null,
     "followers": 7,
     "following": 7,
+    "repositories": 13,
     "username": "kbanc"
   },
   {
@@ -3267,6 +3375,7 @@
     "websiteUrl": "https://www.linkedin.com/in/eyitayo/",
     "followers": 27,
     "following": 21,
+    "repositories": 12,
     "username": "tayoogunbiyi"
   },
   {
@@ -3296,7 +3405,8 @@
     "twitterUsername": null,
     "websiteUrl": "https://www.linkedin.com/in/hajermahjoub/",
     "followers": 13,
-    "following": 38,
+    "following": 39,
+    "repositories": 21,
     "username": "HajerMahjoub"
   },
   {
@@ -3327,6 +3437,7 @@
     "websiteUrl": "https://teymour.tk",
     "followers": 3,
     "following": 2,
+    "repositories": 66,
     "username": "teymour-aldridge"
   },
   {
@@ -3357,6 +3468,7 @@
     "websiteUrl": null,
     "followers": 6,
     "following": 52,
+    "repositories": 25,
     "username": "victorphoenix3"
   },
   {
@@ -3387,6 +3499,7 @@
     "websiteUrl": "https://githubcampus.expert/roeeyn/",
     "followers": 66,
     "following": 25,
+    "repositories": 291,
     "username": "roeeyn"
   },
   {
@@ -3417,6 +3530,7 @@
     "websiteUrl": "http://rch-liu.github.io",
     "followers": 6,
     "following": 7,
+    "repositories": 21,
     "username": "rch-liu"
   },
   {
@@ -3445,8 +3559,9 @@
     "location": "Washington D.C",
     "twitterUsername": null,
     "websiteUrl": null,
-    "followers": 0,
+    "followers": {"totalCount": 0},
     "following": 1,
+    "repositories": 18,
     "username": "FawziyahAlebiosu"
   },
   {
@@ -3477,6 +3592,7 @@
     "websiteUrl": "https://www.linkedin.com/in/kai-xing-chen",
     "followers": 57,
     "following": 65,
+    "repositories": 49,
     "username": "kx-chen"
   },
   {
@@ -3507,6 +3623,7 @@
     "websiteUrl": "chris-nguyen.me",
     "followers": 57,
     "following": 72,
+    "repositories": 32,
     "username": "chrisngyn"
   },
   {
@@ -3537,6 +3654,7 @@
     "websiteUrl": null,
     "followers": 1,
     "following": 1,
+    "repositories": 17,
     "username": "diarreola"
   },
   {
@@ -3567,6 +3685,7 @@
     "websiteUrl": "https://www.makeschool.com/portfolio/EbonneCabarrus",
     "followers": 26,
     "following": 39,
+    "repositories": 90,
     "username": "ebonnecab"
   },
   {
@@ -3597,6 +3716,7 @@
     "websiteUrl": "http://amylei.com/",
     "followers": 6,
     "following": 3,
+    "repositories": 30,
     "username": "amy-lei"
   },
   {
@@ -3626,7 +3746,8 @@
     "twitterUsername": null,
     "websiteUrl": "http://artesiako.com/",
     "followers": 2,
-    "following": 0,
+    "following": {"totalCount": 0},
+    "repositories": 15,
     "username": "YKo20010"
   },
   {
@@ -3657,6 +3778,7 @@
     "websiteUrl": "www.shageldi.com",
     "followers": 5,
     "following": 7,
+    "repositories": 25,
     "username": "ovezovs"
   },
   {
@@ -3685,8 +3807,9 @@
     "location": "Seattle, WA",
     "twitterUsername": null,
     "websiteUrl": "http://nicholasquinlan.com",
-    "followers": 175,
+    "followers": 176,
     "following": 50,
+    "repositories": 94,
     "username": "nquinlan"
   },
   {
@@ -3715,8 +3838,9 @@
     "location": "Seattle, WA",
     "twitterUsername": null,
     "websiteUrl": "http://nicholasquinlan.com",
-    "followers": 175,
+    "followers": 176,
     "following": 50,
+    "repositories": 94,
     "username": "nquinlan"
   },
   {
@@ -3747,6 +3871,7 @@
     "websiteUrl": "http://www.jonmarkgo.com/",
     "followers": 139,
     "following": 14,
+    "repositories": 77,
     "username": "jonmarkgo"
   },
   {
@@ -3777,6 +3902,7 @@
     "websiteUrl": "http://www.twitter.com/swiftalphaone",
     "followers": 341,
     "following": 8,
+    "repositories": 66,
     "username": "theycallmeswift"
   },
   {
@@ -3805,8 +3931,9 @@
     "location": "Seattle, WA",
     "twitterUsername": null,
     "websiteUrl": "http://nicholasquinlan.com",
-    "followers": 175,
+    "followers": 176,
     "following": 50,
+    "repositories": 94,
     "username": "nquinlan"
   },
   {
@@ -3837,6 +3964,7 @@
     "websiteUrl": "https://wrussell.co.uk",
     "followers": 61,
     "following": 77,
+    "repositories": 61,
     "username": "wrussell1999"
   },
   {
@@ -3865,8 +3993,9 @@
     "location": null,
     "twitterUsername": null,
     "websiteUrl": null,
-    "followers": 0,
-    "following": 0,
+    "followers": {"totalCount": 0},
+    "following": {"totalCount": 0},
+    "repositories": {"totalCount": 0},
     "username": "LCaputo6"
   }
 ]

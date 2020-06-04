@@ -62,9 +62,9 @@ const fetchUsers = async () => {
 			extraUserFields.forEach(field => member[field] = thisUserDetails[field]);
 
 			// Handle the extra nested fields
-			member['followers'] = thisUserDetails.followers.totalCount;
-			member['following'] = thisUserDetails.following.totalCount;
-			member['repositories'] = thisUserDetails.following.repositories;
+			member['followers'] = thisUserDetails.followers.totalCount ? thisUserDetails.followers.totalCount : thisUserDetails.followers;
+			member['following'] = thisUserDetails.following.totalCount ? thisUserDetails.following.totalCount : thisUserDetails.following;
+			member['repositories'] = thisUserDetails.repositories.totalCount ? thisUserDetails.repositories.totalCount : thisUserDetails.repositories;
 
 			// Rename 'login' to 'username' (primary key of aws amplify db)
 			member.username = member.login;
@@ -157,6 +157,8 @@ const uploadUsers = async (users) => {
 };
 
 const saveUsers = async users => {
+	const usersCount = users.length;
+
 	// save all users a single big JSON file
 	const allUsersString = prettyStringify(users, { indent: 2 });
 	fs.writeFileSync("./allUsers.json", allUsersString, "utf8");
