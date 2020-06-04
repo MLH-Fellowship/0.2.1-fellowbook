@@ -8,10 +8,11 @@ See the License for the specific language governing permissions and limitations 
 
 
 
-const AWS = require('aws-sdk')
-const awsServerlessExpressMiddleware = require('aws-serverless-express/middleware')
-const bodyParser = require('body-parser')
-const express = require('express')
+const AWS = require('aws-sdk');
+const awsServerlessExpressMiddleware = require('aws-serverless-express/middleware');
+const bodyParser = require('body-parser');
+const express = require('express');
+const fetch = require('node-fetch');
 
 AWS.config.update({ region: process.env.TABLE_REGION });
 
@@ -21,6 +22,9 @@ let tableName = "fellows";
 if (process.env.ENV && process.env.ENV !== "NONE") {
   tableName = tableName + '-' + process.env.ENV;
 }
+
+const CLIENT_ID = '22d8bad72f3469cd766c';
+const CLIENT_SECRET = process.env.CLIENT_SECRET;
 
 const userIdPresent = false; // TODO: update in case is required to use that definition
 const partitionKeyName = "username";
@@ -74,6 +78,30 @@ app.get('/fellows/list', function (req, res) {
       res.json(data.Items);
     }
   });
+});
+
+/********************************************
+ * HTTP GET method to get access token for  *
+ * user and redirect them to the web app    *
+ * Again, ideally this is its own /authorise*
+ * endpoint, but I couldn't get that to work*
+ * (Internal Server Error!) so this will do *
+ * for now at least                         *
+ ********************************************/
+app.get('/fellows/authorise', (req, res) => {
+  const code = req.query.code;
+  fetch(
+    `https://github.com/login/oauth/access_token?client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}&code=${code}`,
+    { headers: { Accept: 'application/json' } },
+  ).then(res => res.json)
+    .then(json => {
+      const redirectUrl = `http://localhost:3000?access_token=${json.access_token}`;
+
+      // Hack: meta refresh, express res.redirect isn't working :(
+      res.set('Content-Type', 'text/html');
+      res.status(200).send(`<!DOCTYPE html><html><head><meta http-equiv="refresh" content="0; url=${redirectUrl}"></head></html>`);
+      // return res.redirect(redirectUrl);
+    });
 });
 
 /*****************************************

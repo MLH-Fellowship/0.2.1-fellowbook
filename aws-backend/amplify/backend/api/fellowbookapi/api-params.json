@@ -13,13 +13,6 @@
             "privacy": {
                 "open": true
             }
-        },
-        {
-            "name": "/authorise",
-            "lambdaFunction": "getaccesstoken",
-            "privacy": {
-                "open": true
-            }
         }
     ],
     "resourceName": "fellowbookapi",
@@ -27,9 +20,6 @@
     "functionArns": [
         {
             "lambdaFunction": "fellowsEndpoint"
-        },
-        {
-            "lambdaFunction": "getaccesstoken"
         }
     ],
     "privacy": {
@@ -46,15 +36,7 @@
                 "Name",
                 "Arn"
             ]
-        },
-        {
-            "category": "function",
-            "resourceName": "getaccesstoken",
-            "attributes": [
-                "Name",
-                "Arn"
-            ]
         }
     ],
-    "uuid": "e144ee1a"
+    "uuid": "8eccfb36"
 }

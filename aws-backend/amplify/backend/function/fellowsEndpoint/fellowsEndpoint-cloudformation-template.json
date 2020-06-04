@@ -76,7 +76,7 @@
 				"Timeout": "25",
 				"Code": {
 					"S3Bucket": "amplify-mlhfellowbook-devv-132454-deployment",
-					"S3Key": "amplify-builds/fellowsEndpoint-363863774a6a51396f53-build.zip"
+					"S3Key": "amplify-builds/fellowsEndpoint-77477438366837376149-build.zip"
 				}
 			}
 		},
