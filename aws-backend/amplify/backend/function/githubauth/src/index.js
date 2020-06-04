@@ -32,7 +32,8 @@ const isValidUser = async (token) => {
 }
 
 exports.handler = async (event, context, callback) => {
-    var token = event.authorizationToken;
+    console.log(event);
+    const token = event.authorizationToken;
     if (await isValidUser(token)) {
         callback(null, generatePolicy('user', 'Allow', event.methodArn));
     } else {
