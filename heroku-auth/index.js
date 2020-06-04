@@ -7,10 +7,12 @@ const CLIENT_SECRET = process.env.CLIENT_SECRET;
 
 app.get('/authorise', (req, res) => {
   const code = req.query.code;
+  const url = `https://github.com/login/oauth/access_token?client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}&code=${code}`;
+
   fetch(
-    `https://github.com/login/oauth/access_token?client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}&code=${code}`,
+    url,
     { headers: { Accept: 'application/json' } },
-  ).then(res => res.json)
+  ).then(res => res.json())
     .then(json => {
       const redirectUrl = `http://localhost:3000?access_token=${json.access_token}`;
 
