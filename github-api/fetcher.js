@@ -65,6 +65,10 @@ const fetchUsers = async () => {
 			member['followers'] = thisUserDetails.followers.totalCount;
 			member['following'] = thisUserDetails.following.totalCount;
 			member['repositories'] = thisUserDetails.following.repositories;
+
+			// Rename 'login' to 'username' (primary key of aws amplify db)
+			member.username = member.login;
+			delete member.login;
 		}
 
 		users.push(...membersForTeam);
@@ -133,7 +137,7 @@ const saveUsers = users => {
 
 	// save username array, for querying single users for more info that is not provided by /orgs/MLH-Fellowship/
 	let usernames = { data: [] };
-	for (let user of users) usernames.data.push(user.login);
+	for (let user of users) usernames.data.push(user.username);
 	const allUsernamesString = prettyStringify(usernames, { indent: 2 });
 	fs.writeFileSync("./usernames.json", allUsernamesString, "utf8");
 	console.log(`Saved ${users.length} users to ./usernames.json`);
