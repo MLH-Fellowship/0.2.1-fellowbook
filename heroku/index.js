@@ -5,6 +5,8 @@ const app = express();
 const CLIENT_ID = '22d8bad72f3469cd766c';
 const CLIENT_SECRET = process.env.CLIENT_SECRET;
 
+app.use('/', express.static('web'));
+
 app.get('/authorise', (req, res) => {
   const code = req.query.code;
   const url = `https://github.com/login/oauth/access_token?client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}&code=${code}`;
