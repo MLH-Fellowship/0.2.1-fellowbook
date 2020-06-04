@@ -5,6 +5,14 @@ const prettyStringify = require("json-stringify-pretty-compact");
 
 dotenv.config();
 
+const getPodName = team => {
+	if (team.name.startsWith('Pod')) {
+		return team.description === '' ? team.name : team.description;
+	} else {
+		return team.name;
+	}
+};
+
 const escapeUsername = username => username.replace(/[-_]/g, '');
 
 const getTeams = async () => {
@@ -52,7 +60,7 @@ const fetchUsers = async () => {
 
 		for (let j = 0; j < teamMembersCount; j++) {
 			const member = membersForTeam[j];
-			member.pod = team.name;
+			member.pod = getPodName(team);
 
 			// Keys must be alphanumeric only in GraphQL Query
 			const escapedUsername = escapeUsername(member.login);
