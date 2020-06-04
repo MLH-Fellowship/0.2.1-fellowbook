@@ -1,0 +1,28 @@
+{
+	"name": "0.2.1-fellowbook",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "npm install && node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MLH-Fellowship/0.2.1-fellowbook.git"
+	},
+	"engines": {
+		"node": "12.x"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/MLH-Fellowship/0.2.1-fellowbook/issues"
+	},
+	"homepage": "https://github.com/MLH-Fellowship/0.2.1-fellowbook#readme",
+	"dependencies": {
+		"discord.js": "^12.2.0",
+		"dotenv": "^8.2.0",
+		"node-fetch": "^2.6.0"
+	}
+}
