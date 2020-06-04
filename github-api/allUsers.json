@@ -18,7 +18,16 @@
     "received_events_url": "https://api.github.com/users/juped/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Mentors"
+    "pod": "Mentors",
+    "name": "Raymond E. Pasco",
+    "bio": "",
+    "company": null,
+    "email": "",
+    "location": "New York City",
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 15,
+    "following": 0
   },
   {
     "login": "johndbritton",
@@ -39,7 +48,16 @@
     "received_events_url": "https://api.github.com/users/johndbritton/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Mentors"
+    "pod": "Mentors",
+    "name": "John Britton",
+    "bio": "Developer and Educator. Curious. College escapee. World traveling vagabond. Past: @github @p2pu @mozilla @twilio.",
+    "company": "@raise-dev ",
+    "email": "public@johndbritton.com",
+    "location": "New York",
+    "twitterUsername": null,
+    "websiteUrl": "http://www.johndbritton.com",
+    "followers": 998,
+    "following": 149
   },
   {
     "login": "arcofdescent",
@@ -60,7 +78,16 @@
     "received_events_url": "https://api.github.com/users/arcofdescent/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Mentors"
+    "pod": "Mentors",
+    "name": "Rohan Almeida",
+    "bio": "Full stack developer. Elixir, Python, JavaScript, React, Go, Perl.",
+    "company": null,
+    "email": "",
+    "location": "Mumbai",
+    "twitterUsername": null,
+    "websiteUrl": "http://rohan.almeida.in",
+    "followers": 10,
+    "following": 4
   },
   {
     "login": "mkcode",
@@ -81,13 +108,22 @@
     "received_events_url": "https://api.github.com/users/mkcode/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Mentors"
+    "pod": "Mentors",
+    "name": "Chris Ewald",
+    "bio": "",
+    "company": "Raise.dev",
+    "email": "",
+    "location": "NYC",
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 27,
+    "following": 4
   },
   {
     "login": "ianjennings",
     "id": 318295,
     "node_id": "MDQ6VXNlcjMxODI5NQ==",
-    "avatar_url": "https://avatars3.githubusercontent.com/u/318295?u=7b6ab2887e994c2b4fc7febfdea3b7b0c7ab7a2d&v=4",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/318295?v=4",
     "gravatar_id": "",
     "url": "https://api.github.com/users/ianjennings",
     "html_url": "https://github.com/ianjennings",
@@ -102,7 +138,16 @@
     "received_events_url": "https://api.github.com/users/ianjennings/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Mentors"
+    "pod": "Mentors",
+    "name": "Ian Jennings",
+    "bio": "Last of the freelance hackers, greatest sword fighter in the world.",
+    "company": "@haxordx ",
+    "email": "ian@meetjennings.com",
+    "location": "Austin, TX",
+    "twitterUsername": null,
+    "websiteUrl": "http://jnnngs.com",
+    "followers": 82,
+    "following": 52
   },
   {
     "login": "theycallmeswift",
@@ -123,7 +168,16 @@
     "received_events_url": "https://api.github.com/users/theycallmeswift/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Mentors"
+    "pod": "Mentors",
+    "name": "Swift",
+    "bio": "",
+    "company": "Major League Hacking (MLH)",
+    "email": "",
+    "location": "New York, New York",
+    "twitterUsername": "swiftalphaone",
+    "websiteUrl": "http://www.twitter.com/swiftalphaone",
+    "followers": 341,
+    "following": 8
   },
   {
     "login": "jevakallio",
@@ -144,7 +198,16 @@
     "received_events_url": "https://api.github.com/users/jevakallio/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Mentors"
+    "pod": "Mentors",
+    "name": "Jani Eväkallio",
+    "bio": "",
+    "company": null,
+    "email": "jani.evakallio@gmail.com",
+    "location": "London",
+    "twitterUsername": "jevakallio",
+    "websiteUrl": "https://jevakallio.dev",
+    "followers": 701,
+    "following": 0
   },
   {
     "login": "zencephalon",
@@ -165,7 +228,16 @@
     "received_events_url": "https://api.github.com/users/zencephalon/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Mentors"
+    "pod": "Mentors",
+    "name": "Matthew Bunday",
+    "bio": "Supfam founder. Formerly: @fabrictech, @AltSchool, @Travelytix, @google, @devbootcamp, @sailthru, @hackny 2012 fellow.",
+    "company": "@fabrictech ",
+    "email": "mkbunday@gmail.com",
+    "location": "New York, NY",
+    "twitterUsername": null,
+    "websiteUrl": "http://zencephalon.com/",
+    "followers": 197,
+    "following": 121
   },
   {
     "login": "flosincapite",
@@ -186,7 +258,16 @@
     "received_events_url": "https://api.github.com/users/flosincapite/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Mentors"
+    "pod": "Mentors",
+    "name": "Cory",
+    "bio": "freelance full-stack engineer and computational linguist",
+    "company": null,
+    "email": "cory.massaro@gmail.com",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 9,
+    "following": 3
   },
   {
     "login": "PrabhanshuAttri",
@@ -207,7 +288,16 @@
     "received_events_url": "https://api.github.com/users/PrabhanshuAttri/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.1.1"
+    "pod": "Pod 0.1.1",
+    "name": "Prabhanshu Attri",
+    "bio": "I am a Grad Student at @nyu (New York University), Tech Speaker, Open Source Enthusiast, IEEE CS Richard E Merwin Scholar and founder of @forksociety",
+    "company": "@forksociety @Bytewalkers ",
+    "email": "",
+    "location": "New York",
+    "twitterUsername": null,
+    "websiteUrl": "https://prabhanshu.com",
+    "followers": 58,
+    "following": 62
   },
   {
     "login": "daschachter",
@@ -228,7 +318,16 @@
     "received_events_url": "https://api.github.com/users/daschachter/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.1.1"
+    "pod": "Pod 0.1.1",
+    "name": "Darren Schachter",
+    "bio": "",
+    "company": null,
+    "email": "",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 4,
+    "following": 0
   },
   {
     "login": "lincolnmroth",
@@ -249,7 +348,16 @@
     "received_events_url": "https://api.github.com/users/lincolnmroth/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.1.1"
+    "pod": "Pod 0.1.1",
+    "name": "Lincoln Roth",
+    "bio": "Rutgers Mechanical Engineering and Computer Science Student with a passion for robotics",
+    "company": "President at @PHSCRC, Founder @hackPrincetonHS",
+    "email": "lincoln.roth@rutgers.edu",
+    "location": "Princeton, NJ",
+    "twitterUsername": null,
+    "websiteUrl": "lincolnroth.com",
+    "followers": 12,
+    "following": 17
   },
   {
     "login": "Korusuke",
@@ -270,7 +378,16 @@
     "received_events_url": "https://api.github.com/users/Korusuke/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.1.1"
+    "pod": "Pod 0.1.1",
+    "name": "Karan Sheth",
+    "bio": "Scrape Everything!",
+    "company": null,
+    "email": "karan.sheth@somaiya.edu",
+    "location": null,
+    "twitterUsername": "kiteretsu_",
+    "websiteUrl": "https://kiteretsu.tech/",
+    "followers": 75,
+    "following": 56
   },
   {
     "login": "Edalinee",
@@ -291,7 +408,16 @@
     "received_events_url": "https://api.github.com/users/Edalinee/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.1.1"
+    "pod": "Pod 0.1.1",
+    "name": null,
+    "bio": "",
+    "company": null,
+    "email": "edalinee@gmail.com",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 5,
+    "following": 1
   },
   {
     "login": "kpolnitz",
@@ -312,7 +438,16 @@
     "received_events_url": "https://api.github.com/users/kpolnitz/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.1.1"
+    "pod": "Pod 0.1.1",
+    "name": "Kaela Polnitz",
+    "bio": "My name is Kaela Polnitz and I am a Math of Computation (Mathematics and Computer Science) student at UCLA with expected graduation date June 2020.",
+    "company": null,
+    "email": "kaelanpolnitz@gmail.com",
+    "location": "Monrovia, CA",
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 4,
+    "following": 0
   },
   {
     "login": "parthivc",
@@ -333,7 +468,16 @@
     "received_events_url": "https://api.github.com/users/parthivc/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.1.1"
+    "pod": "Pod 0.1.1",
+    "name": "Parthiv Chigurupati",
+    "bio": "",
+    "company": "MLH Fellowship",
+    "email": "",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": "https://www.linkedin.com/in/parthiv-chigurupati/",
+    "followers": 4,
+    "following": 4
   },
   {
     "login": "AmirYalamov",
@@ -354,7 +498,16 @@
     "received_events_url": "https://api.github.com/users/AmirYalamov/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.1.1"
+    "pod": "Pod 0.1.1",
+    "name": "Amir Yalamov",
+    "bio": "CS at Western University | Software Developer @deltaStackTO",
+    "company": "University of Western Ontario",
+    "email": "amir.yalamov@gmail.com",
+    "location": "Toronto, ON, Canada",
+    "twitterUsername": null,
+    "websiteUrl": "https://yalamov.com/",
+    "followers": 29,
+    "following": 38
   },
   {
     "login": "rubywerman",
@@ -375,7 +528,16 @@
     "received_events_url": "https://api.github.com/users/rubywerman/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.1.1"
+    "pod": "Pod 0.1.1",
+    "name": "Ruby Werman",
+    "bio": "UC Berkeley 2022",
+    "company": "@MLH-Fellowship ",
+    "email": "",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": "rubywerman.me",
+    "followers": 6,
+    "following": 7
   },
   {
     "login": "stellaw1",
@@ -396,7 +558,16 @@
     "received_events_url": "https://api.github.com/users/stellaw1/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.1.1"
+    "pod": "Pod 0.1.1",
+    "name": "Stella W",
+    "bio": "2nd year Computer Engineering student",
+    "company": "University of British Columbia",
+    "email": "",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": "stellawang.com",
+    "followers": 20,
+    "following": 40
   },
   {
     "login": "rithvikrao",
@@ -417,7 +588,16 @@
     "received_events_url": "https://api.github.com/users/rithvikrao/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.1.2"
+    "pod": "Pod 0.1.2",
+    "name": "Rithvik Rao",
+    "bio": "Harvard College '22",
+    "company": null,
+    "email": "rithvikrao@college.harvard.edu",
+    "location": "Cambridge, MA",
+    "twitterUsername": null,
+    "websiteUrl": "rithvikrao.com",
+    "followers": 2,
+    "following": 2
   },
   {
     "login": "lucylow",
@@ -438,7 +618,16 @@
     "received_events_url": "https://api.github.com/users/lucylow/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.1.2"
+    "pod": "Pod 0.1.2",
+    "name": "づ｡◕‿◕｡)づ",
+    "bio": "",
+    "company": null,
+    "email": "llow@uwaterloo.ca",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": "www.lucylow.com",
+    "followers": 25,
+    "following": 24
   },
   {
     "login": "honsontran",
@@ -459,7 +648,16 @@
     "received_events_url": "https://api.github.com/users/honsontran/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.1.2"
+    "pod": "Pod 0.1.2",
+    "name": "Honson Tran",
+    "bio": null,
+    "company": null,
+    "email": "honsontran@gmail.com",
+    "location": "United States",
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 6,
+    "following": 3
   },
   {
     "login": "joshuacwnewton",
@@ -480,7 +678,16 @@
     "received_events_url": "https://api.github.com/users/joshuacwnewton/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.1.2"
+    "pod": "Pod 0.1.2",
+    "name": "Joshua Newton",
+    "bio": "ECE BEng interested in open-source projects, computer vision, and data analysis. Python, OpenCV, PyTorch, Numpy, Scitools, Pandas, and more to come!",
+    "company": null,
+    "email": "joshuacwnewton@gmail.com",
+    "location": "Victoria, BC",
+    "twitterUsername": null,
+    "websiteUrl": "https://www.linkedin.com/in/joshuacwnewton/",
+    "followers": 4,
+    "following": 7
   },
   {
     "login": "akainth015",
@@ -501,7 +708,16 @@
     "received_events_url": "https://api.github.com/users/akainth015/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.1.2"
+    "pod": "Pod 0.1.2",
+    "name": "Aanand Kainth",
+    "bio": "Polyglot developer studying computer science at UC Santa Cruz",
+    "company": null,
+    "email": "aanand@akainth.me",
+    "location": "San Jose, California",
+    "twitterUsername": null,
+    "websiteUrl": "https://akainth.me",
+    "followers": 10,
+    "following": 6
   },
   {
     "login": "jackyzha0",
@@ -522,7 +738,16 @@
     "received_events_url": "https://api.github.com/users/jackyzha0/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.1.2"
+    "pod": "Pod 0.1.2",
+    "name": "Jacky Zhao",
+    "bio": "@MLH-Fellowship '20 | @ubc cs",
+    "company": "currently @hootsuite",
+    "email": "j.zhao2k19@gmail.com",
+    "location": "Vancouver, Canada",
+    "twitterUsername": null,
+    "websiteUrl": "jzhao.xyz",
+    "followers": 86,
+    "following": 69
   },
   {
     "login": "ktakattack",
@@ -543,7 +768,16 @@
     "received_events_url": "https://api.github.com/users/ktakattack/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.1.2"
+    "pod": "Pod 0.1.2",
+    "name": "Kristi Takach",
+    "bio": "",
+    "company": "CS student at Kent State University",
+    "email": "",
+    "location": "Cleveland, OH",
+    "twitterUsername": null,
+    "websiteUrl": "http://kristi.codes",
+    "followers": 1,
+    "following": 0
   },
   {
     "login": "yashika51",
@@ -564,7 +798,16 @@
     "received_events_url": "https://api.github.com/users/yashika51/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.1.2"
+    "pod": "Pod 0.1.2",
+    "name": "Yashika Sharma ",
+    "bio": "B.Tech computer science student with curiosity in Deep Learning.  \r\n\r\nhttps://twitter.com/yashika51\r\n\r\n",
+    "company": "@Omdena",
+    "email": "",
+    "location": "New Delhi",
+    "twitterUsername": null,
+    "websiteUrl": "http://yashika51.tech/",
+    "followers": 13,
+    "following": 16
   },
   {
     "login": "ngojason9",
@@ -585,7 +828,16 @@
     "received_events_url": "https://api.github.com/users/ngojason9/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.1.2"
+    "pod": "Pod 0.1.2",
+    "name": "Jason Ngo",
+    "bio": "B.A. in Mathematics and Computer Science",
+    "company": "Haverford College '21 (student)",
+    "email": "ngojason9@gmail.com",
+    "location": "Haverford, Pennsylvania",
+    "twitterUsername": null,
+    "websiteUrl": "https://jasonngo.net",
+    "followers": 5,
+    "following": 2
   },
   {
     "login": "xiwang129",
@@ -606,7 +858,16 @@
     "received_events_url": "https://api.github.com/users/xiwang129/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.1.2"
+    "pod": "Pod 0.1.2",
+    "name": "Amy Wang",
+    "bio": "",
+    "company": null,
+    "email": "",
+    "location": "New York, NY",
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 1,
+    "following": 0
   },
   {
     "login": "zencephalon",
@@ -627,7 +888,16 @@
     "received_events_url": "https://api.github.com/users/zencephalon/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.0.1"
+    "pod": "Pod 0.0.1",
+    "name": "Matthew Bunday",
+    "bio": "Supfam founder. Formerly: @fabrictech, @AltSchool, @Travelytix, @google, @devbootcamp, @sailthru, @hackny 2012 fellow.",
+    "company": "@fabrictech ",
+    "email": "mkbunday@gmail.com",
+    "location": "New York, NY",
+    "twitterUsername": null,
+    "websiteUrl": "http://zencephalon.com/",
+    "followers": 197,
+    "following": 121
   },
   {
     "login": "whoiswillma",
@@ -648,7 +918,16 @@
     "received_events_url": "https://api.github.com/users/whoiswillma/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.0.1"
+    "pod": "Pod 0.0.1",
+    "name": "William Ma",
+    "bio": "Cornell Engineering '22, Computer Science",
+    "company": null,
+    "email": "",
+    "location": "Ithaca, NY",
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 3,
+    "following": 7
   },
   {
     "login": "awasum",
@@ -669,7 +948,16 @@
     "received_events_url": "https://api.github.com/users/awasum/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.0.1"
+    "pod": "Pod 0.0.1",
+    "name": "Awasum Yannick",
+    "bio": "Making life easier with Tech.",
+    "company": null,
+    "email": "awasum@apache.org",
+    "location": "Buea, Cameroon",
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 31,
+    "following": 1
   },
   {
     "login": "emctackett",
@@ -690,7 +978,16 @@
     "received_events_url": "https://api.github.com/users/emctackett/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.0.1"
+    "pod": "Pod 0.0.1",
+    "name": "Elizabeth Tackett",
+    "bio": "",
+    "company": null,
+    "email": "emctackett@gmail.com",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 9,
+    "following": 1
   },
   {
     "login": "larson-carter",
@@ -711,7 +1008,16 @@
     "received_events_url": "https://api.github.com/users/larson-carter/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.0.1"
+    "pod": "Pod 0.0.1",
+    "name": "Larson Carter",
+    "bio": "Maintainer of @ohmyzsh working alongside @mcornella and @robbyrussell",
+    "company": "@ohmyzsh and @Operation-Jupiter ",
+    "email": "larsoncarter@blazermail.net",
+    "location": "Arkansas, USA",
+    "twitterUsername": "larsonc_",
+    "websiteUrl": "https://www.linkedin.com/in/larson-carter/",
+    "followers": 66,
+    "following": 58
   },
   {
     "login": "BaffourAdu",
@@ -732,7 +1038,16 @@
     "received_events_url": "https://api.github.com/users/BaffourAdu/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.0.1"
+    "pod": "Pod 0.0.1",
+    "name": "Baffour Adu Boampong",
+    "bio": "Passionate Coder and Learner. PHP / Laravel lover and a fun of Node.js. Hit me up to be part of your next cool project ",
+    "company": null,
+    "email": "baffouraduboampong@gmail.com",
+    "location": "Accra - Ghana",
+    "twitterUsername": null,
+    "websiteUrl": "https://baffouraduboampong.me/",
+    "followers": 13,
+    "following": 7
   },
   {
     "login": "AlbertoPdRF",
@@ -753,7 +1068,16 @@
     "received_events_url": "https://api.github.com/users/AlbertoPdRF/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.0.1"
+    "pod": "Pod 0.0.1",
+    "name": "Alberto Pérez de Rada Fiol",
+    "bio": "Doing a PhD in Nuclear Physics",
+    "company": null,
+    "email": "apdrf.94@gmail.com",
+    "location": "Madrid, Spain",
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 7,
+    "following": 2
   },
   {
     "login": "lionellloh",
@@ -774,7 +1098,16 @@
     "received_events_url": "https://api.github.com/users/lionellloh/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.0.1"
+    "pod": "Pod 0.0.1",
+    "name": "Lionell Loh Jian An ",
+    "bio": "\"I go to seek a great perhaps\" ",
+    "company": null,
+    "email": "lionellloh@gmail.com",
+    "location": "Singapore ",
+    "twitterUsername": null,
+    "websiteUrl": "twitter.com/lionellloh",
+    "followers": 43,
+    "following": 66
   },
   {
     "login": "OPARA-PROSPER",
@@ -795,7 +1128,16 @@
     "received_events_url": "https://api.github.com/users/OPARA-PROSPER/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.0.1"
+    "pod": "Pod 0.0.1",
+    "name": "Prosper Opara",
+    "bio": "Fullstack Engineer | Technical Writer",
+    "company": null,
+    "email": "oparaprosper79@gmail.com",
+    "location": "Nigeria",
+    "twitterUsername": null,
+    "websiteUrl": "https://kodekage.netlify.app",
+    "followers": 61,
+    "following": 109
   },
   {
     "login": "adfaris",
@@ -816,7 +1158,16 @@
     "received_events_url": "https://api.github.com/users/adfaris/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.0.1"
+    "pod": "Pod 0.0.1",
+    "name": "A.D. Faris",
+    "bio": "Full stack web designer based in New Jersey. Proficient in JavaScript, Node, React, Mongodb and SQL.\r\nsoftware engineer",
+    "company": "raise.dev",
+    "email": "adfaris@gmail.com",
+    "location": "Glen Ridge, NJ",
+    "twitterUsername": null,
+    "websiteUrl": "www.ontherecord.us",
+    "followers": 6,
+    "following": 10
   },
   {
     "login": "Oghenebrume50",
@@ -837,7 +1188,16 @@
     "received_events_url": "https://api.github.com/users/Oghenebrume50/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.0.1"
+    "pod": "Pod 0.0.1",
+    "name": "Raphael Noriode",
+    "bio": "Software developer\r\nAvailable for Jobs and gigs, Hire me!!",
+    "company": null,
+    "email": "raphlbrume@gmail.com",
+    "location": "Nigeria",
+    "twitterUsername": null,
+    "websiteUrl": "http://raphaelnoriode.me",
+    "followers": 23,
+    "following": 25
   },
   {
     "login": "bartekpacia",
@@ -858,7 +1218,16 @@
     "received_events_url": "https://api.github.com/users/bartekpacia/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.0.1"
+    "pod": "Pod 0.0.1",
+    "name": "Bartek Pacia",
+    "bio": "Fullstack dev & technology enthusiast • Fellow @MLH-Fellowship •\r\nGoogle Code-in 2019 Grand Prize Winner & open-source maintainer @anitab-org • 18y",
+    "company": null,
+    "email": "barpac02@gmail.com",
+    "location": "Poland",
+    "twitterUsername": "bartekpacia",
+    "websiteUrl": "pacia.tech",
+    "followers": 73,
+    "following": 103
   },
   {
     "login": "nquinlan",
@@ -879,7 +1248,16 @@
     "received_events_url": "https://api.github.com/users/nquinlan/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.0.2"
+    "pod": "Pod 0.0.2",
+    "name": "Nick Quinlan",
+    "bio": null,
+    "company": "Major League Hacking",
+    "email": "nick@nicholasquinlan.com",
+    "location": "Seattle, WA",
+    "twitterUsername": null,
+    "websiteUrl": "http://nicholasquinlan.com",
+    "followers": 175,
+    "following": 50
   },
   {
     "login": "ralph-dev",
@@ -900,7 +1278,16 @@
     "received_events_url": "https://api.github.com/users/ralph-dev/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.2.1"
+    "pod": "Pod 0.2.1",
+    "name": "Ralph Maamari",
+    "bio": "Entrepreneur & passionate open-source developer who loves Hackathons and working with distributed systems! ",
+    "company": "@CheaprEats ",
+    "email": "ralphpal@hotmail.com",
+    "location": "Toronto",
+    "twitterUsername": null,
+    "websiteUrl": "https://ca.linkedin.com/in/ralphmaamari",
+    "followers": 39,
+    "following": 3
   },
   {
     "login": "shu8",
@@ -921,7 +1308,16 @@
     "received_events_url": "https://api.github.com/users/shu8/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.2.1"
+    "pod": "Pod 0.2.1",
+    "name": "Shubham",
+    "bio": "1st Year Computer Science \r\nUndergraduate. Keen on full-stack & mobile app development.",
+    "company": null,
+    "email": "shubham@sjain.dev",
+    "location": "England, UK",
+    "twitterUsername": null,
+    "websiteUrl": "www.sjain.dev",
+    "followers": 20,
+    "following": 20
   },
   {
     "login": "erin2722",
@@ -942,7 +1338,16 @@
     "received_events_url": "https://api.github.com/users/erin2722/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.2.1"
+    "pod": "Pod 0.2.1",
+    "name": "Erin McNulty",
+    "bio": "Lawrenceville '19\r\nColumbia University '23",
+    "company": "@spectatorpublishing ",
+    "email": "erin2722@gmail.com",
+    "location": "New York, NY",
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 9,
+    "following": 9
   },
   {
     "login": "sebastiancrossa",
@@ -963,7 +1368,16 @@
     "received_events_url": "https://api.github.com/users/sebastiancrossa/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.2.1"
+    "pod": "Pod 0.2.1",
+    "name": "Sebastian Crossa",
+    "bio": "Computer science student & maker.",
+    "company": null,
+    "email": "",
+    "location": "Zapopan, Jalisco",
+    "twitterUsername": null,
+    "websiteUrl": "https://www.linkedin.com/in/sebastiancrossa/",
+    "followers": 33,
+    "following": 57
   },
   {
     "login": "kendevops",
@@ -984,7 +1398,16 @@
     "received_events_url": "https://api.github.com/users/kendevops/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.2.1"
+    "pod": "Pod 0.2.1",
+    "name": "KENNETH ALADI",
+    "bio": "",
+    "company": null,
+    "email": "",
+    "location": "Remote",
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 5,
+    "following": 5
   },
   {
     "login": "nchaloult",
@@ -1005,7 +1428,16 @@
     "received_events_url": "https://api.github.com/users/nchaloult/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.2.1"
+    "pod": "Pod 0.2.1",
+    "name": "Nick Chaloult",
+    "bio": "Computer Science student at Georgia Tech. Has a passion for learning about new technologies, and loves discovering better ways to do things.",
+    "company": null,
+    "email": "",
+    "location": "Atlanta, GA",
+    "twitterUsername": null,
+    "websiteUrl": "nchaloult.com",
+    "followers": 1,
+    "following": 1
   },
   {
     "login": "mohammedsahl",
@@ -1026,7 +1458,16 @@
     "received_events_url": "https://api.github.com/users/mohammedsahl/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.2.1"
+    "pod": "Pod 0.2.1",
+    "name": "Mohammed Sahl",
+    "bio": "CS 2023 @uWaterloo \\\\ @MLH-Fellowship \\\\ previously at @workmarket",
+    "company": null,
+    "email": "",
+    "location": "Waterloo, Canada",
+    "twitterUsername": null,
+    "websiteUrl": "linkedin.com/in/mohammed-sahl/",
+    "followers": 2,
+    "following": 7
   },
   {
     "login": "cedricgrothues",
@@ -1047,7 +1488,16 @@
     "received_events_url": "https://api.github.com/users/cedricgrothues/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.2.1"
+    "pod": "Pod 0.2.1",
+    "name": "Cedric Grothues",
+    "bio": "Computer Science student and Software Engineer. Mostly @flutter, @rust-lang and Swift/Objective-C",
+    "company": "@MLH-Fellowship",
+    "email": "cedricgrothues@gmail.com",
+    "location": "Bielefeld, Germany",
+    "twitterUsername": "cedricgrothues",
+    "websiteUrl": "https://cedricgrothues.com",
+    "followers": 1,
+    "following": 1
   },
   {
     "login": "barronwei",
@@ -1068,7 +1518,16 @@
     "received_events_url": "https://api.github.com/users/barronwei/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.2.1"
+    "pod": "Pod 0.2.1",
+    "name": "Barron Wei",
+    "bio": "CS @harvard",
+    "company": null,
+    "email": "",
+    "location": "Cambridge, Massachusetts",
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 9,
+    "following": 10
   },
   {
     "login": "ivov",
@@ -1089,7 +1548,16 @@
     "received_events_url": "https://api.github.com/users/ivov/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.2.1"
+    "pod": "Pod 0.2.1",
+    "name": "Iván Ovejero",
+    "bio": "CS Student | MLH Fellow",
+    "company": "@MLH-Fellowship",
+    "email": "ivov.src@gmail.com",
+    "location": "Buenos Aires, Argentina",
+    "twitterUsername": null,
+    "websiteUrl": "ivov.dev",
+    "followers": 8,
+    "following": 14
   },
   {
     "login": "garrettluu",
@@ -1110,7 +1578,16 @@
     "received_events_url": "https://api.github.com/users/garrettluu/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.2.2"
+    "pod": "Pod 0.2.2",
+    "name": "Garrett Luu",
+    "bio": "Undergraduate Computer Science student at UCSD. Most of my activity is related to programming assignments, but I do regularly work on personal projects.",
+    "company": "UC San Diego",
+    "email": "contact@garrettluu.com",
+    "location": "Garden Grove, CA",
+    "twitterUsername": null,
+    "websiteUrl": "garrettluu.com",
+    "followers": 21,
+    "following": 25
   },
   {
     "login": "penguingovernor",
@@ -1131,7 +1608,16 @@
     "received_events_url": "https://api.github.com/users/penguingovernor/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.2.2"
+    "pod": "Pod 0.2.2",
+    "name": "Jorge Henriquez",
+    "bio": "Undergraduate Computer Engineering Student",
+    "company": null,
+    "email": "",
+    "location": "University of California, Santa Cruz",
+    "twitterUsername": null,
+    "websiteUrl": "penguingovernor.github.io",
+    "followers": 8,
+    "following": 3
   },
   {
     "login": "nicoledanuwidjaja",
@@ -1152,7 +1638,16 @@
     "received_events_url": "https://api.github.com/users/nicoledanuwidjaja/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.2.2"
+    "pod": "Pod 0.2.2",
+    "name": "Nicole Danuwidjaja",
+    "bio": "WHOOP WHOOP",
+    "company": "Northeastern University - CS/BA",
+    "email": "danuwidjajanicole@gmail.com",
+    "location": "Sacramento, CA",
+    "twitterUsername": null,
+    "websiteUrl": "www.danuwidjaja.com",
+    "followers": 13,
+    "following": 11
   },
   {
     "login": "kirbygit",
@@ -1173,7 +1668,16 @@
     "received_events_url": "https://api.github.com/users/kirbygit/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.2.2"
+    "pod": "Pod 0.2.2",
+    "name": "Kirby Fernandez",
+    "bio": "",
+    "company": null,
+    "email": "",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 69,
+    "following": 7
   },
   {
     "login": "Shraddha2104",
@@ -1194,7 +1698,16 @@
     "received_events_url": "https://api.github.com/users/Shraddha2104/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.2.2"
+    "pod": "Pod 0.2.2",
+    "name": "shraddha shaligram",
+    "bio": "MS in CS @ USC  | Software Developer | Data Junkie",
+    "company": "University of Southern California",
+    "email": "sshaligr@usc.edu",
+    "location": "California",
+    "twitterUsername": null,
+    "websiteUrl": "https://shraddha2104.github.io/",
+    "followers": 28,
+    "following": 58
   },
   {
     "login": "wlawt",
@@ -1215,7 +1728,16 @@
     "received_events_url": "https://api.github.com/users/wlawt/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.2.2"
+    "pod": "Pod 0.2.2",
+    "name": "William Law",
+    "bio": "Typing for a living 🙃😎",
+    "company": "CS @ uWaterloo '25",
+    "email": "williamlaw.wtl@gmail.com",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": "https://wlawt.com/",
+    "followers": 17,
+    "following": 16
   },
   {
     "login": "yahengsu",
@@ -1236,7 +1758,16 @@
     "received_events_url": "https://api.github.com/users/yahengsu/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.2.2"
+    "pod": "Pod 0.2.2",
+    "name": "YaHeng Su",
+    "bio": "Computer Engineering @uWaterloo",
+    "company": null,
+    "email": "yaheng.su1@gmail.com",
+    "location": "Waterloo, Ontario, Canada",
+    "twitterUsername": null,
+    "websiteUrl": "https://yaheng.io",
+    "followers": 31,
+    "following": 36
   },
   {
     "login": "aemmadi",
@@ -1257,7 +1788,16 @@
     "received_events_url": "https://api.github.com/users/aemmadi/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.2.2"
+    "pod": "Pod 0.2.2",
+    "name": "Anirudh Emmadi",
+    "bio": "Comp Sci undergrad at University of Texas at Dallas | Web Development, Javascript & Mobile Development",
+    "company": null,
+    "email": "kanna6501@gmail.com",
+    "location": "Dallas, TX United States",
+    "twitterUsername": null,
+    "websiteUrl": "anirudhemmadi.com",
+    "followers": 32,
+    "following": 43
   },
   {
     "login": "srijonsaha",
@@ -1278,7 +1818,16 @@
     "received_events_url": "https://api.github.com/users/srijonsaha/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.2.2"
+    "pod": "Pod 0.2.2",
+    "name": "Srijon Saha",
+    "bio": "",
+    "company": null,
+    "email": "",
+    "location": "Vancouver, Canada",
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 1,
+    "following": 0
   },
   {
     "login": "janiewang26",
@@ -1299,7 +1848,16 @@
     "received_events_url": "https://api.github.com/users/janiewang26/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.2.2"
+    "pod": "Pod 0.2.2",
+    "name": null,
+    "bio": null,
+    "company": null,
+    "email": "",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 0,
+    "following": 0
   },
   {
     "login": "zzj0402",
@@ -1320,7 +1878,16 @@
     "received_events_url": "https://api.github.com/users/zzj0402/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.3.1"
+    "pod": "Pod 0.3.1",
+    "name": "张梓径",
+    "bio": "Migrated to GitLab @zzj0402",
+    "company": "University of Waikato",
+    "email": "zzj0402@gmail.com",
+    "location": "Hamilton, New Zealand",
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 7,
+    "following": 31
   },
   {
     "login": "michiboo",
@@ -1341,7 +1908,16 @@
     "received_events_url": "https://api.github.com/users/michiboo/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.3.1"
+    "pod": "Pod 0.3.1",
+    "name": null,
+    "bio": "",
+    "company": null,
+    "email": "",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 14,
+    "following": 11
   },
   {
     "login": "LakshyaKhatri",
@@ -1362,7 +1938,16 @@
     "received_events_url": "https://api.github.com/users/LakshyaKhatri/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.3.1"
+    "pod": "Pod 0.3.1",
+    "name": "Lakshya Khatri",
+    "bio": "In case of fire:\r\n1. git commit\r\n2. git push\r\n3. Exit.",
+    "company": null,
+    "email": "lakshyak67@gmail.com",
+    "location": "Indore, Madhya Pradesh, India",
+    "twitterUsername": "lakshyakhatri_",
+    "websiteUrl": "https://www.linkedin.com/in/lakshya-khatri-39ba06137",
+    "followers": 14,
+    "following": 17
   },
   {
     "login": "mgautam98",
@@ -1383,7 +1968,16 @@
     "received_events_url": "https://api.github.com/users/mgautam98/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.3.1"
+    "pod": "Pod 0.3.1",
+    "name": "Gautam Mishra",
+    "bio": "MLH'20 Fellow | Junior NIT Goa \r\n",
+    "company": "@MLH",
+    "email": "mishragautam96@gmail.com",
+    "location": "Goa, India",
+    "twitterUsername": "mishragautam96",
+    "websiteUrl": "mgautam.me",
+    "followers": 24,
+    "following": 36
   },
   {
     "login": "avik-pal",
@@ -1404,7 +1998,16 @@
     "received_events_url": "https://api.github.com/users/avik-pal/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.3.1"
+    "pod": "Pod 0.3.1",
+    "name": "Avik Pal",
+    "bio": "Research Intern UofT/Vector Institute, Junior Undergrad CSE IIT Kanpur. GSoC '18, 19 @JuliaLang (@FluxML)",
+    "company": "Indian Institute of Technology, Kanpur",
+    "email": "avikpal@iitk.ac.in",
+    "location": "Toronto, ON | Kanpur, India",
+    "twitterUsername": null,
+    "websiteUrl": "https://avik-pal.github.io",
+    "followers": 158,
+    "following": 31
   },
   {
     "login": "dnabanita7",
@@ -1425,7 +2028,16 @@
     "received_events_url": "https://api.github.com/users/dnabanita7/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.3.1"
+    "pod": "Pod 0.3.1",
+    "name": "Nabanita Dash",
+    "bio": "@MLH'20 fellow, @JSoC'20, speaker/mentor @girlscriptbbsr   Prev : Intern @PredictivEye, @VaridusSG, GCI'19 mentor @JuliaLanguage, Chair ACM, Bhubaneswar Chapter",
+    "company": "@MLH",
+    "email": "dashnabanita@gmail.com",
+    "location": "India",
+    "twitterUsername": "explorer_07",
+    "websiteUrl": null,
+    "followers": 63,
+    "following": 231
   },
   {
     "login": "kanav99",
@@ -1446,7 +2058,16 @@
     "received_events_url": "https://api.github.com/users/kanav99/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.3.1"
+    "pod": "Pod 0.3.1",
+    "name": "Kanav Gupta",
+    "bio": "Mathematics enthusiast. Newbie Cryptographer in day, Julia developer at night. Likes to play CTF occaisionally.",
+    "company": "@sdslabs, @SciML",
+    "email": "",
+    "location": "Roorkee",
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 63,
+    "following": 57
   },
   {
     "login": "Biswajitghosh98",
@@ -1467,7 +2088,16 @@
     "received_events_url": "https://api.github.com/users/Biswajitghosh98/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.3.1"
+    "pod": "Pod 0.3.1",
+    "name": "Biswajit Ghosh",
+    "bio": "*Studying Mathematics and Computing at IIT Kharagpur\r\n*Software Team member at Aerial Robotics Kharagpur",
+    "company": null,
+    "email": "",
+    "location": "Indian Institute of Technology, Kharagpur",
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 23,
+    "following": 51
   },
   {
     "login": "Diaga",
@@ -1488,7 +2118,16 @@
     "received_events_url": "https://api.github.com/users/Diaga/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.3.1"
+    "pod": "Pod 0.3.1",
+    "name": "Maaz Bin Tahir Saeed",
+    "bio": "",
+    "company": null,
+    "email": "",
+    "location": "NUST, Islamabad, Pakistan",
+    "twitterUsername": null,
+    "websiteUrl": "https://www.linkedin.com/in/maaz-bin-tahir-saeed-752950197/",
+    "followers": 12,
+    "following": 7
   },
   {
     "login": "RashikaKarki",
@@ -1509,7 +2148,16 @@
     "received_events_url": "https://api.github.com/users/RashikaKarki/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.3.1"
+    "pod": "Pod 0.3.1",
+    "name": "Rashika Karki",
+    "bio": "Computer Engineering Undergrad Student",
+    "company": "@MSPNepal ",
+    "email": "",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 18,
+    "following": 21
   },
   {
     "login": "jiviteshjain",
@@ -1530,7 +2178,16 @@
     "received_events_url": "https://api.github.com/users/jiviteshjain/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.3.1"
+    "pod": "Pod 0.3.1",
+    "name": "Jivitesh Jain",
+    "bio": "I like my coffee with a dash of cream, sprinkle of sugar, and a snippet of code!",
+    "company": "International Institute of Information Technology, Hyderabad",
+    "email": "",
+    "location": "India",
+    "twitterUsername": null,
+    "websiteUrl": "web.iiit.ac.in/~jivitesh.jain",
+    "followers": 50,
+    "following": 72
   },
   {
     "login": "darshkpatel",
@@ -1551,7 +2208,16 @@
     "received_events_url": "https://api.github.com/users/darshkpatel/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.3.2"
+    "pod": "Pod 0.3.2",
+    "name": "Darsh Patel",
+    "bio": "Full Stack Developer, DevOps Ninja",
+    "company": null,
+    "email": "darshkpatel@gmail.com",
+    "location": "India",
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 33,
+    "following": 0
   },
   {
     "login": "chuabingquan",
@@ -1572,7 +2238,16 @@
     "received_events_url": "https://api.github.com/users/chuabingquan/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.3.2"
+    "pod": "Pod 0.3.2",
+    "name": "Bing Quan",
+    "bio": "",
+    "company": null,
+    "email": "",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 29,
+    "following": 3
   },
   {
     "login": "SimplyBallistic",
@@ -1593,7 +2268,16 @@
     "received_events_url": "https://api.github.com/users/SimplyBallistic/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.3.2"
+    "pod": "Pod 0.3.2",
+    "name": "Ryan Samarakoon",
+    "bio": "Let's build the future together, one line at a time\r\n",
+    "company": null,
+    "email": "",
+    "location": "Melbourne, Australia",
+    "twitterUsername": null,
+    "websiteUrl": "http://ryan-s.me",
+    "followers": 11,
+    "following": 5
   },
   {
     "login": "FocalChord",
@@ -1614,7 +2298,16 @@
     "received_events_url": "https://api.github.com/users/FocalChord/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.3.2"
+    "pod": "Pod 0.3.2",
+    "name": "Nisarag",
+    "bio": "trying to swim from something bigger than me",
+    "company": null,
+    "email": "",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 60,
+    "following": 124
   },
   {
     "login": "laveesh",
@@ -1635,7 +2328,16 @@
     "received_events_url": "https://api.github.com/users/laveesh/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.3.2"
+    "pod": "Pod 0.3.2",
+    "name": "Laveesh Gupta",
+    "bio": "",
+    "company": null,
+    "email": "",
+    "location": "India",
+    "twitterUsername": null,
+    "websiteUrl": "https://laveesh.js.org/",
+    "followers": 10,
+    "following": 8
   },
   {
     "login": "anshulrgoyal",
@@ -1656,7 +2358,16 @@
     "received_events_url": "https://api.github.com/users/anshulrgoyal/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.3.2"
+    "pod": "Pod 0.3.2",
+    "name": "Anshul Goyal",
+    "bio": "The difference between successful people and very successful people is that very successful people say no to almost everything.— Warren Buffett",
+    "company": null,
+    "email": "",
+    "location": "india",
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 25,
+    "following": 0
   },
   {
     "login": "eKhattak",
@@ -1677,7 +2388,16 @@
     "received_events_url": "https://api.github.com/users/eKhattak/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.3.2"
+    "pod": "Pod 0.3.2",
+    "name": "Arsalan Khattak",
+    "bio": "Fan of JavaScript, Studying Computer Science",
+    "company": null,
+    "email": "",
+    "location": "Pakistan",
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 24,
+    "following": 0
   },
   {
     "login": "Drewbi",
@@ -1698,7 +2418,16 @@
     "received_events_url": "https://api.github.com/users/Drewbi/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.3.2"
+    "pod": "Pod 0.3.2",
+    "name": "Drew Alexander",
+    "bio": "Just a hackman in a hackworld",
+    "company": null,
+    "email": "22423862@student.uwa.edu.au",
+    "location": "Perth, Western Australia ",
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 18,
+    "following": 37
   },
   {
     "login": "teikjun",
@@ -1719,7 +2448,16 @@
     "received_events_url": "https://api.github.com/users/teikjun/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.3.2"
+    "pod": "Pod 0.3.2",
+    "name": "Teik Jun",
+    "bio": "Computer Science undergrad at NUS :D ",
+    "company": null,
+    "email": "",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 1,
+    "following": 1
   },
   {
     "login": "taneliang",
@@ -1740,7 +2478,16 @@
     "received_events_url": "https://api.github.com/users/taneliang/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.4.1"
+    "pod": "Pod 0.4.1",
+    "name": "E-Liang Tan",
+    "bio": "Year 3 Computer Science student at the National University of Singapore",
+    "company": null,
+    "email": "eliang@eliangtan.com",
+    "location": "Singapore",
+    "twitterUsername": null,
+    "websiteUrl": "https://www.eliangtan.com",
+    "followers": 69,
+    "following": 19
   },
   {
     "login": "YashKumarVerma",
@@ -1761,7 +2508,16 @@
     "received_events_url": "https://api.github.com/users/YashKumarVerma/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.4.1"
+    "pod": "Pod 0.4.1",
+    "name": "Yash Kumar Verma",
+    "bio": "Young men, hear an old man to whom old men hearkened when he was young\r\nGoogle Code In Finalist-2017;\r\nMaintainer @fossasia @CircuitVerse",
+    "company": null,
+    "email": "yk.verma2000@gmail.com",
+    "location": "India",
+    "twitterUsername": null,
+    "websiteUrl": "gitstats.me/YashKumarVerma",
+    "followers": 84,
+    "following": 101
   },
   {
     "login": "anku255",
@@ -1782,7 +2538,16 @@
     "received_events_url": "https://api.github.com/users/anku255/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.4.1"
+    "pod": "Pod 0.4.1",
+    "name": "Ankit Tiwari",
+    "bio": "A CSE undergraduate from IIIT Kalyani, who loves working with JavaScript and open source. ",
+    "company": null,
+    "email": "ankitt255@gmail.com",
+    "location": "India",
+    "twitterUsername": "__anku__",
+    "websiteUrl": "https://anku.netlify.com",
+    "followers": 20,
+    "following": 0
   },
   {
     "login": "anikethsaha",
@@ -1803,7 +2568,16 @@
     "received_events_url": "https://api.github.com/users/anikethsaha/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.4.1"
+    "pod": "Pod 0.4.1",
+    "name": "Anix",
+    "bio": "❤️ Open Source | works mainly with javascript | always bet on plugins",
+    "company": null,
+    "email": "anik220798@gmail.com",
+    "location": null,
+    "twitterUsername": "anix_underscore",
+    "websiteUrl": null,
+    "followers": 84,
+    "following": 116
   },
   {
     "login": "sauravhiremath",
@@ -1824,7 +2598,16 @@
     "received_events_url": "https://api.github.com/users/sauravhiremath/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.4.1"
+    "pod": "Pod 0.4.1",
+    "name": "Saurav M H",
+    "bio": "MLH Fellow | Senior Core Member at Computer Society of India. | Software Developer",
+    "company": "Intern @MLH | @csivitu ",
+    "email": "sauravhiremath@gmail.com",
+    "location": "Mumbai, India",
+    "twitterUsername": null,
+    "websiteUrl": "sauravmh.me",
+    "followers": 12,
+    "following": 11
   },
   {
     "login": "saphal1998",
@@ -1845,7 +2628,16 @@
     "received_events_url": "https://api.github.com/users/saphal1998/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.4.1"
+    "pod": "Pod 0.4.1",
+    "name": "Saphal Patro",
+    "bio": "Delhi Technological University, Class of 2020.",
+    "company": "Delhi Technological University",
+    "email": "saphal1998@gmail.com",
+    "location": "New Delhi",
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 17,
+    "following": 61
   },
   {
     "login": "chirag-singhal",
@@ -1866,7 +2658,16 @@
     "received_events_url": "https://api.github.com/users/chirag-singhal/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.4.1"
+    "pod": "Pod 0.4.1",
+    "name": "CHIRAG SINGHAL",
+    "bio": "MLHFellow 2020 @MLH | GSoC 2019 @AOSSIE-Org | Sophomore | B.E.(Hons.) Computer Science | BITS Pilani, Pilani Campus | Frontend Developer at @dvm-bitspilani\r\n",
+    "company": null,
+    "email": "csinghal208@gmail.com",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 25,
+    "following": 20
   },
   {
     "login": "kunal-kushwaha",
@@ -1887,7 +2688,16 @@
     "received_events_url": "https://api.github.com/users/kunal-kushwaha/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.4.1"
+    "pod": "Pod 0.4.1",
+    "name": "Kunal Kushwaha",
+    "bio": "@MLH Fellow | Mentor GSoC, GCI, Student GSoC'19 @JBossOutreach | #MSFTStudentPartner | Open Source Enthusiast ☀️",
+    "company": "@JBossOutreach @codeforcauseorg",
+    "email": "kunalkushwaha453@gmail.com",
+    "location": "India",
+    "twitterUsername": "kush_kunal",
+    "websiteUrl": "https://www.linkedin.com/in/kunal-kushwaha/",
+    "followers": 151,
+    "following": 86
   },
   {
     "login": "manyaagarwal",
@@ -1908,7 +2718,16 @@
     "received_events_url": "https://api.github.com/users/manyaagarwal/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.4.1"
+    "pod": "Pod 0.4.1",
+    "name": "Manya Agarwal",
+    "bio": "I like to read and code! :) ",
+    "company": "@MLH-Fellowship ",
+    "email": "",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 8,
+    "following": 0
   },
   {
     "login": "jessieAnhNguyen",
@@ -1929,7 +2748,16 @@
     "received_events_url": "https://api.github.com/users/jessieAnhNguyen/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.4.1"
+    "pod": "Pod 0.4.1",
+    "name": "Jessie Anh Nguyen",
+    "bio": "Software Developer, Machine Learning Enthusiast, and an Advocator for Women in Tech.",
+    "company": "University of Rochester",
+    "email": "",
+    "location": "Rochester, NY",
+    "twitterUsername": null,
+    "websiteUrl": "https://www.linkedin.com/in/jessieanh/",
+    "followers": 6,
+    "following": 2
   },
   {
     "login": "SiddharthSham",
@@ -1950,7 +2778,16 @@
     "received_events_url": "https://api.github.com/users/SiddharthSham/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.4.2"
+    "pod": "Pod 0.4.2",
+    "name": "Siddharth Sham",
+    "bio": "Web Artisan & Data Scientist",
+    "company": null,
+    "email": "siddhsham@gmail.com",
+    "location": "Coimbatore, India",
+    "twitterUsername": null,
+    "websiteUrl": "https://siddharthsham.github.io",
+    "followers": 48,
+    "following": 20
   },
   {
     "login": "smartclash",
@@ -1971,7 +2808,16 @@
     "received_events_url": "https://api.github.com/users/smartclash/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.4.2"
+    "pod": "Pod 0.4.2",
+    "name": "xXAlphaManXx",
+    "bio": "Developer, Designer and DevOps Engineer. Nodejs, PHP, Golang.",
+    "company": "@InScrompT",
+    "email": "",
+    "location": "India",
+    "twitterUsername": null,
+    "websiteUrl": "https://alphaman.me/",
+    "followers": 26,
+    "following": 0
   },
   {
     "login": "harshil1712",
@@ -1992,7 +2838,16 @@
     "received_events_url": "https://api.github.com/users/harshil1712/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.4.2"
+    "pod": "Pod 0.4.2",
+    "name": "Harshil Agrawal",
+    "bio": "",
+    "company": null,
+    "email": "",
+    "location": "India",
+    "twitterUsername": null,
+    "websiteUrl": "harshil.dev",
+    "followers": 66,
+    "following": 7
   },
   {
     "login": "AnshG714",
@@ -2013,7 +2868,16 @@
     "received_events_url": "https://api.github.com/users/AnshG714/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.4.2"
+    "pod": "Pod 0.4.2",
+    "name": "Ansh Godha",
+    "bio": "Invested in developing tech for social impact!",
+    "company": "Cornell University",
+    "email": "anshgodha714@gmail.com",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 7,
+    "following": 5
   },
   {
     "login": "stealthanthrax",
@@ -2034,7 +2898,16 @@
     "received_events_url": "https://api.github.com/users/stealthanthrax/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.4.2"
+    "pod": "Pod 0.4.2",
+    "name": "Sanskar Jethi",
+    "bio": "MLH Fellow @MLH| Code Monkey. Sport Flunky. Music Junkie.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "company": "majorleaguehacking",
+    "email": "sansyrox@gmail.com",
+    "location": "Earth",
+    "twitterUsername": null,
+    "websiteUrl": "https://sanskar.me",
+    "followers": 134,
+    "following": 74
   },
   {
     "login": "ani4aniket",
@@ -2055,7 +2928,16 @@
     "received_events_url": "https://api.github.com/users/ani4aniket/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.4.2"
+    "pod": "Pod 0.4.2",
+    "name": "Aniket Kumar",
+    "bio": "Fellow @MLH Fellowship 2020\r\n| Full Stack | React | GraphQL | React Native |",
+    "company": "@MLH-Fellowship",
+    "email": "aniketkumar049@gmail.com",
+    "location": "Kolkata, India",
+    "twitterUsername": "ani4aniket",
+    "websiteUrl": "https://ianiket.live",
+    "followers": 37,
+    "following": 21
   },
   {
     "login": "SaurabhAgarwala",
@@ -2076,7 +2958,16 @@
     "received_events_url": "https://api.github.com/users/SaurabhAgarwala/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.4.2"
+    "pod": "Pod 0.4.2",
+    "name": "Saurabh Agarwala",
+    "bio": "",
+    "company": "@FOSSEE @IEEE-NITK @WebClub-NITK ",
+    "email": "saur.agarwala@gmail.com",
+    "location": "National Institute of Technology Karnataka, Surathkal",
+    "twitterUsername": null,
+    "websiteUrl": "https://saurabhagarwala.github.io",
+    "followers": 33,
+    "following": 56
   },
   {
     "login": "ayushjainrksh",
@@ -2097,7 +2988,16 @@
     "received_events_url": "https://api.github.com/users/ayushjainrksh/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.4.2"
+    "pod": "Pod 0.4.2",
+    "name": "Ayush Jain",
+    "bio": "I am a 3rd year Computer Science enthusiast pursuing B.tech. at IIIT Una.",
+    "company": null,
+    "email": "ayushjainrksh@gmail.com",
+    "location": "Hamirpur, India",
+    "twitterUsername": "ayushjn_",
+    "websiteUrl": "https://ayushj.me",
+    "followers": 24,
+    "following": 38
   },
   {
     "login": "Xtremilicious",
@@ -2118,7 +3018,16 @@
     "received_events_url": "https://api.github.com/users/Xtremilicious/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.4.2"
+    "pod": "Pod 0.4.2",
+    "name": "Nilarjun Das",
+    "bio": "",
+    "company": "Google Developer Students Club",
+    "email": "nilarjundas@outlook.com",
+    "location": null,
+    "twitterUsername": "NilarjunDas",
+    "websiteUrl": "https://xtremilicious.github.io",
+    "followers": 699,
+    "following": 9
   },
   {
     "login": "kartik918",
@@ -2139,7 +3048,16 @@
     "received_events_url": "https://api.github.com/users/kartik918/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.4.2"
+    "pod": "Pod 0.4.2",
+    "name": "Kartik Choudhary",
+    "bio": "*insert titles and bio here*",
+    "company": null,
+    "email": "kartikc.918@gmail.com",
+    "location": "Chandigarh, India ",
+    "twitterUsername": null,
+    "websiteUrl": "https://kartik918.github.io/",
+    "followers": 25,
+    "following": 7
   },
   {
     "login": "IamCathal",
@@ -2160,7 +3078,16 @@
     "received_events_url": "https://api.github.com/users/IamCathal/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.5.1"
+    "pod": "Pod 0.5.1",
+    "name": "Cathal O'Callaghan",
+    "bio": "2nd year Computer Science and Information Technology NUIG.\r\n",
+    "company": "MLH Fellowship 2020 Intern",
+    "email": "",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": "https://iamcathal.github.io/",
+    "followers": 21,
+    "following": 30
   },
   {
     "login": "gmelodie",
@@ -2181,7 +3108,16 @@
     "received_events_url": "https://api.github.com/users/gmelodie/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.5.1"
+    "pod": "Pod 0.5.1",
+    "name": "Gabriel Cruz",
+    "bio": "CS student at ICMC/USP, trailling spaces serial killer. Interested in security, C, Python, Go, Open Source Software and Linux. ",
+    "company": "https://github.com/USP",
+    "email": "",
+    "location": "Brazil - São Paulo - São Carlos",
+    "twitterUsername": null,
+    "websiteUrl": "https://gmcruz.me",
+    "followers": 35,
+    "following": 26
   },
   {
     "login": "mwizasimbeye11",
@@ -2202,7 +3138,16 @@
     "received_events_url": "https://api.github.com/users/mwizasimbeye11/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.5.1"
+    "pod": "Pod 0.5.1",
+    "name": "Mwiza Simbeye",
+    "bio": "chrónos kai chóros",
+    "company": "@agripredict @campus-experts @BongoHive ",
+    "email": "mwiza@agripredict.com",
+    "location": "Zambia",
+    "twitterUsername": null,
+    "websiteUrl": "www.agripredict.com",
+    "followers": 42,
+    "following": 82
   },
   {
     "login": "csr",
@@ -2223,7 +3168,16 @@
     "received_events_url": "https://api.github.com/users/csr/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.5.1"
+    "pod": "Pod 0.5.1",
+    "name": "Cesare De Cal",
+    "bio": "Software Engineer, formerly @twitter, interested in apps, web, and autonomous systems.",
+    "company": null,
+    "email": "github@cesare.io",
+    "location": "Milan, Italy",
+    "twitterUsername": null,
+    "websiteUrl": "https://cesare.io",
+    "followers": 286,
+    "following": 884
   },
   {
     "login": "rkbeatss",
@@ -2244,7 +3198,16 @@
     "received_events_url": "https://api.github.com/users/rkbeatss/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.5.1"
+    "pod": "Pod 0.5.1",
+    "name": "Rupsi Kaushik",
+    "bio": "Software Engineer. Ottawa, ON",
+    "company": null,
+    "email": "rkaus053@uottawa.ca",
+    "location": "Ottawa, Ontario",
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 9,
+    "following": 8
   },
   {
     "login": "kbanc",
@@ -2265,7 +3228,16 @@
     "received_events_url": "https://api.github.com/users/kbanc/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.5.1"
+    "pod": "Pod 0.5.1",
+    "name": "Katherine Bancroft",
+    "bio": "",
+    "company": null,
+    "email": "",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 7,
+    "following": 7
   },
   {
     "login": "tayoogunbiyi",
@@ -2286,7 +3258,16 @@
     "received_events_url": "https://api.github.com/users/tayoogunbiyi/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.5.1"
+    "pod": "Pod 0.5.1",
+    "name": "Eyitayo Ogunbiyi",
+    "bio": "computer engineering student. \r\nPython,C++,JavaScript\r\nInterested in distributed computing, robotics & algorithms.",
+    "company": null,
+    "email": "eyitayoogunbiyi@gmail.com",
+    "location": "Lagos,Nigeria",
+    "twitterUsername": null,
+    "websiteUrl": "https://www.linkedin.com/in/eyitayo/",
+    "followers": 27,
+    "following": 21
   },
   {
     "login": "HajerMahjoub",
@@ -2307,7 +3288,16 @@
     "received_events_url": "https://api.github.com/users/HajerMahjoub/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.5.1"
+    "pod": "Pod 0.5.1",
+    "name": "Hajer M",
+    "bio": "data science engineer \r\nAI  enthusiastic\r\n ",
+    "company": "InstaDeep LTD",
+    "email": "",
+    "location": "Tunis",
+    "twitterUsername": null,
+    "websiteUrl": "https://www.linkedin.com/in/hajermahjoub/",
+    "followers": 13,
+    "following": 38
   },
   {
     "login": "teymour-aldridge",
@@ -2328,7 +3318,16 @@
     "received_events_url": "https://api.github.com/users/teymour-aldridge/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.5.1"
+    "pod": "Pod 0.5.1",
+    "name": "Teymour Aldridge",
+    "bio": "",
+    "company": null,
+    "email": "",
+    "location": "London, UK",
+    "twitterUsername": null,
+    "websiteUrl": "https://teymour.tk",
+    "followers": 3,
+    "following": 2
   },
   {
     "login": "victorphoenix3",
@@ -2349,7 +3348,16 @@
     "received_events_url": "https://api.github.com/users/victorphoenix3/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.5.1"
+    "pod": "Pod 0.5.1",
+    "name": "JAYATI SHRIVASTAVA",
+    "bio": "",
+    "company": null,
+    "email": "gaurijove@gmail.com",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 6,
+    "following": 52
   },
   {
     "login": "roeeyn",
@@ -2370,7 +3378,16 @@
     "received_events_url": "https://api.github.com/users/roeeyn/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.5.2"
+    "pod": "Pod 0.5.2",
+    "name": "Rodrigo Medina",
+    "bio": "I'm a Software Developer interested in mobile, web and DevOps. \r\nMLH Fellow 👨🏽‍💻.\r\nGitHub Campus Expert 🚩.\r\nDocker Campus Ambassador 🐳.\r\n \r\n\r\n",
+    "company": "Konfio",
+    "email": "rodrigo.medina.neri@gmail.com",
+    "location": "Mexico City",
+    "twitterUsername": "roeeyn",
+    "websiteUrl": "https://githubcampus.expert/roeeyn/",
+    "followers": 66,
+    "following": 25
   },
   {
     "login": "rch-liu",
@@ -2391,7 +3408,16 @@
     "received_events_url": "https://api.github.com/users/rch-liu/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.5.2"
+    "pod": "Pod 0.5.2",
+    "name": "Rachel Liu",
+    "bio": "Computer Science @uWaterloo",
+    "company": null,
+    "email": "rachel98rl@hotmail.com",
+    "location": "Waterloo, ON",
+    "twitterUsername": null,
+    "websiteUrl": "http://rch-liu.github.io",
+    "followers": 6,
+    "following": 7
   },
   {
     "login": "FawziyahAlebiosu",
@@ -2412,7 +3438,16 @@
     "received_events_url": "https://api.github.com/users/FawziyahAlebiosu/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.5.2"
+    "pod": "Pod 0.5.2",
+    "name": "Fawziyah Alebiosu",
+    "bio": "cs & educational studies double major. prev: FWD.us Intern, Google CSSI. Girls Who Code '16. Interests (currently): developer advocacy, android development",
+    "company": null,
+    "email": "",
+    "location": "Washington D.C",
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 0,
+    "following": 1
   },
   {
     "login": "kx-chen",
@@ -2433,7 +3468,16 @@
     "received_events_url": "https://api.github.com/users/kx-chen/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.5.2"
+    "pod": "Pod 0.5.2",
+    "name": "Kai Chen",
+    "bio": "@MLH-Fellowship '20. GCI '18 Winner. High School Student.",
+    "company": null,
+    "email": "",
+    "location": "Vancouver, BC, Canada",
+    "twitterUsername": null,
+    "websiteUrl": "https://www.linkedin.com/in/kai-xing-chen",
+    "followers": 57,
+    "following": 65
   },
   {
     "login": "chrisngyn",
@@ -2454,7 +3498,16 @@
     "received_events_url": "https://api.github.com/users/chrisngyn/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.5.2"
+    "pod": "Pod 0.5.2",
+    "name": "Chris N.",
+    "bio": "working to be a better programmer than I was yesterday.",
+    "company": "@MLH",
+    "email": "hello@chris-nguyen.me",
+    "location": "Canada",
+    "twitterUsername": null,
+    "websiteUrl": "chris-nguyen.me",
+    "followers": 57,
+    "following": 72
   },
   {
     "login": "diarreola",
@@ -2475,7 +3528,16 @@
     "received_events_url": "https://api.github.com/users/diarreola/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.5.2"
+    "pod": "Pod 0.5.2",
+    "name": "Diana",
+    "bio": "",
+    "company": null,
+    "email": "",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 1,
+    "following": 1
   },
   {
     "login": "ebonnecab",
@@ -2496,7 +3558,16 @@
     "received_events_url": "https://api.github.com/users/ebonnecab/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.5.2"
+    "pod": "Pod 0.5.2",
+    "name": "Ebonne Cabarrus",
+    "bio": "MLH Fellow at Major League Hacking. Applied Computer Science Student at Make School.",
+    "company": "Major League Hacking",
+    "email": "",
+    "location": "San Francisco, CA",
+    "twitterUsername": null,
+    "websiteUrl": "https://www.makeschool.com/portfolio/EbonneCabarrus",
+    "followers": 26,
+    "following": 39
   },
   {
     "login": "amy-lei",
@@ -2517,7 +3588,16 @@
     "received_events_url": "https://api.github.com/users/amy-lei/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.5.2"
+    "pod": "Pod 0.5.2",
+    "name": "Amy Lei",
+    "bio": "",
+    "company": null,
+    "email": "",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": "http://amylei.com/",
+    "followers": 6,
+    "following": 3
   },
   {
     "login": "YKo20010",
@@ -2538,7 +3618,16 @@
     "received_events_url": "https://api.github.com/users/YKo20010/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.5.2"
+    "pod": "Pod 0.5.2",
+    "name": "Yanlam Ko",
+    "bio": "CS student at Cornell University, Software Developer @cuappdev",
+    "company": null,
+    "email": "",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": "http://artesiako.com/",
+    "followers": 2,
+    "following": 0
   },
   {
     "login": "ovezovs",
@@ -2559,7 +3648,16 @@
     "received_events_url": "https://api.github.com/users/ovezovs/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.5.2"
+    "pod": "Pod 0.5.2",
+    "name": "Shageldi Ovezov",
+    "bio": "Student Software Developer",
+    "company": null,
+    "email": "",
+    "location": "Berea, KY",
+    "twitterUsername": null,
+    "websiteUrl": "www.shageldi.com",
+    "followers": 5,
+    "following": 7
   },
   {
     "login": "nquinlan",
@@ -2580,7 +3678,16 @@
     "received_events_url": "https://api.github.com/users/nquinlan/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.6.1"
+    "pod": "Pod 0.6.1",
+    "name": "Nick Quinlan",
+    "bio": null,
+    "company": "Major League Hacking",
+    "email": "nick@nicholasquinlan.com",
+    "location": "Seattle, WA",
+    "twitterUsername": null,
+    "websiteUrl": "http://nicholasquinlan.com",
+    "followers": 175,
+    "following": 50
   },
   {
     "login": "nquinlan",
@@ -2601,7 +3708,16 @@
     "received_events_url": "https://api.github.com/users/nquinlan/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "Pod 0.6.2"
+    "pod": "Pod 0.6.2",
+    "name": "Nick Quinlan",
+    "bio": null,
+    "company": "Major League Hacking",
+    "email": "nick@nicholasquinlan.com",
+    "location": "Seattle, WA",
+    "twitterUsername": null,
+    "websiteUrl": "http://nicholasquinlan.com",
+    "followers": 175,
+    "following": 50
   },
   {
     "login": "jonmarkgo",
@@ -2622,7 +3738,16 @@
     "received_events_url": "https://api.github.com/users/jonmarkgo/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "MLH Staff"
+    "pod": "MLH Staff",
+    "name": "Jonathan Gottfried",
+    "bio": "",
+    "company": "Major League Hacking",
+    "email": "jonmarkgo@gmail.com",
+    "location": "New York, NY",
+    "twitterUsername": null,
+    "websiteUrl": "http://www.jonmarkgo.com/",
+    "followers": 139,
+    "following": 14
   },
   {
     "login": "theycallmeswift",
@@ -2643,7 +3768,16 @@
     "received_events_url": "https://api.github.com/users/theycallmeswift/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "MLH Staff"
+    "pod": "MLH Staff",
+    "name": "Swift",
+    "bio": "",
+    "company": "Major League Hacking (MLH)",
+    "email": "",
+    "location": "New York, New York",
+    "twitterUsername": "swiftalphaone",
+    "websiteUrl": "http://www.twitter.com/swiftalphaone",
+    "followers": 341,
+    "following": 8
   },
   {
     "login": "nquinlan",
@@ -2664,7 +3798,16 @@
     "received_events_url": "https://api.github.com/users/nquinlan/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "MLH Staff"
+    "pod": "MLH Staff",
+    "name": "Nick Quinlan",
+    "bio": null,
+    "company": "Major League Hacking",
+    "email": "nick@nicholasquinlan.com",
+    "location": "Seattle, WA",
+    "twitterUsername": null,
+    "websiteUrl": "http://nicholasquinlan.com",
+    "followers": 175,
+    "following": 50
   },
   {
     "login": "wrussell1999",
@@ -2685,7 +3828,16 @@
     "received_events_url": "https://api.github.com/users/wrussell1999/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "MLH Staff"
+    "pod": "MLH Staff",
+    "name": "Will Russell",
+    "bio": "Behind the scenes of the MLH Fellowship!",
+    "company": "@MLH-Fellowship",
+    "email": "will@wrussell.co.uk",
+    "location": "Cambridge, UK",
+    "twitterUsername": "wrussell1999",
+    "websiteUrl": "https://wrussell.co.uk",
+    "followers": 61,
+    "following": 77
   },
   {
     "login": "LCaputo6",
@@ -2706,6 +3858,15 @@
     "received_events_url": "https://api.github.com/users/LCaputo6/received_events",
     "type": "User",
     "site_admin": false,
-    "pod": "MLH Staff"
+    "pod": "MLH Staff",
+    "name": null,
+    "bio": null,
+    "company": null,
+    "email": "",
+    "location": null,
+    "twitterUsername": null,
+    "websiteUrl": null,
+    "followers": 0,
+    "following": 0
   }
 ]
