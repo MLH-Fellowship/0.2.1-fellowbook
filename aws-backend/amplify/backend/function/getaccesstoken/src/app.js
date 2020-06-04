@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.use(awsServerlessExpressMiddleware.eventContext());
 
 const CLIENT_ID = '22d8bad72f3469cd766c';
-const CLIENT_SECRET = '87dc73ff01cde6be87ac29f3ff7c9dd4e50683f8';
+const CLIENT_SECRET = process.env.CLIENT_SECRET;
 
 // Enable CORS for all methods
 app.use(function (req, res, next) {
