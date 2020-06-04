@@ -25,8 +25,8 @@
     "privacy": {
         "auth": 0,
         "unauth": 0,
-        "authRoleName": "amplify-mlhfellowbook-dev-93944-authRole",
-        "unAuthRoleName": "amplify-mlhfellowbook-dev-93944-unauthRole"
+        "authRoleName": "amplify-mlhfellowbook-devv-132454-authRole",
+        "unAuthRoleName": "amplify-mlhfellowbook-devv-132454-unauthRole"
     },
     "dependsOn": [
         {
@@ -37,5 +37,6 @@
                 "Arn"
             ]
         }
-    ]
+    ],
+    "uuid": "8eccfb36"
 }

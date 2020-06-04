@@ -9,14 +9,6 @@
 		},
 		"env": {
 			"Type": "String"
-		},
-		"storagefellowbookdbName": {
-			"Type": "String",
-			"Default": "storagefellowbookdbName"
-		},
-		"storagefellowbookdbArn": {
-			"Type": "String",
-			"Default": "storagefellowbookdbArn"
 		}
 	},
 	"Conditions": {
@@ -41,12 +33,12 @@
 				"FunctionName": {
 					"Fn::If": [
 						"ShouldNotCreateEnvResources",
-						"fellowsEndpoint",
+						"githubauth",
 						{
 							"Fn::Join": [
 								"",
 								[
-									"fellowsEndpoint",
+									"githubauth",
 									"-",
 									{
 										"Ref": "env"
@@ -76,7 +68,7 @@
 				"Timeout": "25",
 				"Code": {
 					"S3Bucket": "amplify-mlhfellowbook-devv-132454-deployment",
-					"S3Key": "amplify-builds/fellowsEndpoint-77477438366837376149-build.zip"
+					"S3Key": "amplify-builds/githubauth-764f6e6a355344676362-build.zip"
 				}
 			}
 		},
@@ -86,12 +78,12 @@
 				"RoleName": {
 					"Fn::If": [
 						"ShouldNotCreateEnvResources",
-						"mlhfellowbookLambdaRoleac4c243c",
+						"mlhfellowbookLambdaRolecde487c1",
 						{
 							"Fn::Join": [
 								"",
 								[
-									"mlhfellowbookLambdaRoleac4c243c",
+									"mlhfellowbookLambdaRolecde487c1",
 									"-",
 									{
 										"Ref": "env"
@@ -157,34 +149,6 @@
 									}
 								]
 							}
-						},
-						{
-							"Effect": "Allow",
-							"Action": [
-								"dynamodb:DescribeTable",
-								"dynamodb:GetItem",
-								"dynamodb:Query",
-								"dynamodb:Scan",
-								"dynamodb:PutItem",
-								"dynamodb:UpdateItem",
-								"dynamodb:DeleteItem"
-							],
-							"Resource": [
-								{
-									"Ref": "storagefellowbookdbArn"
-								},
-								{
-									"Fn::Join": [
-										"/",
-										[
-											{
-												"Ref": "storagefellowbookdbArn"
-											},
-											"index/*"
-										]
-									]
-								}
-							]
 						}
 					]
 				}
