@@ -71,8 +71,19 @@ const getUserDataFromJSON = username => {
 	return JSON.parse(jsonData);
 };
 
-// TODO: Temporary - reserved for when AWS db is populated
+// // TODO: Temporary - reserved for when AWS db is populated
+// const getUserDataFromAPI = async username => {
+// 	const response = await fetch(`https://api.github.com/users/${username}`);
+// 	return response.json();
+// };
+
 const getUserDataFromAPI = async username => {
-	const response = await fetch(`https://api.github.com/users/${username}`);
+	const url =
+		"https://a5c6y99l3g.execute-api.eu-central-1.amazonaws.com/devv/fellows/" +
+		username;
+
+	const response = await fetch(url, {
+		headers: { Authorization: process.env.GITHUB_LOGIN_TOKEN }
+	});
 	return response.json();
 };
