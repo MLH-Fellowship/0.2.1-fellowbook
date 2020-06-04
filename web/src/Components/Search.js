@@ -10,6 +10,7 @@ const Form = styled.form`
   justify-content: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   background-color: grey;
+  color: white;
   /* Change width of the form depending if the bar is opened or not */
   width: ${(props) => (props.barOpened ? "30rem" : "2rem")};
   /* If bar opened, normal cursor on the whole form. If closed, show pointer on the whole form so user knows he can click to open it */
@@ -47,6 +48,7 @@ const Button = styled.button`
   border: none;
   outline: none;
   color: white;
+  font-weight: bold;
 `;
 
 const Search = () => {
@@ -94,7 +96,7 @@ const Search = () => {
           ref={inputFocus}
           value={input}
           barOpened={barOpened}
-          placeholder="Search for a Fellow..."
+          placeholder="Search for a Fellow or a Pod..."
         />
       </Form>
     </div>
