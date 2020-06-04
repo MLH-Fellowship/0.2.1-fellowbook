@@ -4,11 +4,14 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "node ."
+		"start": "npm install && node index.js"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/MLH-Fellowship/0.2.1-fellowbook.git"
+	},
+	"engines": {
+		"node": "12.x"
 	},
 	"keywords": [],
 	"author": "",

@@ -20,7 +20,7 @@ initializeCommands();
 client.once("ready", () => console.log("Client ready!"));
 
 dotenv.config();
-client.login(process.env.DISCORD_TOKEN);
+client.login(process.env.BOT_TOKEN || process.env.LOCAL_DISCORD_TOKEN);
 
 client.on("message", message => {
 	if (!message.content.startsWith("!") || message.author.bot) return;

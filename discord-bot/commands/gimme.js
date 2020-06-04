@@ -9,6 +9,7 @@ module.exports = {
 	async execute(message, args) {
 		for (let username of args) {
 			const user = await getUserDataFromJSON(username);
+			const popularityPoints = getUserPopularityPoints(user);
 
 			const userEmbed = new MessageEmbed({
 				title: user.login,
@@ -17,8 +18,7 @@ module.exports = {
 				fields: [
 					{
 						name: "Full name:",
-						value: user.name,
-						inline: true
+						value: user.name
 					},
 					{
 						name: "Public repos:",
@@ -37,22 +37,42 @@ module.exports = {
 					{
 						name: "Location:",
 						value: user.location
+					},
+					{
+						name: "Pod:",
+						value: user.pod
+					},
+					{
+						name: "Popularity points:",
+						value: popularityPoints
 					}
 				]
-			});
+			})
+				.setColor("#0099ff")
+				.setFooter(
+					"Project 0.2.1-fellowbook",
+					"https://avatars.githubusercontent.com/mlh"
+				);
 
 			message.channel.send(userEmbed);
 		}
 	}
 };
 
-const getUserDataFromAWS = username => {
+// mysterious formula!
+const getUserPopularityPoints = user => {
+	const date = new Date().getDate();
+	const id = user.id.toString().slice(5);
+	return parseInt(user.login.length + date * id) + user.followers || 0;
+};
+
+const getUserDataFromJSON = username => {
 	const jsonData = fs.readFileSync(`./${username}.json`);
 	return JSON.parse(jsonData);
 };
 
-// TODO: dummy version, to be replaced with `getUserDataFromAWS`
-const getUserDataFromJSON = async username => {
+// TODO: Temporary - reserved for when AWS db is populated
+const getUserDataFromAPI = async username => {
 	const response = await fetch(`https://api.github.com/users/${username}`);
 	return response.json();
 };
