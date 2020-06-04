@@ -2,7 +2,7 @@ import axios from "axios";
 
 const apiUrl =
   "https://a5c6y99l3g.execute-api.eu-central-1.amazonaws.com/devv/fellows/list";
-const token = "19301c6083bac73cde74bf4d39fbcd6f79934713";
+const token = "f7915df19de9abe0580de9aff357e9063c4e6093";
 
 export const fetchData = async () => {
   try {
@@ -12,8 +12,7 @@ export const fetchData = async () => {
       },
     });
 
-    console.log(response);
-    return response;
+    return response.data;
   } catch (error) {
     console.log(error);
   }

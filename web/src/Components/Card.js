@@ -18,6 +18,14 @@ const Container = styled.div`
   padding: 20px;
 `;
 
+const link = {
+  color: "#fff",
+  textDecoration: "none",
+  "&:hover": {
+    color: "#000",
+  },
+};
+
 const Content = styled.div`
   width: 100%;
   display: flex;
@@ -49,7 +57,7 @@ const TagContainer = styled.div`
   font-weight: 500;
   text-transform: uppercase;
   padding: 3px;
-  width: 60px;
+  width: 80px;
   border-radius: 3px;
   text-align: center;
   color: white;
@@ -92,7 +100,7 @@ const Card = ({
         </TagContainer>
         {"fa fa-github" && (
           <IconContainer color={iconColor}>
-            <a href={html_url}>
+            <a href={html_url} style={link}>
               <i className={`fa fa-github fa-${iconSize}x`} />
             </a>
           </IconContainer>

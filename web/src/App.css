@@ -18,6 +18,11 @@
   /* grid-template-rows: 260px 400px 400px; */
 }
 
+/* .gitIcon:link {
+  text-decoration: none;
+  color: blue;
+} */
+
 @media screen and (max-width: 900px) {
   .container {
     grid-template-columns: repeat(2, 1fr);
