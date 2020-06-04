@@ -17,6 +17,13 @@ function App() {
       <main className="container">
         <Card
           title="Toledo, Spain"
+          // subtitle="Also know as The Imperial City."
+          tag="Spain"
+          iconName="fa fa-github"
+          bgPhoto="https://picsum.photos/740/420/?random"
+        />
+        <Card
+          title="Toledo, Spain"
           subtitle="Also know as The Imperial City."
           tag="Spain"
           iconName="fa fa-github"
@@ -26,49 +33,42 @@ function App() {
           title="Toledo, Spain"
           subtitle="Also know as The Imperial City."
           tag="Spain"
-          iconName="fas fa-ellipsis-v"
+          iconName="fa fa-github"
           bgPhoto="https://picsum.photos/740/420/?random"
         />
         <Card
           title="Toledo, Spain"
           subtitle="Also know as The Imperial City."
           tag="Spain"
-          iconName="fas fa-ellipsis-v"
+          iconName="fa fa-github"
           bgPhoto="https://picsum.photos/740/420/?random"
         />
         <Card
           title="Toledo, Spain"
           subtitle="Also know as The Imperial City."
           tag="Spain"
-          iconName="fas fa-ellipsis-v"
+          iconName="fa fa-github"
           bgPhoto="https://picsum.photos/740/420/?random"
         />
         <Card
           title="Toledo, Spain"
           subtitle="Also know as The Imperial City."
           tag="Spain"
-          iconName="fas fa-heart"
+          iconName="fa fa-github"
           bgPhoto="https://picsum.photos/740/420/?random"
         />
         <Card
           title="Toledo, Spain"
           subtitle="Also know as The Imperial City."
           tag="Spain"
-          iconName="fas fa-ellipsis-v"
+          iconName="fa fa-github"
           bgPhoto="https://picsum.photos/740/420/?random"
         />
         <Card
           title="Toledo, Spain"
           subtitle="Also know as The Imperial City."
           tag="Spain"
-          iconName="fas fa-ellipsis-v"
-          bgPhoto="https://picsum.photos/740/420/?random"
-        />
-        <Card
-          title="Toledo, Spain"
-          subtitle="Also know as The Imperial City."
-          tag="Spain"
-          iconName="fas fa-ellipsis-v"
+          iconName="fa fa-github"
           bgPhoto="https://picsum.photos/740/420/?random"
         />
       </main>

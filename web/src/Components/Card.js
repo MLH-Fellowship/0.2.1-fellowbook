@@ -77,7 +77,7 @@ const Card = ({
   tagBg = "#E33C36",
   tagColor = "white",
   iconName,
-  iconSize = 2,
+  iconSize = 3,
   iconColor = "white",
   bgPhoto,
 }) => (
