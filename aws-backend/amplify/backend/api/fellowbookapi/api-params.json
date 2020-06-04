@@ -13,6 +13,13 @@
             "privacy": {
                 "open": true
             }
+        },
+        {
+            "name": "/authorise",
+            "lambdaFunction": "getaccesstoken",
+            "privacy": {
+                "open": true
+            }
         }
     ],
     "resourceName": "fellowbookapi",
@@ -20,13 +27,16 @@
     "functionArns": [
         {
             "lambdaFunction": "fellowsEndpoint"
+        },
+        {
+            "lambdaFunction": "getaccesstoken"
         }
     ],
     "privacy": {
         "auth": 0,
         "unauth": 0,
-        "authRoleName": "amplify-mlhfellowbook-dev-93944-authRole",
-        "unAuthRoleName": "amplify-mlhfellowbook-dev-93944-unauthRole"
+        "authRoleName": "amplify-mlhfellowbook-devv-132454-authRole",
+        "unAuthRoleName": "amplify-mlhfellowbook-devv-132454-unauthRole"
     },
     "dependsOn": [
         {
@@ -36,6 +46,15 @@
                 "Name",
                 "Arn"
             ]
+        },
+        {
+            "category": "function",
+            "resourceName": "getaccesstoken",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
         }
-    ]
+    ],
+    "uuid": "e144ee1a"
 }
