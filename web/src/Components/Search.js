@@ -57,11 +57,30 @@ const Search = () => {
   const formRef = useRef();
   const inputFocus = useRef();
 
+  //   useEffect(() => {
+  //     const api =
+  //       "https://a5c6y99l3g.execute-api.eu-central-1.amazonaws.com/devv/fellows/list";
+  //     fetch(api)
+  //       .then((res) => res.json())
+  //       .then((info) => console.log(info));
+  //   }, []);
+
   const onFormSubmit = (e) => {
     // When form submited, clear input, close the searchbar and do something with input
     e.preventDefault();
     setInput("");
     setBarOpened(true);
+
+    //Fetch function on search
+    const url = `https://a5c6y99l3g.execute-api.eu-central-1.amazonaws.com/devv/fellows/${input}`;
+    const token = "19301c6083bac73cde74bf4d39fbcd6f79934713";
+    fetch(url, {
+      headers: {
+        Authorization: token,
+      },
+    })
+      .then((res) => res.json())
+      .then((data) => console.log(data));
     // After form submit, do what you want with the input value
     console.log(`Form was submited with input: ${input}`);
   };
