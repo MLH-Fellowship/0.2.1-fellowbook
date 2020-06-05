@@ -9,6 +9,12 @@ import { fetchData } from "./Components";
 class App extends React.Component {
   state = {
     data: [],
+    search: "",
+  };
+
+  handleInput = (e) => {
+    console.log(e.target.value);
+    this.setState({ search: e.target.value });
   };
 
   async componentDidMount() {
@@ -18,7 +24,12 @@ class App extends React.Component {
     this.setState({ data: fetchedData });
   }
   render() {
-    const fellowList = this.state.data.map((item) => (
+    const filterPods = this.state.data.filter((podname) => {
+      return podname.pod
+        .toLowerCase()
+        .includes(this.state.search.toLowerCase());
+    });
+    const fellowList = filterPods.map((item) => (
       <Card key={item.username} item={item} />
     ));
     return (
@@ -26,7 +37,7 @@ class App extends React.Component {
         <header className="App-header">
           <Header />
           <div className="Search">
-            <Search />
+            <Search handleInput={this.handleInput} />
           </div>
         </header>
         <main className="container">{fellowList}</main>
