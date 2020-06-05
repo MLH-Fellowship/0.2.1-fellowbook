@@ -76,11 +76,15 @@ class App extends React.Component {
             <div className="Search">
               <Search
                 handleInput={this.handleInput}
-                accessToken={this.state.accessToken}
               />
             </div>
           </header>
-          <main className="container">{fellowList}</main>
+          <div className='fellows-count'>
+            {filterPods.length} fellow{filterPods.length === 1 ? '' : 's'}
+          </div>
+          <main className="container">
+            {fellowList}
+          </main>
         </div>
       );
     }

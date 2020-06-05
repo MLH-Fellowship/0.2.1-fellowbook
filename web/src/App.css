@@ -9,8 +9,7 @@
 }
 
 .container {
-  padding: 50px;
-  padding-bottom: 100px;
+  padding: 10px 50px 100px 50px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 30px;
@@ -41,6 +40,11 @@
 
 .login-btn span {
   line-height: 4;
+}
+
+.fellows-count {
+  font-weight: bold;
+  margin: 0 5%;
 }
 
 @media screen and (max-width: 900px) {
