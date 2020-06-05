@@ -7,17 +7,17 @@ import styled from "styled-components";
 // following: { totalCount: 0 }
 const getCount = (count) => {
   let countToShow = 0;
-  if (typeof count === 'undefined') {
+  if (typeof count === "undefined") {
     countToShow = 0;
-  } else if (typeof count === 'object') {
+  } else if (typeof count === "object") {
     countToShow = count.totalCount;
   } else {
     countToShow = count;
   }
 
-  if (isNaN(countToShow)) return '0';
+  if (isNaN(countToShow)) return "0";
   return countToShow.toString();
-}
+};
 
 const Container = styled.div`
   position: relative;
@@ -137,40 +137,40 @@ const Card = ({
     following,
   },
 }) => (
-    <Container bgPhoto={avatar_url}>
-      {pod && (
-        <Top>
-          <TagContainer tagBg={tagBg} tagColor={tagColor}>
-            <TagText>{pod}</TagText>
-          </TagContainer>
-          {"fa fa-github" && (
-            <IconContainer color={iconColor}>
-              <a href={html_url} style={link}>
-                <i className={`fa fa-github fa-${iconSize}x`} />
-              </a>
-            </IconContainer>
-          )}
-        </Top>
-      )}
-      {(name || username) && (
-        <Content className="content">
-          <ContentColumn>
-            {name && <Title color={titleColor}>{name}</Title>}
-            {username && <Subtitle color={subtitleColor}>{username}</Subtitle>}
-          </ContentColumn>
-        </Content>
-      )}
-      (
+  <Container bgPhoto={avatar_url}>
+    {pod && (
+      <Top>
+        <TagContainer tagBg={tagBg} tagColor={tagColor}>
+          <TagText>{pod}</TagText>
+        </TagContainer>
+        {"fa fa-github" && (
+          <IconContainer color={iconColor}>
+            <a href={html_url} style={link}>
+              <i className={`fa fa-github fa-${iconSize}x`} />
+            </a>
+          </IconContainer>
+        )}
+      </Top>
+    )}
+    {(name || username) && (
+      <Content className="content">
+        <ContentColumn>
+          {name && <Title color={titleColor}>{name}</Title>}
+          {username && <Subtitle color={subtitleColor}>{username}</Subtitle>}
+        </ContentColumn>
+      </Content>
+    )}
+    {
       <Details className="details">
         {" "}
-        <p>{bio ? `Bio: ${bio}` : ''}</p>
-        <p>{location ? `Location: ${location}` : ''}</p>
+        <p>{bio ? `Bio: ${bio}` : ""}</p>
+        <p>{location ? `Location: ${location}` : ""}</p>
         <p>Followers: {getCount(followers)}</p>
         <p>Following: {getCount(following)}</p>
       </Details>
-      )}
-    </Container>
-  );
+    }
+  </Container>
+);
 
 Card.propTypes = {
   title: PropTypes.string,
