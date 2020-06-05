@@ -16,7 +16,7 @@ app.get('/authorise', (req, res) => {
     { headers: { Accept: 'application/json' } },
   ).then(res => res.json())
     .then(json => {
-      const redirectUrl = `http://localhost:3000?access_token=${json.access_token}`;
+      const redirectUrl = `https://mlhfellowbook.herokuapp.com?access_token=${json.access_token}`;
 
       // Hack: meta refresh, express res.redirect isn't working :(
       res.set('Content-Type', 'text/html');
