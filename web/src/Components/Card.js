@@ -16,6 +16,19 @@ const Container = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+  .details {
+    opacity: 1;
+  }
+  &:hover {
+    opacity: 0.5;
+    .details {
+      display: block;
+      height: 100%;
+    }
+    .content {
+      opacity: 0;
+    }
+  }
 `;
 
 const link = {
@@ -33,6 +46,17 @@ const Content = styled.div`
   align-items: flex-end;
   color: white;
   margin-top: 40px;
+  opacity: 1;
+`;
+
+const Details = styled.div`
+  display: none;
+  position: relative;
+  color: white;
+  font-weight: bold;
+  height: 100%;
+  text-align: center;
+  padding-bottom: 10px;
 `;
 
 const ContentColumn = styled.div``;
@@ -90,6 +114,10 @@ const Card = ({
     iconSize = 3,
     iconColor = "white",
     avatar_url,
+    bio,
+    location,
+    followers,
+    following,
   },
 }) => (
   <Container bgPhoto={avatar_url}>
@@ -108,12 +136,21 @@ const Card = ({
       </Top>
     )}
     {(name || username) && (
-      <Content>
+      <Content className="content">
         <ContentColumn>
           {name && <Title color={titleColor}>{name}</Title>}
           {username && <Subtitle color={subtitleColor}>{username}</Subtitle>}
         </ContentColumn>
       </Content>
+    )}
+    {(bio || location) && (
+      <Details className="details">
+        {" "}
+        <p>Bio: {bio}</p>
+        <p>Location: {location}</p>
+        <p>Followers: {followers.toString()}</p>
+        <p>Following: {following.toString()}</p>
+      </Details>
     )}
   </Container>
 );

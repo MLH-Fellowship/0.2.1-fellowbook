@@ -7,7 +7,7 @@ import "font-awesome/css/font-awesome.min.css";
 import { fetchData } from "./Components";
 import octocat from "./img/octocat-white.png";
 
-const lower = data => data ? data.toLowerCase() : '';
+const lower = (data) => (data ? data.toLowerCase() : "");
 class App extends React.Component {
   state = {
     data: [],
@@ -30,6 +30,7 @@ class App extends React.Component {
     }
 
     const fetchedData = await fetchData(accessToken);
+    console.log(fetchedData);
     if (!fetchedData || !fetchedData.length) accessToken = null;
     this.setState({ data: fetchedData, accessToken });
   }
@@ -66,8 +67,13 @@ class App extends React.Component {
       // Filter fellows by pod, bio, location, name, username by checking if
       // the search string is contained in any of those fields
       const filteredFellows = this.state.data.filter((fellow) =>
-        [lower(fellow.pod), lower(fellow.bio), lower(fellow.location), lower(fellow.name), lower(fellow.username)]
-          .some(data => data !== '' && data.includes(this.state.search))
+        [
+          lower(fellow.pod),
+          lower(fellow.bio),
+          lower(fellow.location),
+          lower(fellow.name),
+          lower(fellow.username),
+        ].some((data) => data !== "" && data.includes(this.state.search))
       );
       const fellowList = filteredFellows.map((item) => (
         <Card key={item.username} item={item} />
@@ -81,8 +87,9 @@ class App extends React.Component {
               <Search handleInput={this.handleInput} />
             </div>
           </header>
-          <div className='fellows-count'>
-            {filteredFellows.length} fellow{filteredFellows.length === 1 ? '' : 's'}
+          <div className="fellows-count">
+            {filteredFellows.length} fellow
+            {filteredFellows.length === 1 ? "" : "s"}
           </div>
           <main className="container">{fellowList}</main>
         </div>
