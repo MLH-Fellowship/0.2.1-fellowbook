@@ -52,8 +52,9 @@ const Content = styled.div`
 const Details = styled.div`
   display: none;
   position: relative;
+  top: -90px;
   color: white;
-  font-weight: bold;
+  font-weight: bolder;
   height: 100%;
   text-align: center;
   padding-bottom: 10px;
