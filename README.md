@@ -1,6 +1,6 @@
 # Fellowbook
 
-![](https://img.shields.io/badge/commit%20activity-+50-blue) ![](https://github.com/MLH-Fellowship/0.2.1-fellowbook) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) ![](https://img.shields.io/badge/chat-on%20discord-orange) ![](https://img.shields.io/badge/build-passing-brightgreen) ![](https://img.shields.io/badge/contributors-only%203-blue) ![](https://img.shields.io/badge/version-1.0.0-yellow) ![](https://img.shields.io/badge/learned%20a%20lot-yes-blue)
+![](https://img.shields.io/badge/commit%20activity-+70-blue) ![](https://github.com/MLH-Fellowship/0.2.1-fellowbook) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) ![](https://img.shields.io/badge/chat-on%20discord-orange) ![](https://img.shields.io/badge/build-passing-brightgreen) ![](https://img.shields.io/badge/contributors-only%203-blue) ![](https://img.shields.io/badge/version-1.0.0-yellow) ![](https://img.shields.io/badge/learned%20a%20lot-yes-blue)
 
 <p align="center">
     <a href="https://mlhfellowbook.herokuapp.com">
