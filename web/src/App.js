@@ -21,12 +21,12 @@ class App extends React.Component {
 
   async componentDidMount() {
     // Get saved access token from session storage
-    let accessToken = window.sessionStorage.getItem('accessToken');
+    let accessToken = window.sessionStorage.getItem("accessToken");
 
     if (window.location.search.includes("access_token")) {
       accessToken = window.location.search.substr(1).split("=")[1];
-      window.sessionStorage.setItem('accessToken', accessToken);
-      window.location = '/';
+      window.sessionStorage.setItem("accessToken", accessToken);
+      window.location = "/";
     }
 
     const fetchedData = await fetchData(accessToken);
@@ -56,7 +56,7 @@ class App extends React.Component {
               href="https://github.com/login/oauth/authorize?client_id=22d8bad72f3469cd766c&scope=user&allow_signup=false"
               className="login-btn"
             >
-              <img src={octocat} />
+              <img src={octocat} alt="octacat" />
               <span>Login with GitHub</span>
             </a>
           </div>
@@ -77,17 +77,13 @@ class App extends React.Component {
           <header className="App-header">
             <Header />
             <div className="Search">
-              <Search
-                handleInput={this.handleInput}
-              />
+              <Search handleInput={this.handleInput} />
             </div>
           </header>
-          <div className='fellows-count'>
-            {filterPods.length} fellow{filterPods.length === 1 ? '' : 's'}
+          <div className="fellows-count">
+            {filterPods.length} fellow{filterPods.length === 1 ? "" : "s"}
           </div>
-          <main className="container">
-            {fellowList}
-          </main>
+          <main className="container">{fellowList}</main>
         </div>
       );
     }
