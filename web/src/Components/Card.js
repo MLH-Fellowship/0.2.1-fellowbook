@@ -3,6 +3,22 @@ import PropTypes from "prop-types";
 import "font-awesome/css/font-awesome.min.css";
 import styled from "styled-components";
 
+// Hacky fix for our API bug that returns some counts as
+// following: { totalCount: 0 }
+const getCount = (count) => {
+  let countToShow = 0;
+  if (typeof count === 'undefined') {
+    countToShow = 0;
+  } else if (typeof count === 'object') {
+    countToShow = count.totalCount;
+  } else {
+    countToShow = count;
+  }
+
+  if (isNaN(countToShow)) return '0';
+  return countToShow.toString();
+}
+
 const Container = styled.div`
   position: relative;
   background-image: linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.7)),
@@ -16,6 +32,19 @@ const Container = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+  .details {
+    opacity: 1;
+  }
+  &:hover {
+    opacity: 0.5;
+    .details {
+      display: block;
+      height: 100%;
+    }
+    .content {
+      opacity: 0;
+    }
+  }
 `;
 
 const link = {
@@ -33,6 +62,18 @@ const Content = styled.div`
   align-items: flex-end;
   color: white;
   margin-top: 40px;
+  opacity: 1;
+`;
+
+const Details = styled.div`
+  display: none;
+  position: relative;
+  top: -90px;
+  color: white;
+  font-weight: bolder;
+  height: 100%;
+  text-align: center;
+  padding-bottom: 10px;
 `;
 
 const ContentColumn = styled.div``;
@@ -90,33 +131,46 @@ const Card = ({
     iconSize = 3,
     iconColor = "white",
     avatar_url,
+    bio,
+    location,
+    followers,
+    following,
   },
 }) => (
-  <Container bgPhoto={avatar_url}>
-    {pod && (
-      <Top>
-        <TagContainer tagBg={tagBg} tagColor={tagColor}>
-          <TagText>{pod}</TagText>
-        </TagContainer>
-        {"fa fa-github" && (
-          <IconContainer color={iconColor}>
-            <a href={html_url} style={link}>
-              <i className={`fa fa-github fa-${iconSize}x`} />
-            </a>
-          </IconContainer>
-        )}
-      </Top>
-    )}
-    {(name || username) && (
-      <Content>
-        <ContentColumn>
-          {name && <Title color={titleColor}>{name}</Title>}
-          {username && <Subtitle color={subtitleColor}>{username}</Subtitle>}
-        </ContentColumn>
-      </Content>
-    )}
-  </Container>
-);
+    <Container bgPhoto={avatar_url}>
+      {pod && (
+        <Top>
+          <TagContainer tagBg={tagBg} tagColor={tagColor}>
+            <TagText>{pod}</TagText>
+          </TagContainer>
+          {"fa fa-github" && (
+            <IconContainer color={iconColor}>
+              <a href={html_url} style={link}>
+                <i className={`fa fa-github fa-${iconSize}x`} />
+              </a>
+            </IconContainer>
+          )}
+        </Top>
+      )}
+      {(name || username) && (
+        <Content className="content">
+          <ContentColumn>
+            {name && <Title color={titleColor}>{name}</Title>}
+            {username && <Subtitle color={subtitleColor}>{username}</Subtitle>}
+          </ContentColumn>
+        </Content>
+      )}
+      {(bio || location) && (
+        <Details className="details">
+          {" "}
+          <p>Bio: {bio}</p>
+          <p>Location: {location}</p>
+          <p>Followers: {getCount(followers)}</p>
+          <p>Following: {getCount(following)}</p>
+        </Details>
+      )}
+    </Container>
+  );
 
 Card.propTypes = {
   title: PropTypes.string,
