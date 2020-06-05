@@ -3,6 +3,22 @@ import PropTypes from "prop-types";
 import "font-awesome/css/font-awesome.min.css";
 import styled from "styled-components";
 
+// Hacky fix for our API bug that returns some counts as
+// following: { totalCount: 0 }
+const getCount = (count) => {
+  let countToShow = 0;
+  if (typeof count === 'undefined') {
+    countToShow = 0;
+  } else if (typeof count === 'object') {
+    countToShow = count.totalCount;
+  } else {
+    countToShow = count;
+  }
+
+  if (isNaN(countToShow)) return '0';
+  return countToShow.toString();
+}
+
 const Container = styled.div`
   position: relative;
   background-image: linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.7)),
@@ -121,40 +137,40 @@ const Card = ({
     following,
   },
 }) => (
-  <Container bgPhoto={avatar_url}>
-    {pod && (
-      <Top>
-        <TagContainer tagBg={tagBg} tagColor={tagColor}>
-          <TagText>{pod}</TagText>
-        </TagContainer>
-        {"fa fa-github" && (
-          <IconContainer color={iconColor}>
-            <a href={html_url} style={link}>
-              <i className={`fa fa-github fa-${iconSize}x`} />
-            </a>
-          </IconContainer>
-        )}
-      </Top>
-    )}
-    {(name || username) && (
-      <Content className="content">
-        <ContentColumn>
-          {name && <Title color={titleColor}>{name}</Title>}
-          {username && <Subtitle color={subtitleColor}>{username}</Subtitle>}
-        </ContentColumn>
-      </Content>
-    )}
-    {(bio || location) && (
-      <Details className="details">
-        {" "}
-        <p>Bio: {bio}</p>
-        <p>Location: {location}</p>
-        <p>Followers: {followers.toString()}</p>
-        <p>Following: {following.toString()}</p>
-      </Details>
-    )}
-  </Container>
-);
+    <Container bgPhoto={avatar_url}>
+      {pod && (
+        <Top>
+          <TagContainer tagBg={tagBg} tagColor={tagColor}>
+            <TagText>{pod}</TagText>
+          </TagContainer>
+          {"fa fa-github" && (
+            <IconContainer color={iconColor}>
+              <a href={html_url} style={link}>
+                <i className={`fa fa-github fa-${iconSize}x`} />
+              </a>
+            </IconContainer>
+          )}
+        </Top>
+      )}
+      {(name || username) && (
+        <Content className="content">
+          <ContentColumn>
+            {name && <Title color={titleColor}>{name}</Title>}
+            {username && <Subtitle color={subtitleColor}>{username}</Subtitle>}
+          </ContentColumn>
+        </Content>
+      )}
+      {(bio || location) && (
+        <Details className="details">
+          {" "}
+          <p>Bio: {bio}</p>
+          <p>Location: {location}</p>
+          <p>Followers: {getCount(followers)}</p>
+          <p>Following: {getCount(following)}</p>
+        </Details>
+      )}
+    </Container>
+  );
 
 Card.propTypes = {
   title: PropTypes.string,
