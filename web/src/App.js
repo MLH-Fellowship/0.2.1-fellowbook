@@ -20,13 +20,16 @@ class App extends React.Component {
   };
 
   async componentDidMount() {
-    let accessToken = this.state.accessToken;
+    // Get saved access token from session storage
+    let accessToken = window.sessionStorage.getItem('accessToken');
+
     if (window.location.search.includes("access_token")) {
       accessToken = window.location.search.substr(1).split("=")[1];
+      window.sessionStorage.setItem('accessToken', accessToken);
+      window.location = '/';
     }
 
     const fetchedData = await fetchData(accessToken);
-
     if (!fetchedData || !fetchedData.length) accessToken = null;
     this.setState({ data: fetchedData, accessToken });
   }
