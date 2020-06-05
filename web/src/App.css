@@ -18,10 +18,30 @@
   /* grid-template-rows: 260px 400px 400px; */
 }
 
-/* .gitIcon:link {
-  text-decoration: none;
-  color: blue;
-} */
+.login {
+  text-align: center;
+}
+
+.login-btn {
+  background-color: black;
+  height: 70px;
+  display: block;
+  width: 25%;
+  margin: auto;
+  color: white;
+  border-radius: 10px;
+}
+
+.login-btn img {
+  height: 80%;
+  float: left;
+  margin-top: 2%;
+  margin-left: 32px;
+}
+
+.login-btn span {
+  line-height: 4;
+}
 
 @media screen and (max-width: 900px) {
   .container {
