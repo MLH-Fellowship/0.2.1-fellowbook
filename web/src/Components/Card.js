@@ -160,14 +160,14 @@ const Card = ({
           </ContentColumn>
         </Content>
       )}
-      {(bio || location) && (
-        <Details className="details">
-          {" "}
-          <p>Bio: {bio}</p>
-          <p>Location: {location}</p>
-          <p>Followers: {getCount(followers)}</p>
-          <p>Following: {getCount(following)}</p>
-        </Details>
+      (
+      <Details className="details">
+        {" "}
+        <p>{bio ? `Bio: ${bio}` : ''}</p>
+        <p>{location ? `Location: ${location}` : ''}</p>
+        <p>Followers: {getCount(followers)}</p>
+        <p>Following: {getCount(following)}</p>
+      </Details>
       )}
     </Container>
   );
