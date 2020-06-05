@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "font-awesome/css/font-awesome.min.css";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -16,6 +17,14 @@ const Container = styled.div`
   justify-content: space-between;
   padding: 20px;
 `;
+
+const link = {
+  color: "#fff",
+  textDecoration: "none",
+  "&:hover": {
+    color: "#000",
+  },
+};
 
 const Content = styled.div`
   width: 100%;
@@ -48,7 +57,7 @@ const TagContainer = styled.div`
   font-weight: 500;
   text-transform: uppercase;
   padding: 3px;
-  width: 60px;
+  width: 80px;
   border-radius: 3px;
   text-align: center;
   color: white;
@@ -69,36 +78,40 @@ const Top = styled.div`
 `;
 
 const Card = ({
-  title,
-  subtitle,
-  titleColor = "white",
-  subtitleColor = "white",
-  tag,
-  tagBg = "#E33C36",
-  tagColor = "white",
-  iconName,
-  iconSize = 3,
-  iconColor = "white",
-  bgPhoto,
+  item: {
+    name,
+    username,
+    titleColor = "white",
+    subtitleColor = "white",
+    pod,
+    tagBg = "#E33C36",
+    tagColor = "white",
+    html_url,
+    iconSize = 3,
+    iconColor = "white",
+    avatar_url,
+  },
 }) => (
-  <Container bgPhoto={bgPhoto}>
-    {tag && (
+  <Container bgPhoto={avatar_url}>
+    {pod && (
       <Top>
         <TagContainer tagBg={tagBg} tagColor={tagColor}>
-          <TagText>{tag}</TagText>
+          <TagText>{pod}</TagText>
         </TagContainer>
-        {iconName && (
+        {"fa fa-github" && (
           <IconContainer color={iconColor}>
-            <i className={`${iconName} fa-${iconSize}x`} />
+            <a href={html_url} style={link}>
+              <i className={`fa fa-github fa-${iconSize}x`} />
+            </a>
           </IconContainer>
         )}
       </Top>
     )}
-    {(title || subtitle) && (
+    {(name || username) && (
       <Content>
         <ContentColumn>
-          {title && <Title color={titleColor}>{title}</Title>}
-          {subtitle && <Subtitle color={subtitleColor}>{subtitle}</Subtitle>}
+          {name && <Title color={titleColor}>{name}</Title>}
+          {username && <Subtitle color={subtitleColor}>{username}</Subtitle>}
         </ContentColumn>
       </Content>
     )}
