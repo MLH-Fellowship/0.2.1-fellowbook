@@ -68,7 +68,7 @@
 				"Timeout": "25",
 				"Code": {
 					"S3Bucket": "amplify-mlhfellowbook-dev-215635-deployment",
-					"S3Key": "amplify-builds/githuborgauth-716a3031717a704f3465-build.zip"
+					"S3Key": "amplify-builds/githuborgauth-475965353262546e6b79-build.zip"
 				}
 			}
 		},
