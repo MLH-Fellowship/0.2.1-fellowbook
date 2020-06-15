@@ -3,14 +3,10 @@ import PropTypes from "prop-types";
 import "font-awesome/css/font-awesome.min.css";
 import styled from "styled-components";
 
-// Hacky fix for our API bug that returns some counts as
-// following: { totalCount: 0 }
 const getCount = (count) => {
   let countToShow = 0;
   if (typeof count === "undefined") {
     countToShow = 0;
-  } else if (typeof count === "object") {
-    countToShow = count.totalCount;
   } else {
     countToShow = count;
   }
