@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiUrl =
-  "https://a5c6y99l3g.execute-api.eu-central-1.amazonaws.com/devv/fellows/list";
+  "https://ld48eii9kk.execute-api.eu-central-1.amazonaws.com/dev/fellows";
 
 export const fetchData = async (accessToken) => {
   try {
