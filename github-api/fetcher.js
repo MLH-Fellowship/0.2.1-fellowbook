@@ -70,9 +70,14 @@ const fetchUsers = async () => {
 			extraUserFields.forEach(field => member[field] = thisUserDetails[field]);
 
 			// Handle the extra nested fields
-			member['followers'] = thisUserDetails.followers.totalCount ? thisUserDetails.followers.totalCount : thisUserDetails.followers;
-			member['following'] = thisUserDetails.following.totalCount ? thisUserDetails.following.totalCount : thisUserDetails.following;
-			member['repositories'] = thisUserDetails.repositories.totalCount ? thisUserDetails.repositories.totalCount : thisUserDetails.repositories;
+			member['followers'] = typeof thisUserDetails.followers.totalCount === 'undefined' ?
+				thisUserDetails.followers.totalCount : thisUserDetails.followers;
+
+			member['following'] = typeof thisUserDetails.following.totalCount === 'undefined' ?
+				thisUserDetails.following.totalCount : thisUserDetails.following;
+
+			member['repositories'] = typeof thisUserDetails.repositories.totalCount === 'undefined' ?
+				thisUserDetails.repositories.totalCount : thisUserDetails.repositories;
 
 			// Rename 'login' to 'username' (primary key of aws amplify db)
 			member.username = member.login;
@@ -148,7 +153,7 @@ const uploadUsers = async (users) => {
 		if (i % 10 == 0) console.log(`Saving user ${user.username} (${i + 1}/${usersCount}) to amplify db`);
 
 		const response = await fetch(
-			`https://a5c6y99l3g.execute-api.eu-central-1.amazonaws.com/devv/fellows/${user.username}`,
+			`https://ld48eii9kk.execute-api.eu-central-1.amazonaws.com/dev/fellows/${user.username}`,
 			{
 				method: 'put',
 				headers: {
