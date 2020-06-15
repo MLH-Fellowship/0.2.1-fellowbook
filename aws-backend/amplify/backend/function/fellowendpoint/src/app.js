@@ -1,7 +1,7 @@
 const AWS = require('aws-sdk')
-var awsServerlessExpressMiddleware = require('aws-serverless-express/middleware')
-var bodyParser = require('body-parser')
-var express = require('express')
+const awsServerlessExpressMiddleware = require('aws-serverless-express/middleware')
+const bodyParser = require('body-parser')
+const express = require('express')
 
 AWS.config.update({ region: process.env.TABLE_REGION });
 
@@ -22,8 +22,9 @@ const path = "/fellows/:username";
 const UNAUTH = 'UNAUTH';
 const hashKeyPath = '/:' + partitionKeyName;
 const sortKeyPath = hasSortKey ? '/:' + sortKeyName : '';
+
 // declare a new express app
-var app = express()
+const app = express()
 app.use(bodyParser.json())
 app.use(awsServerlessExpressMiddleware.eventContext())
 
