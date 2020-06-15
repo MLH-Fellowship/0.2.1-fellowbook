@@ -1,11 +1,10 @@
 {
   "name": "githubauth",
   "version": "2.0.0",
-  "description": "Fellowbook GitHub Authorisation server",
+  "description": "MLH Fellowbook Web App",
   "main": "index.js",
   "license": "Apache-2.0",
   "dependencies": {
-    "node-fetch": "^2.6.0",
     "express": "4.17.1"
   },
   "scripts": {

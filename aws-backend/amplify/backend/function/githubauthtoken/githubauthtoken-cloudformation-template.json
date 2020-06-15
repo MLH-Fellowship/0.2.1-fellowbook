@@ -33,12 +33,12 @@
 				"FunctionName": {
 					"Fn::If": [
 						"ShouldNotCreateEnvResources",
-						"githubauth",
+						"githubauthtoken",
 						{
 							"Fn::Join": [
 								"",
 								[
-									"githubauth",
+									"githubauthtoken",
 									"-",
 									{
 										"Ref": "env"
@@ -67,8 +67,8 @@
 				"Runtime": "nodejs12.x",
 				"Timeout": "25",
 				"Code": {
-					"S3Bucket": "amplify-mlhfellowbook-devv-132454-deployment",
-					"S3Key": "amplify-builds/githubauth-764f6e6a355344676362-build.zip"
+					"S3Bucket": "amplify-mlhfellowbook-dev-215635-deployment",
+					"S3Key": "amplify-builds/githubauthtoken-53695145535148736456-build.zip"
 				}
 			}
 		},
@@ -78,12 +78,12 @@
 				"RoleName": {
 					"Fn::If": [
 						"ShouldNotCreateEnvResources",
-						"mlhfellowbookLambdaRolecde487c1",
+						"mlhfellowbookLambdaRole0012fe38",
 						{
 							"Fn::Join": [
 								"",
 								[
-									"mlhfellowbookLambdaRolecde487c1",
+									"mlhfellowbookLambdaRole0012fe38",
 									"-",
 									{
 										"Ref": "env"

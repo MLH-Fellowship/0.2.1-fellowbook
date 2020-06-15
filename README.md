@@ -173,7 +173,7 @@ You will need a `.env` file containing `GITHUB_TOKEN=[your GitHub API access tok
 
 ### [Heroku server dyno](./heroku)
 
-This contains the simple Node.js Express server that is hosted on Heroku supplying the /authorise endpoint to get an access token, and serving the static built React web app. To use:
+This contains the simple Node.js Express server that is hosted on Heroku serving the static built React web app. To use:
 
 ```
 cd heroku
