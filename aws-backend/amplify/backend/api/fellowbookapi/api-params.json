@@ -1,15 +1,31 @@
 {
     "paths": [
         {
-            "name": "/fellows/{username}",
-            "lambdaFunction": "fellowsEndpoint",
+            "name": "/fellows",
+            "lambdaFunction": "fellowsendpoint",
             "privacy": {
-                "open": true
+                "private": true,
+                "auth": [
+                    "/GET"
+                ]
             }
         },
         {
-            "name": "/fellows",
-            "lambdaFunction": "fellowsEndpoint",
+            "name": "/fellows/{username}",
+            "lambdaFunction": "fellowendpoint",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH"
+                ]
+            }
+        },
+        {
+            "name": "/authorise",
+            "lambdaFunction": "githubauthtoken",
             "privacy": {
                 "open": true
             }
@@ -19,24 +35,46 @@
     "apiName": "fellowbookapi",
     "functionArns": [
         {
-            "lambdaFunction": "fellowsEndpoint"
+            "lambdaFunction": "fellowsendpoint"
+        },
+        {
+            "lambdaFunction": "fellowendpoint"
+        },
+        {
+            "lambdaFunction": "githubauthtoken"
         }
     ],
     "privacy": {
-        "auth": 0,
+        "auth": 2,
         "unauth": 0,
-        "authRoleName": "amplify-mlhfellowbook-devv-132454-authRole",
-        "unAuthRoleName": "amplify-mlhfellowbook-devv-132454-unauthRole"
+        "authRoleName": "amplify-mlhfellowbook-dev-215635-authRole",
+        "unAuthRoleName": "amplify-mlhfellowbook-dev-215635-unauthRole"
     },
     "dependsOn": [
         {
             "category": "function",
-            "resourceName": "fellowsEndpoint",
+            "resourceName": "fellowsendpoint",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "fellowendpoint",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "githubauthtoken",
             "attributes": [
                 "Name",
                 "Arn"
             ]
         }
     ],
-    "uuid": "8eccfb36"
+    "uuid": "137b1797"
 }

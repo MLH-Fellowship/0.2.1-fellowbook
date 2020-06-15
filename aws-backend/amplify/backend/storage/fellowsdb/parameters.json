@@ -1,5 +1,5 @@
 {
-    "tableName": "fellows",
+    "tableName": "fellowsdb",
     "partitionKeyName": "username",
     "partitionKeyType": "S"
 }
