@@ -82,6 +82,12 @@ const fetchUsers = async () => {
 			// Rename 'login' to 'username' (primary key of aws amplify db)
 			member.username = member.login;
 			delete member.login;
+
+			// Add a username_original field storing original-cased username
+			// And convert primary key username to lower case
+			// Note: not sure if username_original is important at all, but keeping it for now
+			member.username_original = member.username;
+			member.username = member.username.toLowerCase();
 		}
 
 		users.push(...membersForTeam);
