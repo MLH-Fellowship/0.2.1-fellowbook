@@ -71,13 +71,13 @@ const fetchUsers = async () => {
 
 			// Handle the extra nested fields
 			member['followers'] = typeof thisUserDetails.followers.totalCount === 'undefined' ?
-				thisUserDetails.followers.totalCount : thisUserDetails.followers;
+				thisUserDetails.followers : thisUserDetails.followers.totalCount;
 
 			member['following'] = typeof thisUserDetails.following.totalCount === 'undefined' ?
-				thisUserDetails.following.totalCount : thisUserDetails.following;
+				thisUserDetails.following : thisUserDetails.following.totalCount;
 
 			member['repositories'] = typeof thisUserDetails.repositories.totalCount === 'undefined' ?
-				thisUserDetails.repositories.totalCount : thisUserDetails.repositories;
+				thisUserDetails.repositories : thisUserDetails.repositories.totalCount;
 
 			// Rename 'login' to 'username' (primary key of aws amplify db)
 			member.username = member.login;
