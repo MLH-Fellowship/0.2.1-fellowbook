@@ -164,6 +164,7 @@ const uploadUsers = async (users) => {
 				method: 'put',
 				headers: {
 					'Content-Type': 'application/json',
+					'Authorization': process.env.GITHUB_TOKEN
 				},
 				body: JSON.stringify(user),
 			},
