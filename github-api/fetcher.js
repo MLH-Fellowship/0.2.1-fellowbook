@@ -71,17 +71,23 @@ const fetchUsers = async () => {
 
 			// Handle the extra nested fields
 			member['followers'] = typeof thisUserDetails.followers.totalCount === 'undefined' ?
-				thisUserDetails.followers.totalCount : thisUserDetails.followers;
+				thisUserDetails.followers : thisUserDetails.followers.totalCount;
 
 			member['following'] = typeof thisUserDetails.following.totalCount === 'undefined' ?
-				thisUserDetails.following.totalCount : thisUserDetails.following;
+				thisUserDetails.following : thisUserDetails.following.totalCount;
 
 			member['repositories'] = typeof thisUserDetails.repositories.totalCount === 'undefined' ?
-				thisUserDetails.repositories.totalCount : thisUserDetails.repositories;
+				thisUserDetails.repositories : thisUserDetails.repositories.totalCount;
 
 			// Rename 'login' to 'username' (primary key of aws amplify db)
 			member.username = member.login;
 			delete member.login;
+
+			// Add a username_original field storing original-cased username
+			// And convert primary key username to lower case
+			// Note: not sure if username_original is important at all, but keeping it for now
+			member.username_original = member.username;
+			member.username = member.username.toLowerCase();
 		}
 
 		users.push(...membersForTeam);
@@ -158,6 +164,7 @@ const uploadUsers = async (users) => {
 				method: 'put',
 				headers: {
 					'Content-Type': 'application/json',
+					'Authorization': process.env.GITHUB_TOKEN
 				},
 				body: JSON.stringify(user),
 			},
