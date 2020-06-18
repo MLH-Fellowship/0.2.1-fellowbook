@@ -14,6 +14,17 @@ if (process.env.ENV && process.env.ENV !== "NONE") {
 
 const path = "/random";
 
+// Durstenfeld shuffle from https://stackoverflow.com/a/12646864
+function shuffleFellows(fellows) {
+  for (let i = fellows.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const temp = fellows[i];
+    fellows[i] = fellows[j];
+    fellows[j] = temp;
+  }
+  return fellows;
+}
+
 function filterFellows(fellows, query) {
   query = query.toLowerCase();
   // Get all fellows where the query is part of the pod name, or the query is the pod ID
@@ -47,7 +58,7 @@ app.get(path, function (req, res) {
       if (req.query.query) {
         // If there's a query, we want to get all fellows matching the query
         const filteredFellows = filterFellows(fellows, req.query.query);
-        res.json(filteredFellows);
+        res.json(shuffleFellows(filteredFellows));
       } else {
         // Otherwise we just want a single random fellow
         const randomFellow = fellows[Math.floor(Math.random() * fellows.length)];
