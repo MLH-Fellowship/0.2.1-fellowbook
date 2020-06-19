@@ -22,7 +22,7 @@ const latestPodStandupQuery = (pod) => {
 
   return `{
     organization(login: "MLH-Fellowship") {
-      team(slug: "pod-${pod.replace(',', '-')}") {
+      team(slug: "pod-${pod.replace(/\./g, '-')}") {
         discussions(last: 1) {
           nodes {
             comments(last: 20) {
@@ -46,7 +46,7 @@ const latestUserStandupQuery = (username) => {
   // Make it case insensitive. How? Maybe get original_username from our DynamoDB?
   return `{
     organization(login: "MLH-Fellowship") {
-      teams(last: 1, userLogins: "shu8") {
+      teams(last: 1, userLogins: "${username}") {
         totalCount
         edges {
           node {
@@ -108,7 +108,7 @@ app.get(path, function (req, res) {
       return res.json(comments);
     });
   } else if (req.query.user) {
-    const query = latestUserStandupQuery(req.query.pod);
+    const query = latestUserStandupQuery(req.query.user);
     if (!query) return res.json({ error: 'Unknown or Invalid user' });
 
     fetch(BASE_API_URL,
