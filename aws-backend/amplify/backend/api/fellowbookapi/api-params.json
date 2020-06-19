@@ -29,6 +29,13 @@
             "privacy": {
                 "open": true
             }
+        },
+        {
+            "name": "/random",
+            "lambdaFunction": "randomendpoint",
+            "privacy": {
+                "open": true
+            }
         }
     ],
     "resourceName": "fellowbookapi",
@@ -42,6 +49,9 @@
         },
         {
             "lambdaFunction": "githubauthtoken"
+        },
+        {
+            "lambdaFunction": "randomendpoint"
         }
     ],
     "privacy": {
@@ -74,7 +84,15 @@
                 "Name",
                 "Arn"
             ]
+        },
+        {
+            "category": "function",
+            "resourceName": "randomendpoint",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
         }
     ],
-    "uuid": "137b1797"
+    "uuid": "e592463b"
 }

@@ -41,12 +41,12 @@
 				"FunctionName": {
 					"Fn::If": [
 						"ShouldNotCreateEnvResources",
-						"fellowsendpoint",
+						"randomendpoint",
 						{
 							"Fn::Join": [
 								"",
 								[
-									"fellowsendpoint",
+									"randomendpoint",
 									"-",
 									{
 										"Ref": "env"
@@ -76,7 +76,7 @@
 				"Timeout": "25",
 				"Code": {
 					"S3Bucket": "amplify-mlhfellowbook-dev-215635-deployment",
-					"S3Key": "amplify-builds/fellowsendpoint-423174593467794a6148-build.zip"
+					"S3Key": "amplify-builds/randomendpoint-374b6d44615431654d50-build.zip"
 				}
 			}
 		},
@@ -86,12 +86,12 @@
 				"RoleName": {
 					"Fn::If": [
 						"ShouldNotCreateEnvResources",
-						"mlhfellowbookLambdaRole4920f2e3",
+						"mlhfellowbookLambdaRole41b65d1d",
 						{
 							"Fn::Join": [
 								"",
 								[
-									"mlhfellowbookLambdaRole4920f2e3",
+									"mlhfellowbookLambdaRole41b65d1d",
 									"-",
 									{
 										"Ref": "env"
