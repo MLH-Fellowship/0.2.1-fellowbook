@@ -36,6 +36,13 @@
             "privacy": {
                 "open": true
             }
+        },
+        {
+            "name": "/standups",
+            "lambdaFunction": "standupendpoint",
+            "privacy": {
+                "open": true
+            }
         }
     ],
     "resourceName": "fellowbookapi",
@@ -52,6 +59,9 @@
         },
         {
             "lambdaFunction": "randomendpoint"
+        },
+        {
+            "lambdaFunction": "standupendpoint"
         }
     ],
     "privacy": {
@@ -92,7 +102,15 @@
                 "Name",
                 "Arn"
             ]
+        },
+        {
+            "category": "function",
+            "resourceName": "standupendpoint",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
         }
     ],
-    "uuid": "e592463b"
+    "uuid": "f379a07e"
 }
