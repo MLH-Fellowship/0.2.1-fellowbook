@@ -1,0 +1,156 @@
+{
+  "Amplify": {
+    "language": "JavaScript",
+    "siteUrl": "https://docs.amplify.aws",
+    "githubUrl": "https://github.com/aws-amplify/amplify-js",
+    "description": "A declarative JavaScript library for application development using cloud services.",
+    "maintainers": ["Ammar Karachiwala", "Matt Auerbac", "Ashika Kasiviswanathan"]
+  },
+  "Scikit-Learn": {
+    "language": "Python",
+    "siteUrl": "https://scikit-learn.org",
+    "githubUrl": "https://github.com/scikit-learn/scikit-learn",
+    "description": "Machine learning in Python.",
+    "maintainers": ["Adrin Jalali", "Andreas Müller", "Thomas Fan"]
+  },
+  "BentoML": {
+    "language": "Python",
+    "siteUrl": "https://bentoml.org",
+    "githubUrl": "https://github.com/bentoml/BentoML",
+    "description": "Model serving made easy.",
+    "maintainers": ["Bozhao Yu", "Chaoyu Yang"]
+  },
+  "Pallets": {
+    "language": "Python",
+    "siteUrl": "https://palletsprojects.com",
+    "githubUrl": "https://github.com/pallets",
+    "description": "Web development libraries as the basis of the Flask microframework.",
+    "maintainers": ["David Lord", "Grey Li"]
+  },
+  "Docsify": {
+    "language": "JavaScript",
+    "siteUrl": "https://docsify.js.org",
+    "githubUrl": "https://github.com/docsifyjs/docsify",
+    "description": "A magical documentation site generator.",
+    "maintainers": ["Joe Pea", "Sy Records", "John Hildenbiddle"]
+  },
+  "Circuit Python": {
+    "language": "Python",
+    "siteUrl": "https://circuitpython.org",
+    "githubUrl": "https://github.com/adafruit/circuitpython",
+    "description": "Simplify experimenting and learning to code on low-cost microcontroller boards.",
+    "maintainers": ["Scott Shawcroft"]
+  },
+  "Julia": {
+    "language": "duh",
+    "siteUrl": "https://julialang.org",
+    "githubUrl": "https://github.com/JuliaLang/julia",
+    "description": "A fresh approach to technical computing.",
+    "maintainers": ["Logan Kilpatrick"]
+  },
+  "HTTPie": {
+    "language": "Python",
+    "siteUrl": "https://httpie.org",
+    "githubUrl": "https://github.com/jakubroztocil/httpie",
+    "description": "A command-line HTTP client with an intuitive UI, and more.",
+    "maintainers": ["Jakub Roztočil"]
+  },
+  "React Native": {
+    "language": "JavaScript",
+    "siteUrl": "https://reactnative.dev",
+    "githubUrl": "https://github.com/facebook/react-native",
+    "description": "A framework for building native apps with React.",
+    "maintainers": ["Rick Hanlon"]
+  },
+  "Homebrew": {
+    "language": "Ruby",
+    "siteUrl": "https://brew.sh",
+    "githubUrl": "https://github.com/Homebrew",
+    "description": "The missing package manager for macOS (or Linux).",
+    "maintainers": ["Mike McQuaid"]
+  },
+  "Beagleboard": {
+    "language": "C",
+    "siteUrl": "http://beagleboard.org/source",
+    "githubUrl": "https://github.com/beagleboard/linux",
+    "description": "n/a",
+    "maintainers": ["Jason Kridner"]
+  },
+  "Next.js": {
+    "language": "JavaScript",
+    "siteUrl": "https://nextjs.org",
+    "githubUrl": "https://github.com/vercel/next.js",
+    "description": "The React Framework.",
+    "maintainers": ["Tim Neutkens"]
+  },
+  "Howdoi": {
+    "language": "Python",
+    "siteUrl": "http://blog.gleitzman.com/post/43330157197/howdoi-instant-coding-answers-via-the-command-line",
+    "githubUrl": "https://github.com/gleitz/howdoi",
+    "description": "Instant coding answers via the command line",
+    "maintainers": ["Benjamin Gleitzman"]
+  },
+  "Babel": {
+    "language": "JavaScript",
+    "siteUrl": "https://babeljs.io",
+    "githubUrl": "https://github.com/babel/babel",
+    "description": "A compiler for writing next generation JavaScript.",
+    "maintainers": ["Henry Zhu"]
+  },
+  "SciML": {
+    "language": "Julia",
+    "siteUrl": "https://sciml.ai",
+    "githubUrl": "https://github.com/SciML",
+    "description": "Open source software for scientific machine learning",
+    "maintainers": ["Chris Rackauckas"]
+  },
+  "Dev.to": {
+    "language": "Ruby",
+    "siteUrl": "https://dev.to",
+    "githubUrl": "https://github.com/thepracticaldev/dev.to",
+    "description": "Where programmers share ideas and help each other grow.",
+    "maintainers": ["Jacob Herrington"]
+  },
+  "N8N": {
+    "language": "JavaScript",
+    "siteUrl": "https://n8n.io",
+    "githubUrl": "https://github.com/n8n-io/n8n",
+    "description": "Fair-code licensed node-based workflow automation tool.",
+    "maintainers": ["Jan Oberhauser", "Ricardo Espinoza", "Tanay Pant"]
+  },
+  "Oh My Zsh": {
+    "language": "Shell",
+    "siteUrl": "https://ohmyz.sh",
+    "githubUrl": "https://github.com/ohmyzsh/ohmyzsh",
+    "description": "A delightful community-driven framework for your zsh configuration.",
+    "maintainers": ["Marc Cornellà"]
+  },
+  "Fast API": {
+    "language": "Python",
+    "siteUrl": "https://fastapi.tiangolo.com",
+    "githubUrl": "https://github.com/tiangolo/fastapi",
+    "description": "High performance, easy to learn, fast to code, ready for production.",
+    "maintainers": ["Sebastián Ramírez"]
+  },
+  "Jest": {
+    "language": "JavaScript",
+    "siteUrl": "https://jestjs.io",
+    "githubUrl": "https://github.com/facebook/jest",
+    "description": "Delightful JavaScript testing.",
+    "maintainers": ["Tim Seckinger"]
+  },
+  "Sheet": {
+    "language": "JavaScript",
+    "siteUrl": "https://sheetjs.com/",
+    "githubUrl": "https://github.com/SheetJS",
+    "description": "Spreadsheet data toolkit.",
+    "maintainers": ["n/a"]
+  },
+  "Webaverse": {
+    "language": "JavaScript",
+    "siteUrl": "https://webaverse.com/",
+    "githubUrl": "https://github.com/webaverse",
+    "description": "A universe of augmentations.",
+    "maintainers": ["Jared Cheshier"]
+  }
+}

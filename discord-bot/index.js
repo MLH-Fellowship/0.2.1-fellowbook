@@ -1,28 +1,10 @@
-const fs = require("fs");
-const { Client, Collection } = require("discord.js");
-const dotenv = require("dotenv");
-
-const initializeCommands = () => {
-	client.commands = new Collection();
-	const commandFiles = fs
-		.readdirSync("./commands")
-		.filter(file => file.endsWith(".js"));
-
-	for (let file of commandFiles) {
-		const command = require(`./commands/${file}`);
-		client.commands.set(command.name, command);
-	}
-};
-
-const client = new Client();
-initializeCommands();
+const { discordToken } = require("./config");
+const client = require("./Client");
 
 client.once("ready", () => console.log("Client ready!"));
+client.login(discordToken);
 
-dotenv.config();
-client.login(process.env.BOT_TOKEN || process.env.LOCAL_DISCORD_TOKEN);
-
-client.on("message", message => {
+client.on("message", (message) => {
 	if (!message.content.startsWith("!") || message.author.bot) return;
 
 	const args = message.content.slice(1).split(/ +/);
@@ -33,7 +15,6 @@ client.on("message", message => {
 	try {
 		client.commands.get(command).execute(message, args);
 	} catch (error) {
-		console.error(error);
-		message.reply("There was an error trying to execute that command!");
+		message.channel.send("There was an error trying to execute that command!");
 	}
 });
