@@ -78,24 +78,42 @@ app.get(path, function (req, res) {
   }
 });
 
+function _insert(user, cb) {
+  let putItemParams = {
+    TableName: tableName,
+    Item: user
+  }
+
+  dynamodb.put(putItemParams, (err, data) => {
+    if (err) console.error('error inserting data to db', err);
+    cb(err ? false : true);
+  });
+}
+
 app.put(path, function (req, res) {
   if (userIdPresent) {
     req.body['userId'] = req.apiGateway.event.requestContext.identity.cognitoIdentityId || UNAUTH;
   }
 
-  let putItemParams = {
-    TableName: tableName,
-    Item: req.body
+  const failedUsers = [];
+  if (Array.isArray(req.body)) {
+    for (let i = 0; i < req.body.length; i++) {
+      const user = req.body[i];
+      _insert(user, success => {
+        if (!success) failedUsers.push(user);
+      });
+    }
+  } else {
+    _insert(req.body, success => {
+      if (!success) failedUsers.push(user);
+    });
   }
 
-  dynamodb.put(putItemParams, (err, data) => {
-    if (err) {
-      res.statusCode = 500;
-      res.json({ error: err, url: req.url, body: req.body });
-    } else {
-      res.json({ success: 'put call succeed!', url: req.url, data: data })
-    }
-  });
+  if (failedUsers.length === 0) {
+    res.json({ success: 'put call succeed!' })
+  } else {
+    res.json({ success: 'put call failed for one or more users!', failedUsers })
+  }
 });
 
 app.post(path, function (req, res) {
