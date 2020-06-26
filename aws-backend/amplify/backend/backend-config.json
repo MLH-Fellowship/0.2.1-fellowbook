@@ -1,145 +1,164 @@
 {
-    "storage": {
-        "fellowsdb": {
-            "service": "DynamoDB",
-            "providerPlugin": "awscloudformation"
-        }
-    },
-    "function": {
-        "fellowsendpoint": {
-            "build": true,
-            "providerPlugin": "awscloudformation",
-            "service": "Lambda",
-            "dependsOn": [
-                {
-                    "category": "storage",
-                    "resourceName": "fellowsdb",
-                    "attributes": [
-                        "Name",
-                        "Arn"
-                    ],
-                    "attributeEnvMap": {
-                        "Name": "TABLE_NAME",
-                        "Arn": "TABLE_ARN"
-                    }
-                }
-            ]
-        },
-        "fellowendpoint": {
-            "build": true,
-            "providerPlugin": "awscloudformation",
-            "service": "Lambda",
-            "dependsOn": [
-                {
-                    "category": "storage",
-                    "resourceName": "fellowsdb",
-                    "attributes": [
-                        "Name",
-                        "Arn"
-                    ],
-                    "attributeEnvMap": {
-                        "Name": "TABLE_NAME",
-                        "Arn": "TABLE_ARN"
-                    }
-                }
-            ]
-        },
-        "githuborgauth": {
-            "build": true,
-            "providerPlugin": "awscloudformation",
-            "service": "Lambda"
-        },
-        "githubauthtoken": {
-            "build": true,
-            "providerPlugin": "awscloudformation",
-            "service": "Lambda"
-        },
-        "randomendpoint": {
-            "build": true,
-            "providerPlugin": "awscloudformation",
-            "service": "Lambda",
-            "dependsOn": [
-                {
-                    "category": "storage",
-                    "resourceName": "fellowsdb",
-                    "attributes": [
-                        "Name",
-                        "Arn"
-                    ],
-                    "attributeEnvMap": {
-                        "Name": "TABLE_NAME",
-                        "Arn": "TABLE_ARN"
-                    }
-                }
-            ]
-        },
-        "standupendpoint": {
-            "build": true,
-            "providerPlugin": "awscloudformation",
-            "service": "Lambda",
-            "dependsOn": [
-                {
-                    "category": "storage",
-                    "resourceName": "fellowsdb",
-                    "attributes": [
-                        "Name",
-                        "Arn"
-                    ],
-                    "attributeEnvMap": {
-                        "Name": "TABLE_NAME",
-                        "Arn": "TABLE_ARN"
-                    }
-                }
-            ]
-        }
-    },
-    "auth": {},
-    "api": {
-        "fellowbookapi": {
-            "service": "API Gateway",
-            "providerPlugin": "awscloudformation",
-            "dependsOn": [
-                {
-                    "category": "function",
-                    "resourceName": "fellowsendpoint",
-                    "attributes": [
-                        "Name",
-                        "Arn"
-                    ]
-                },
-                {
-                    "category": "function",
-                    "resourceName": "fellowendpoint",
-                    "attributes": [
-                        "Name",
-                        "Arn"
-                    ]
-                },
-                {
-                    "category": "function",
-                    "resourceName": "githubauthtoken",
-                    "attributes": [
-                        "Name",
-                        "Arn"
-                    ]
-                },
-                {
-                    "category": "function",
-                    "resourceName": "randomendpoint",
-                    "attributes": [
-                        "Name",
-                        "Arn"
-                    ]
-                },
-                {
-                    "category": "function",
-                    "resourceName": "standupendpoint",
-                    "attributes": [
-                        "Name",
-                        "Arn"
-                    ]
-                }
-            ]
-        }
-    }
+	"storage": {
+		"fellowsdb": {
+			"service": "DynamoDB",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"function": {
+		"fellowsendpoint": {
+			"build": true,
+			"providerPlugin": "awscloudformation",
+			"service": "Lambda",
+			"dependsOn": [
+				{
+					"category": "storage",
+					"resourceName": "fellowsdb",
+					"attributes": [
+						"Name",
+						"Arn"
+					],
+					"attributeEnvMap": {
+						"Name": "TABLE_NAME",
+						"Arn": "TABLE_ARN"
+					}
+				}
+			]
+		},
+		"fellowendpoint": {
+			"build": true,
+			"providerPlugin": "awscloudformation",
+			"service": "Lambda",
+			"dependsOn": [
+				{
+					"category": "storage",
+					"resourceName": "fellowsdb",
+					"attributes": [
+						"Name",
+						"Arn"
+					],
+					"attributeEnvMap": {
+						"Name": "TABLE_NAME",
+						"Arn": "TABLE_ARN"
+					}
+				}
+			]
+		},
+		"githuborgauth": {
+			"build": true,
+			"providerPlugin": "awscloudformation",
+			"service": "Lambda"
+		},
+		"githubauthtoken": {
+			"build": true,
+			"providerPlugin": "awscloudformation",
+			"service": "Lambda"
+		},
+		"randomendpoint": {
+			"build": true,
+			"providerPlugin": "awscloudformation",
+			"service": "Lambda",
+			"dependsOn": [
+				{
+					"category": "storage",
+					"resourceName": "fellowsdb",
+					"attributes": [
+						"Name",
+						"Arn"
+					],
+					"attributeEnvMap": {
+						"Name": "TABLE_NAME",
+						"Arn": "TABLE_ARN"
+					}
+				}
+			]
+		},
+		"standupendpoint": {
+			"build": true,
+			"providerPlugin": "awscloudformation",
+			"service": "Lambda",
+			"dependsOn": [
+				{
+					"category": "storage",
+					"resourceName": "fellowsdb",
+					"attributes": [
+						"Name",
+						"Arn"
+					],
+					"attributeEnvMap": {
+						"Name": "TABLE_NAME",
+						"Arn": "TABLE_ARN"
+					}
+				}
+			]
+		},
+		"autoupdatedb": {
+			"build": true,
+			"providerPlugin": "awscloudformation",
+			"service": "Lambda",
+			"dependsOn": [
+				{
+					"category": "storage",
+					"resourceName": "fellowsdb",
+					"attributes": [
+						"Name",
+						"Arn"
+					],
+					"attributeEnvMap": {
+						"Name": "TABLE_NAME",
+						"Arn": "TABLE_ARN"
+					}
+				}
+			]
+		}
+	},
+	"auth": {},
+	"api": {
+		"fellowbookapi": {
+			"service": "API Gateway",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [
+				{
+					"category": "function",
+					"resourceName": "fellowsendpoint",
+					"attributes": [
+						"Name",
+						"Arn"
+					]
+				},
+				{
+					"category": "function",
+					"resourceName": "fellowendpoint",
+					"attributes": [
+						"Name",
+						"Arn"
+					]
+				},
+				{
+					"category": "function",
+					"resourceName": "githubauthtoken",
+					"attributes": [
+						"Name",
+						"Arn"
+					]
+				},
+				{
+					"category": "function",
+					"resourceName": "randomendpoint",
+					"attributes": [
+						"Name",
+						"Arn"
+					]
+				},
+				{
+					"category": "function",
+					"resourceName": "standupendpoint",
+					"attributes": [
+						"Name",
+						"Arn"
+					]
+				}
+			]
+		}
+	}
 }
