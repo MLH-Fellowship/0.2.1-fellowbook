@@ -1,0 +1,188 @@
+{
+	"Ammar Karachiwala": {
+		"githubUser": "Ammarkarachiwala",
+		"discordId": "709838885869584425",
+		"linkedinId": "ammar-karachiwala-7b0b2215a",
+		"project": "AWS Amplify"
+	},
+	"Matt Auerbac": {
+		"githubUser": "mauerbac",
+		"discordId": "359158890031742976",
+		"linkedinId": "mauerbac",
+		"project": "AWS Amplify"
+	},
+	"Ashika Kasiviswanathan": {
+		"githubUser": "ashika01",
+		"discordId": "637045956512317460",
+		"linkedinId": "ashikakviswanathan",
+		"project": "AWS Amplify"
+	},
+	"Adrin Jalali": {
+		"githubUser": "adrinjalali",
+		"discordId": "699970100274659391",
+		"linkedinId": "adrinjalali",
+		"project": "Scikit-Learn"
+	},
+	"Andreas Müller": {
+		"githubUser": "amueller",
+		"discordId": "651560507417034753",
+		"linkedinId": "andreas-mueller-b370265a",
+		"project": "Scikit-Learn"
+	},
+	"Thomas Fan": {
+		"githubUser": "thomasjpfan",
+		"discordId": "n/a",
+		"linkedinId": "thomasjpfan",
+		"project": "Scikit-Learn"
+	},
+	"Bozhao Yu": {
+		"githubUser": "yubozhao",
+		"discordId": "119245875028557824",
+		"linkedinId": "bozhaoyu",
+		"project": "BentoML"
+	},
+	"Chaoyu Yang": {
+		"githubUser": "parano",
+		"discordId": "679535512565973018",
+		"linkedinId": "parano",
+		"project": "BentoML"
+	},
+	"David Lord": {
+		"githubUser": "davidism",
+		"discordId": "282196379508539392",
+		"linkedinId": "lorddavid",
+		"project": "Pallets"
+	},
+	"Grey Li": {
+		"githubUser": "greyli",
+		"discordId": "531661027155116063",
+		"linkedinId": "n/a",
+		"project": "Pallets"
+	},
+	"Joe Pea": {
+		"githubUser": "trusktr",
+		"discordId": "326495271771045897",
+		"linkedinId": "joepea",
+		"project": "Docsify"
+	},
+	"Sy Records": {
+		"githubUser": "sy-records",
+		"discordId": "713927359752962078",
+		"linkedinId": "n/a",
+		"project": "Docsify"
+	},
+	"John Hildenbiddle": {
+		"githubUser": "jhildenbiddle",
+		"discordId": "452246015060344852",
+		"linkedinId": "jhildenbiddle",
+		"project": "Docsify"
+	},
+	"Scott Shawcroft": {
+		"githubUser": "tannewt",
+		"discordId": "252717193496756235",
+		"linkedinId": "tannewt",
+		"project": "Circuit Python"
+	},
+	"Logan Kilpatrick": {
+		"githubUser": "logankilpatrick",
+		"discordId": "194695865430966273",
+		"linkedinId": "logankilpatrick",
+		"project": "Julia"
+	},
+	"Jakub Roztočil": {
+		"githubUser": "jakubroztocil",
+		"discordId": "261478350248214529",
+		"linkedinId": "jakubroztocil",
+		"project": "HTTPie"
+	},
+	"Rick Hanlon": {
+		"githubUser": "rickhanlonii",
+		"discordId": "133893136232611840",
+		"linkedinId": "rickhanlonii",
+		"project": "React Native"
+	},
+	"Mike McQuaid": {
+		"githubUser": "MikeMcQuaid",
+		"discordId": "710500872161067082",
+		"linkedinId": "mkmcqd",
+		"project": "Home Brew"
+	},
+	"Jason Kridner": {
+		"githubUser": "jadonk",
+		"discordId": "569976805218451459",
+		"linkedinId": "jkridner",
+		"project": "Beagleboard"
+	},
+	"Tim Neutkens": {
+		"githubUser": "timneutkens",
+		"discordId": "469586103108894738",
+		"linkedinId": "tim-neutkens-5a6733168",
+		"project": "Next.js"
+	},
+	"Benjamin Gleitzman": {
+		"githubUser": "gleitz",
+		"discordId": "690646264026628127",
+		"linkedinId": "gleitz",
+		"project": "Howdoi"
+	},
+	"Henry Zhu": {
+		"githubUser": "hzoo",
+		"discordId": "96403836154961920",
+		"linkedinId": "n/a",
+		"project": "Babel"
+	},
+	"Chris Rackauckas": {
+		"githubUser": "ChrisRackauckas",
+		"discordId": "298947550415683597",
+		"linkedinId": "chrisrackauckas",
+		"project": "SciML"
+	},
+	"Jacob Herrington": {
+		"githubUser": "jacobherrington",
+		"discordId": "692084455946584105",
+		"linkedinId": "jacobherrington",
+		"project": "Dev.to"
+	},
+	"Jan Oberhauser": {
+		"githubUser": "janober",
+		"discordId": "717308315952218153",
+		"linkedinId": "janoberhauser",
+		"project": "N8N"
+	},
+	"Ricardo Espinoza": {
+		"githubUser": "RicardoE105",
+		"discordId": "719620000758890496",
+		"linkedinId": "n/a",
+		"project": "N8N"
+	},
+	"Tanay Pant": {
+		"githubUser": "tanay1337",
+		"discordId": "719801214199398421",
+		"linkedinId": "tanay1337",
+		"project": "N8N"
+	},
+	"Marc Cornellà": {
+		"githubUser": "mcornella",
+		"discordId": "157508517714984960",
+		"linkedinId": "mcornella",
+		"project": "Oh My Zsh"
+	},
+	"Sebastián Ramírez": {
+		"githubUser": "tiangolo",
+		"discordId": "717332891150974997",
+		"linkedinId": "tiangolo",
+		"project": "Fast API"
+	},
+	"Tim Seckinger": {
+		"githubUser": "jeysal",
+		"discordId": "364736228869799936",
+		"linkedinId": "n/a",
+		"project": "Jest"
+	},
+	"Jared Cheshier": {
+		"githubUser": "avaer",
+		"discordId": "n/a",
+		"linkedinId": "jaredcheshier",
+		"project": "Webaverse"
+	}
+}

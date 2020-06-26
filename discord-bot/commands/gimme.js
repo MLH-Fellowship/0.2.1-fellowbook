@@ -1,89 +1,56 @@
-const fs = require("fs");
-const fetch = require("node-fetch");
 const { MessageEmbed } = require("discord.js");
+const { PLAYLIST_URL, MESSAGE_EMBED_FOOTER } = require("../constants");
+const isProject = require("./utils/isProject");
+const displayMentors = require("./utils/displayMentors");
+const displayProject = require("./utils/displayProject");
+const displayFellow = require("./utils/displayFellow");
 
 module.exports = {
 	name: "gimme",
 	description:
-		"Requests user data from db at AWS Amplify and returns it in a Discord Embed Preview",
+		"Fetches data on fellows, mentors, projects or playlist and returns it as an embed",
 	async execute(message, args) {
-		for (let username of args) {
-			const user = await getUserDataFromJSON(username);
-			const popularityPoints = getUserPopularityPoints(user);
+		arg = args.length > 1 ? args.join(" ") : args[0];
 
-			const userEmbed = new MessageEmbed({
-				title: user.login,
-				url: user.url,
-				thumbnail: { url: user.avatar_url },
-				fields: [
-					{
-						name: "Full name:",
-						value: user.name
-					},
-					{
-						name: "Public repos:",
-						value: user.public_repos,
-						inline: true
-					},
-					{
-						name: "Followers:",
-						value: user.followers,
-						inline: true
-					},
-					{
-						name: "Bio:",
-						value: user.bio
-					},
-					{
-						name: "Location:",
-						value: user.location
-					},
-					{
-						name: "Pod:",
-						value: user.pod
-					},
-					{
-						name: "Popularity points:",
-						value: popularityPoints
-					}
-				]
-			})
-				.setColor("#0099ff")
-				.setFooter(
-					"Project 0.2.1-fellowbook",
-					"https://avatars.githubusercontent.com/mlh"
-				);
+		try {
+			if (isMentors(arg)) {
+				displayMentors(message);
+				return;
+			}
 
-			message.channel.send(userEmbed);
+			if (arg.toLowerCase() === "playlist") {
+				displayPlaylist(message);
+				return;
+			}
+
+			const project = isProject(message, arg);
+			if (project) {
+				displayProject(message, project);
+				return;
+			}
+
+			await displayFellow(message, arg);
+		} catch (error) {
+			message.channel.send(`Nope, ${arg} doesn't ring a bell.`);
 		}
-	}
+	},
 };
 
-// mysterious formula!
-const getUserPopularityPoints = user => {
-	const date = new Date().getDate();
-	const id = user.id.toString().slice(5);
-	return parseInt(user.login.length + date * id) + user.followers || 0;
-};
+const isMentors = (userInput) => userInput.toLowerCase() === "mentors";
 
-const getUserDataFromJSON = username => {
-	const jsonData = fs.readFileSync(`./${username}.json`);
-	return JSON.parse(jsonData);
-};
-
-// // TODO: Temporary - reserved for when AWS db is populated
-// const getUserDataFromAPI = async username => {
-// 	const response = await fetch(`https://api.github.com/users/${username}`);
-// 	return response.json();
-// };
-
-const getUserDataFromAPI = async username => {
-	const url =
-		"https://a5c6y99l3g.execute-api.eu-central-1.amazonaws.com/devv/fellows/" +
-		username;
-
-	const response = await fetch(url, {
-		headers: { Authorization: process.env.GITHUB_LOGIN_TOKEN }
+const displayPlaylist = (message) => {
+	const embed = new MessageEmbed({
+		title: "Playlist",
+		color: "#0099ff",
+		thumbnail: { url: "https://avatars.githubusercontent.com/mlh" },
+		fields: [
+			{
+				name: "MLH Fellowship Sessions",
+				value: `[YouTube URL](${PLAYLIST_URL})`,
+			},
+		],
+		footer: MESSAGE_EMBED_FOOTER,
 	});
-	return response.json();
+
+	message.channel.send(embed);
 };
