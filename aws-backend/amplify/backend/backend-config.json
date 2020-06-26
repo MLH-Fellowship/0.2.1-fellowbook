@@ -72,6 +72,25 @@
                     }
                 }
             ]
+        },
+        "standupendpoint": {
+            "build": true,
+            "providerPlugin": "awscloudformation",
+            "service": "Lambda",
+            "dependsOn": [
+                {
+                    "category": "storage",
+                    "resourceName": "fellowsdb",
+                    "attributes": [
+                        "Name",
+                        "Arn"
+                    ],
+                    "attributeEnvMap": {
+                        "Name": "TABLE_NAME",
+                        "Arn": "TABLE_ARN"
+                    }
+                }
+            ]
         }
     },
     "auth": {},
@@ -107,6 +126,14 @@
                 {
                     "category": "function",
                     "resourceName": "randomendpoint",
+                    "attributes": [
+                        "Name",
+                        "Arn"
+                    ]
+                },
+                {
+                    "category": "function",
+                    "resourceName": "standupendpoint",
                     "attributes": [
                         "Name",
                         "Arn"
