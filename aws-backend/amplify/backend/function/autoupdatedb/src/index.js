@@ -1,7 +1,4 @@
 const fetch = require("node-fetch");
-const fs = require("fs");
-require("dotenv").config();
-
 const query = `
 {
   organization(login: "MLH-Fellowship") {
@@ -93,13 +90,7 @@ const fetchUsers = async () => {
   return users;
 }
 
-// If we want to upload from existing file, just don't pass in anything!
 const uploadUsers = async (users) => {
-  if (!users) {
-    const usersFile = fs.readFileSync('./allUsers.json', 'utf8');
-    users = JSON.parse(usersFile);
-  }
-
   const usersCount = users.length;
 
   // Batch of 20s, avoid API timeouts
@@ -126,30 +117,6 @@ const uploadUsers = async (users) => {
   }
 };
 
-const saveUsers = async users => {
-  const usersCount = users.length;
-
-  // save all users as a single big JSON file
-  const allUsersString = JSON.stringify(users, null, 2);
-  fs.writeFileSync("./allUsers.json", allUsersString, "utf8");
-  console.log(`Saved ${usersCount} users to ./allUsers.json`);
-
-  // save username array, for querying single users for more info that is not provided by /orgs/MLH-Fellowship/
-  let usernames = { data: [] };
-  for (let user of users) usernames.data.push(user.username);
-  const allUsernamesString = JSON.stringify(usernames, null, 2);
-  fs.writeFileSync("./usernames.json", allUsernamesString, "utf8");
-  console.log(`Saved ${usersCount} users to ./usernames.json`);
-
-  return users;
+exports.handler = async (event, context, callback) => {
+  await fetchUsers().then(users => uploadUsers(users));
 };
-
-const useSaved = true;
-if (useSaved) {
-  uploadUsers();
-} else {
-  fetchUsers()
-    .then(users => saveUsers(users))
-    .then(users => uploadUsers(users))
-    ;
-}

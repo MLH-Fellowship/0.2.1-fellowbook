@@ -19,7 +19,6 @@
 	"homepage": "https://github.com/MLH-Fellowship/0.2.1-fellowbook#readme",
 	"dependencies": {
 		"dotenv": "^8.2.0",
-		"json-stringify-pretty-compact": "^2.0.0",
 		"node-fetch": "^2.6.0"
 	}
 }
